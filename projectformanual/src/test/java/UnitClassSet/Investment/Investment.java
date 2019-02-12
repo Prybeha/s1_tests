@@ -31,6 +31,17 @@ public class Investment {
         WebElement InvestButton = SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("//a[text()='Invest']"))); // using xpath locator that find element by text
         InvestButton.click();
 
+        if (field.ExistElementOnThePage("//div[@class='bootbox modal fade modal-edit-profile popup-agreement in']",2)){
+            if (!SetupClass.GetDriver().findElement(By.xpath("//input[@name='firstAgreement']")).isSelected()) {
+                SetupClass.GetDriver().findElement(By.xpath("/html/body/div[4]/div/div/div[2]/div/div/div[1]/div/label/div/div/label[2]")).click();
+            }
+            if (!SetupClass.GetDriver().findElement(By.xpath("//input[@name='secondAgreement']")).isSelected()) {
+                SetupClass.GetDriver().findElement(By.xpath("/html/body/div[4]/div/div/div[2]/div/div/div[2]/div/label/div/div/label[2]")).click();
+            }
+            Thread.sleep(200);
+            SetupClass.GetDriver().findElement(By.xpath("//button[text()='Confirm']")).click();
+        }
+
         int current_step = 0;
         LogUtil.log("Investment starts");
         while (current_step != 4) {

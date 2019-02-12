@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projectformanual.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SupportClasses/SetupClass/SetupClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SupportClasses/SetupClass/SetupClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/AccountType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/AccountType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Field.java" afterDir="false" />
@@ -42,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="419">
-              <caret line="377" column="112" lean-forward="true" selection-start-line="377" selection-start-column="112" selection-end-line="377" selection-end-column="112" />
+              <caret line="377" column="112" selection-start-line="377" selection-start-column="112" selection-end-line="377" selection-end-column="112" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Register#0;class#Registration#0" />
@@ -61,11 +62,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SetupClass.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Investment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+              <folding>
+                <element signature="method#CheckInvestmentStep#0;class#Investment#0" />
+                <element signature="method#FirstStep#0;class#Investment#0" />
+                <element signature="method#SecondStep#0;class#Investment#0" />
+                <element signature="method#ThirdStep#0;class#Investment#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="47" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SetupClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SupportClasses/SetupClass/SetupClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+            <state relative-caret-position="493">
+              <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -82,15 +110,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Switchers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Switchers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="8" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="60" column="8" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-              <folding>
-                <element signature="e#374#615#0" />
-                <element signature="n#test#1;n#suite#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -154,7 +187,6 @@
         <option value="$PROJECT_DIR$/src/test/java/DB/db_registration.java" />
         <option value="$PROJECT_DIR$/src/test/java/DB/db_registration_second_step.java" />
         <option value="$PROJECT_DIR$/src/test/java/DB/db_registration_first_step.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java" />
         <option value="$PROJECT_DIR$/src/test/java/DB/db_registration_third_E.java" />
         <option value="$PROJECT_DIR$/src/test/java/DB/db_registration_third_step_I.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Switchers.java" />
@@ -167,9 +199,10 @@
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/CheckAppearingError/AppearingError.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Field.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/SupportClasses/SetupClass/SetupClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java" />
       </list>
     </option>
   </component>
@@ -278,6 +311,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="UnitClassSet" type="462c0819:PsiDirectoryNode" />
               <item name="CheckAppearingError" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectformanual" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectformanual" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UnitClassSet" type="462c0819:PsiDirectoryNode" />
+              <item name="Investment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projectformanual" type="b2602c69:ProjectViewProjectNode" />
@@ -508,13 +550,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/SupportClasses/Exceptions/NewException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/environment.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -653,13 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Switchers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="108" selection-start-line="6" selection-start-column="108" selection-end-line="6" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualnoUS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -728,16 +756,6 @@
     <entry file="file://$PROJECT_DIR$/target/allure-results/Register_EntitynoUS">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Field.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -766,17 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="60" column="8" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-          <folding>
-            <element signature="e#374#615#0" />
-            <element signature="n#test#1;n#suite#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/test_RegistrationAllTypes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
@@ -787,16 +794,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java">
+    <entry file="file://$PROJECT_DIR$/target/allure-results/fc7361ca-79e3-431c-ad6d-509ae40e8498-testsuite.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="115" column="58" selection-start-line="115" selection-start-column="58" selection-end-line="115" selection-end-column="58" />
+        <state relative-caret-position="-3672" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SupportClasses/SetupClass/SetupClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Switchers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="47" selection-end-column="9" />
           <folding>
-            <element signature="method#Investment#0;class#Investment#0" />
-            <element signature="method#CheckInvestmentStep#0;class#Investment#0" />
-            <element signature="method#FirstStep#0;class#Investment#0" />
-            <element signature="method#SecondStep#0;class#Investment#0" />
-            <element signature="method#ThirdStep#0;class#Investment#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -804,7 +833,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
-          <caret line="377" column="112" lean-forward="true" selection-start-line="377" selection-start-column="112" selection-end-line="377" selection-end-column="112" />
+          <caret line="377" column="112" selection-start-line="377" selection-start-column="112" selection-end-line="377" selection-end-column="112" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Register#0;class#Registration#0" />
@@ -822,10 +851,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SupportClasses/SetupClass/SetupClass.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        <state relative-caret-position="510">
+          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <element signature="method#CheckInvestmentStep#0;class#Investment#0" />
+            <element signature="method#FirstStep#0;class#Investment#0" />
+            <element signature="method#SecondStep#0;class#Investment#0" />
+            <element signature="method#ThirdStep#0;class#Investment#0" />
+          </folding>
         </state>
       </provider>
     </entry>

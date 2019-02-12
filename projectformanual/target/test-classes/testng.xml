@@ -2,6 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Sone tests">
+    <!--<test thread-count="1" verbose="1" name="SupportTest" annotations="JDK" parallel="classes">-->
+        <!--<classes>-->
+            <!--<class name="TestClass">-->
+            <!--</class>-->
+        <!--</classes>-->
+    <!--</test>-->
     <test thread-count="1" verbose="1" name="Registration" annotations="JDK" parallel="classes">
         <classes>
             <class name="UnitClassSet.Registration.test_RegistrationAllTypes">

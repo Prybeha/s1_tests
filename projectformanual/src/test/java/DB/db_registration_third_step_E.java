@@ -42,7 +42,7 @@ public class db_registration_third_step_E {
         return TC_email;
     }
     public static String[] ThirdStep_ZipCode_Positive(){
-        String[] TC_ci = {"test","!@#$%^","1234"};
+        String[] TC_ci = {"test","!@#$%^","12345"};
         return TC_ci;
     }
     public static String[] ThirdStep_Phone_Positive(){

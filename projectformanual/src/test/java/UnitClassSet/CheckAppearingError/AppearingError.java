@@ -6,7 +6,6 @@ import UnitClassSet.Field;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class AppearingError {
@@ -17,24 +16,24 @@ public class AppearingError {
             JavascriptExecutor jse = (JavascriptExecutor)SetupClass.GetDriver();
 
             //jse.executeScript("window.scrollTo(0,0);");
-            Thread.sleep(300);
+            Thread.sleep(200);
             jse.executeScript("window.scrollTo(5000,0)");
             Thread.sleep(200);
             field.EnterValue(field_locator,db_value_for_check[i]);
             SetupClass.GetDriver().findElement(By.id("next")).click();
 
+            //Thread.sleep(200);
             SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath(field_locator)));
-            Thread.sleep(400);
-            //jse.executeScript("window.scrollTo(0,0);");
+            Thread.sleep(1000);
             jse.executeScript("window.scrollTo(5000,0)");
-            Thread.sleep(200);
+            Thread.sleep(500);
             if(expected_result) { // must appears errors => negative test cases
                 if (!field.ExistElementOnThePage(error_locator, 2)) {
                     throw new NewAssertError("For locator '" + field_locator + "' value '" + db_value_for_check[i] + "' works wrong!");
                 }
             }
             else{ // does not appears error => positive test cases
-                if (field.ExistElementOnThePage(error_locator, 2)) {
+                if (field.ExistElementOnThePage(error_locator, 1)) {
                     throw new NewAssertError("For locator '" + field_locator + "' value '" + db_value_for_check[i] + "' works wrong!");
                 }
             }
@@ -45,16 +44,16 @@ public class AppearingError {
         for (int i = 0; i < db_value_for_check.length; i++) {
             SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.id("registration_investor_email")));
             JavascriptExecutor jse = (JavascriptExecutor)SetupClass.GetDriver();
-            jse.executeScript("window.scrollTo(0,0);");
+            jse.executeScript("window.scrollTo(5000,0)");
             SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.id("registration_investor_email")));
             Thread.sleep(400);
 
             field.EnterValue("//input[@id='registration_investor_email']",db_value_for_check[i]);
             SetupClass.GetDriver().findElement(By.id("next")).click();
             SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.id("registration_investor_email")));
-            Thread.sleep(400);
+            Thread.sleep(800);
 
-            jse.executeScript("window.scrollTo(0,0);");
+            jse.executeScript("window.scrollTo(5000,0)");
             if(expected_result) { // must appears errors => negative test cases
                 if (!field.ExistElementOnThePage("//*[@id=\"ajaxContent\"]/div[3]/div[2]/div/form/div[3]/div/div/ul/li", 2) &&
                         !field.ExistElementOnThePage("//*[@id=\"ajaxContent\"]/div[3]/div[2]/div/form/div[1]/div/div/ul/li",2)) {
@@ -62,8 +61,8 @@ public class AppearingError {
                 }
             }
             else{ // does not appears error => positive test cases
-                if (field.ExistElementOnThePage("//*[@id=\"ajaxContent\"]/div[3]/div[2]/div/form/div[3]/div/div/ul/li", 2) &&
-                        field.ExistElementOnThePage("//*[@id=\"ajaxContent\"]/div[3]/div[2]/div/form/div[1]/div/div/ul/li",2)) {
+                if (field.ExistElementOnThePage("//*[@id=\"ajaxContent\"]/div[3]/div[2]/div/form/div[3]/div/div/ul/li", 1) &&
+                        field.ExistElementOnThePage("//*[@id=\"ajaxContent\"]/div[3]/div[2]/div/form/div[1]/div/div/ul/li",1)) {
                     throw new NewAssertError("For locator email value '" + db_value_for_check[i] + "' works wrong!");
                 }
             }
@@ -107,7 +106,7 @@ public class AppearingError {
     public void EnterAndCheckValuePhone(String[] db_value_for_check, String field_locator, boolean expected_result) throws Exception{
         for (int i = 0; i < db_value_for_check.length; i++){
             SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath(field_locator)));
-            Thread.sleep(300);
+            Thread.sleep(600);
             field.EnterValue(field_locator,db_value_for_check[i]);
 
             SetupClass.GetDriver().findElement(By.xpath("//*[@id='next']")).click();

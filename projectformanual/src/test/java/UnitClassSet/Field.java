@@ -2,6 +2,7 @@ package UnitClassSet;
 
 import SupportClasses.SetupClass.SetupClass;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
 import org.openqa.selenium.NoSuchElementException;
@@ -10,20 +11,21 @@ import java.util.concurrent.TimeUnit;
 public class Field {
 
     public void EnterValue(String locator, String value) throws Exception{
+        JavascriptExecutor jse = (JavascriptExecutor)SetupClass.GetDriver();
         Thread.sleep(200);
+
+        jse.executeScript("window.scrollTo(5000,0)");
         SetupClass.GetDriver().findElement(By.xpath(locator)).clear();
+        Thread.sleep(100);
         SetupClass.GetDriver().findElement(By.xpath(locator)).click();
+        Thread.sleep(100);
         SetupClass.GetDriver().findElement(By.xpath(locator)).sendKeys(value);
     }
 
     public void EnterValueIfAvailable(String locator, String value) throws Exception{
         if (ExistElementOnThePage(locator, 2)){
             EnterValue(locator, value);
-            //System.out.println("Enter " + value + " in the field.");
         }
-//        else{
-//            System.out.println("Field is disable.");
-//        }
     }
 
     public boolean ExistElementOnThePage(String locator, int wait_time){

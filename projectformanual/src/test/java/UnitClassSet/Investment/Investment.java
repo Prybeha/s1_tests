@@ -69,6 +69,7 @@ public class Investment {
                 System.out.println("Third step");
                 LogUtil.log("Third step");
                 ThirdStep();
+                Thread.sleep(3000);
             }
             else if(CheckInvestmentStep(current_step) == 4){
                 current_step = 4;
@@ -196,7 +197,7 @@ public class Investment {
 
         SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Submit Signature']")));
         SetupClass.GetDriver().findElement(By.xpath("//div[text()='Submit Signature']")).click();
-        Thread.sleep(100);
+        Thread.sleep(300);
         SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Submit']")));
         SetupClass.GetDriver().findElement(By.xpath("//div[text()='Submit']")).click();
 

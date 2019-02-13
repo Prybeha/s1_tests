@@ -26,7 +26,6 @@ public class test_IndividualUS extends SetupClass{
     public void Investment_ACH() throws Exception{
         PagesURL url = new PagesURL();
         url.LoginPage();
-        Assert.assertEquals(1,2);
 
         Maintenance maintenance = new Maintenance();
         if (maintenance.MaintenancePageCheck()){

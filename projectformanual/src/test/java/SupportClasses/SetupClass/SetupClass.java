@@ -33,7 +33,7 @@ public class SetupClass {
     public void setup (){
         System.setProperty("webdriver.chrome.driver", "C:\\SeleniumDrivers\\chromedriver.exe");
         driver = new ChromeDriver();
-        wait = new WebDriverWait(driver,15, 500);
+        wait = new WebDriverWait(driver,20, 500);
         driver.manage().timeouts().pageLoadTimeout(90, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();

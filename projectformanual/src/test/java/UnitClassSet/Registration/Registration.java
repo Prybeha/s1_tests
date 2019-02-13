@@ -287,12 +287,6 @@ public class Registration {
                 "//input[@id='registration_second_step_mailingCity']",
                 "//*[@id=\"ajaxContent\"]/div[3]/div/div/form/div[7]/div[1]/div/ul/li");
 
-        // this part must be for all type, but now noUS user have not validate phone number. Comment this for test working.
-//            error_appears.EnterAndCheckValuePhone(db_registration_third_step_I.ThirdStep_Phone_Negative(),"//input[@id='registration_second_step_phone']",
-//                    "//input[@id='registration_second_step_phone']",false);
-//            error_appears.EnterAndCheckValuePhone(db_registration_third_step_I.ThirdStep_Phone_Positive(),"//input[@id='registration_second_step_phone']",
-//                    "//input[@id='registration_second_step_phone']",true);
-
         if(user_type == 1 || user_type == 5) {
             error_appears.EnterAndCheckValuePhone(db_registration_third_step_general.ThirdStep_Phone_Negative(),
                     "//input[@id='registration_second_step_phone']",false);
@@ -312,8 +306,8 @@ public class Registration {
             dropdown.selectByVisibleText("Ukraine");
 
             // comment because returns error, add checking on empty values
-//                error_appears.AppearingErrorCheck(empty_value,"//input[@id='registration_second_step_phone']",
-//                        "//*[@id=\"ajaxContent\"]/div[3]/div/div/form/div[8]/div/div/ul/li",true);
+            error_appears.AppearingErrorCheck(empty_value,"//input[@id='registration_second_step_phone']",
+                    "//*[@id=\"ajaxContent\"]/div[3]/div/div/form/div[8]/div/div/ul/li",true);
 
             error_appears.CallErrorCheck(empty_value,db_registration_third_step_general.ThirdStep_ZipCode_Positive(),
                     "//input[@id='registration_second_step_mailingPostalCode']",

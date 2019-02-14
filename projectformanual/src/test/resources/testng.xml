@@ -58,4 +58,10 @@
             </class>
         </classes>
     </test>
+    <!--<test thread-count="1" verbose="1" name="ContactUS forms" annotations="JDK" parallel="classes">-->
+        <!--<classes>-->
+            <!--<class name="UnitClassSet.ContactUS.test_ContactUS">-->
+            <!--</class>-->
+        <!--</classes>-->
+    <!--</test>-->
 </suite>

@@ -1,8 +1,6 @@
 package UnitClassSet.Registration;
 
-import SupportClasses.AllureFunc.LogUtil;
 import SupportClasses.SetupClass.SetupClass;
-import UnitClassSet.Maintenance.Maintenance;
 import org.testng.annotations.Test;
 import ru.yandex.qatools.allure.annotations.Description;
 import ru.yandex.qatools.allure.annotations.Features;

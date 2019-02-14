@@ -126,7 +126,39 @@ public class Registration {
         return 0;
     }
 
+    private int CheckEmailExist(int id) throws Exception{
+        JavascriptExecutor jse = (JavascriptExecutor)SetupClass.GetDriver();
+        SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.id("registration_investor_email")));
+        field.EnterValue("//input[@id='registration_investor_email']","prybehav+autotest" + id + "@gmail.com");
+        SetupClass.GetDriver().findElement(By.id("next")).click();
+        Thread.sleep(500);
+
+        jse.executeScript("window.scrollTo(5000,0)");
+        while(field.ExistElementOnThePage("//*[@id=\"ajaxContent\"]/div[3]/div[2]/div/form/div[1]/div/div/ul/li",3)){
+            id++;
+
+            field.EnterValue("//input[@id='registration_investor_email']","prybehav+autotest" + id + "@gmail.com");
+            SetupClass.GetDriver().findElement(By.id("next")).click();
+            Thread.sleep(500);
+            jse.executeScript("window.scrollTo(5000,0)");
+        }
+        return id;
+    }
+
     private void FirstStep() throws Exception{
+        Scanner reader = new Scanner(new File("src/test/java/UnitClassSet/Registration/id.txt"));
+        int id = reader.nextInt(); // id > unique number for email, that reads from the file and writes bigger on one.
+
+        int id_unique = CheckEmailExist(id);
+
+        error_appears.EmailErrorCheck(db_registration_first_step.FirstStep_Email_Negative(),true);
+        error_appears.EmailErrorCheck(db_registration_first_step.FirstStep_Email_Positive("prybehav+autotest" + id_unique + "@gmail.com"),false);
+        id_unique++;
+        String str = Integer.toString(id_unique);
+        BufferedWriter writer = new BufferedWriter(new FileWriter("src/test/java/UnitClassSet/Registration/id.txt"));
+        writer.write(str);
+        writer.close();
+
         error_appears.CallErrorCheck(db_registration_first_step.FirstStep_UserName_Negative(), db_registration_first_step.FirstStep_UserName_Positive(),
                 "//input[@id='registration_investor_firstName']",
                 "//*[@id=\"ajaxContent\"]/div[3]/div[2]/div/form/div[2]/div[1]/div/ul/li"); // for positive TC expected result = false => we expect that error does not appears
@@ -134,17 +166,6 @@ public class Registration {
         error_appears.CallErrorCheck(db_registration_first_step.FirstStep_UserLastName_Negative(),db_registration_first_step.FirstStep_UserLastName_Positive(),
                 "//input[@id='registration_investor_lastName']",
                 "//*[@id=\"ajaxContent\"]/div[3]/div[2]/div/form/div[2]/div[2]/div/ul/li");
-
-        error_appears.EmailErrorCheck(db_registration_first_step.FirstStep_Email_Negative(),true);
-
-        Scanner reader = new Scanner(new File("src/test/java/UnitClassSet/Registration/id.txt"));
-        int id = reader.nextInt(); // id > unique number for email, that reads from the file and writes bigger on one.
-        error_appears.EmailErrorCheck(db_registration_first_step.FirstStep_Email_Positive("prybehav+autotest" + id + "@gmail.com"),false);
-        id++;
-        String str = Integer.toString(id);
-        BufferedWriter writer = new BufferedWriter(new FileWriter("src/test/java/UnitClassSet/Registration/id.txt"));
-        writer.write(str);
-        writer.close();
 
         SetupClass.GetDriver().findElement(By.xpath("//input[@id='registration_investor_firstName']")).clear();
 

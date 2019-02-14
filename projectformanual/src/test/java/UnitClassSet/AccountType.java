@@ -16,8 +16,15 @@ public class AccountType {
         Thread.sleep(500);
         SetupClass.GetDriver().findElement(By.xpath("//div[@class='login-block-authorized-container pull-right']")).click();
 
+        Thread.sleep(200);
+        if(!SetupClass.GetDriver().findElement(By.xpath("//a[@href='https://secure-seriesone.dynamo-ny.com/profile/edit']")).isDisplayed()) {
+            SetupClass.GetDriver().findElement(By.xpath("//div[@class='login-block-authorized-container pull-right']")).click();
+        }
         SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='https://secure-seriesone.dynamo-ny.com/profile/edit']")));
         Thread.sleep(300);
+        if(!SetupClass.GetDriver().findElement(By.xpath("//a[@href='https://secure-seriesone.dynamo-ny.com/profile/edit']")).isDisplayed()) {
+            SetupClass.GetDriver().findElement(By.xpath("//div[@class='login-block-authorized-container pull-right']")).click();
+        }
         SetupClass.GetDriver().findElement(By.xpath("//a[@href='https://secure-seriesone.dynamo-ny.com/profile/edit']")).click();
 
         if (SetupClass.GetDriver().findElement(By.xpath("//*[@id=\"content\"]/section/div/div[2]/div[1]/div[1]/div[2]")).getText().equals("Individual") &&

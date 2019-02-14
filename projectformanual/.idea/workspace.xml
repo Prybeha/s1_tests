@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c09ba75-c11e-4fc2-bbfe-ae92e986a408" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/AccountType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/AccountType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/id.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/id.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/lead_id.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -111,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="id.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="id.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/id.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -120,15 +118,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Registration.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Registration.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="138" column="8" selection-start-line="138" selection-start-column="8" selection-end-line="145" selection-end-column="23" />
+            <state relative-caret-position="685">
+              <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#Register#0;class#Registration#0" />
                 <element signature="method#CheckRegistrationStep#0;class#Registration#0" />
+                <element signature="method#FirstStep#0;class#Registration#0" />
                 <element signature="method#SecondStep_ChooseAccountType#0;class#Registration#0" />
                 <element signature="method#SecondStep#0;class#Registration#0" />
                 <element signature="method#ThirdStep#0;class#Registration#0" />
@@ -212,13 +210,13 @@
         <option value="$PROJECT_DIR$/src/test/java/SupportClasses/SetupClass/SetupClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualUS.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/lead_id.txt" />
         <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/Raise_Funds_ContactUS_Form.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/AccountType.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/id.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" />
       </list>
     </option>
   </component>
@@ -289,24 +287,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="UnitClassSet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectformanual" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectformanual" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitClassSet" type="462c0819:PsiDirectoryNode" />
-              <item name="ContactUS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectformanual" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectformanual" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitClassSet" type="462c0819:PsiDirectoryNode" />
-              <item name="Investment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projectformanual" type="b2602c69:ProjectViewProjectNode" />
@@ -525,7 +505,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="23" />
+      <option name="time" value="24" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -714,13 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/lead_id.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/Raise_Funds_ContactUS_Form.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -789,14 +762,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/id.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/lead_id.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="138" column="8" selection-start-line="138" selection-start-column="8" selection-end-line="145" selection-end-column="23" />
+        <state relative-caret-position="685">
+          <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Register#0;class#Registration#0" />
             <element signature="method#CheckRegistrationStep#0;class#Registration#0" />
+            <element signature="method#FirstStep#0;class#Registration#0" />
             <element signature="method#SecondStep_ChooseAccountType#0;class#Registration#0" />
             <element signature="method#SecondStep#0;class#Registration#0" />
             <element signature="method#ThirdStep#0;class#Registration#0" />
@@ -807,13 +794,6 @@
             <element signature="method#Check_Info_In_MyAccount#0;class#Registration#0" />
             <element signature="method#Match_Value_For_Diff_Types#0;class#Registration#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/id.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>

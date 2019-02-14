@@ -79,7 +79,8 @@ public class Registration {
                 SetupClass.GetDriver().findElement(By.xpath("//button[text()='OK']")).click();
             }
             else{
-                System.out.println("Something goes wrong. You are go away from investment steps");
+                System.out.println("Something goes wrong. You are go away from registration steps");
+                return;
             }
         }
         SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='https://secure-seriesone.dynamo-ny.com/logout']")));

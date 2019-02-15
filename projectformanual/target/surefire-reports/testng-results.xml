@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sone tests" duration-ms="38502" started-at="2019-02-14T16:12:32Z" finished-at="2019-02-14T16:13:10Z">
+    <groups>
+    </groups>
+    <test name="Static" duration-ms="38502" started-at="2019-02-14T16:12:32Z" finished-at="2019-02-14T16:13:10Z">
+      <class name="UnitClassSet.StaticPages.test_MainPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@2b6fcb9f]" name="setup" is-config="true" duration-ms="5150" started-at="2019-02-14T16:12:32Z" finished-at="2019-02-14T16:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MainPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@2b6fcb9f]" name="MainPage_HeaderButtons" duration-ms="16877" started-at="2019-02-14T16:12:37Z" finished-at="2019-02-14T16:12:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_HeaderButtons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@2b6fcb9f]" name="teardown" is-config="true" duration-ms="800" started-at="2019-02-14T16:12:54Z" finished-at="2019-02-14T16:12:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MainPage_HeaderButtons status=SUCCESS method=test_MainPage.MainPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@2b6fcb9f] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_MainPage.MainPage_HeaderButtons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@2b6fcb9f]" name="setup" is-config="true" duration-ms="3407" started-at="2019-02-14T16:12:55Z" finished-at="2019-02-14T16:12:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MainPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@2b6fcb9f]" name="MainPage_Title" duration-ms="2945" started-at="2019-02-14T16:12:58Z" finished-at="2019-02-14T16:13:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_Title -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@2b6fcb9f]" name="teardown" is-config="true" duration-ms="710" started-at="2019-02-14T16:13:01Z" finished-at="2019-02-14T16:13:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MainPage_Title status=SUCCESS method=test_MainPage.MainPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@2b6fcb9f] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_MainPage.MainPage_Title()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@2b6fcb9f]" name="setup" is-config="true" duration-ms="3408" started-at="2019-02-14T16:13:02Z" finished-at="2019-02-14T16:13:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MainPage_UpperSeriesOneLogoButton()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@2b6fcb9f]" name="MainPage_UpperSeriesOneLogoButton" duration-ms="4406" started-at="2019-02-14T16:13:05Z" finished-at="2019-02-14T16:13:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_UpperSeriesOneLogoButton -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@2b6fcb9f]" name="teardown" is-config="true" duration-ms="724" started-at="2019-02-14T16:13:09Z" finished-at="2019-02-14T16:13:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MainPage_UpperSeriesOneLogoButton status=SUCCESS method=test_MainPage.MainPage_UpperSeriesOneLogoButton()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@2b6fcb9f] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_MainPage.MainPage_UpperSeriesOneLogoButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UnitClassSet.StaticPages.test_MainPage -->
+    </test> <!-- Static -->
+  </suite> <!-- Sone tests -->
+</testng-results>

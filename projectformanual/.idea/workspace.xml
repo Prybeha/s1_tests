@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6c09ba75-c11e-4fc2-bbfe-ae92e986a408" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/id.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/id.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/test_RegistrationAllTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/test_RegistrationAllTypes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,32 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Raise_Funds_ContactUS_Form.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/Raise_Funds_ContactUS_Form.java">
+      <file leaf-file-name="test_MainPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Field.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Field.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_ContactUS.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/test_ContactUS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="720">
+              <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,46 +34,10 @@
       <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+            <state relative-caret-position="918">
+              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
               <folding>
-                <marker date="1550153512238" expanded="true" signature="381:2593" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_RegistrationAllTypes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/test_RegistrationAllTypes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Registration.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#Register#0;class#Registration#0" />
-                <element signature="method#CheckRegistrationStep#0;class#Registration#0" />
-                <element signature="method#CheckEmailExist#0;class#Registration#0" />
-                <element signature="method#FirstStep#0;class#Registration#0" />
-                <element signature="method#SecondStep_ChooseAccountType#0;class#Registration#0" />
-                <element signature="method#SecondStep#0;class#Registration#0" />
-                <element signature="method#ThirdStep#0;class#Registration#0" />
-                <element signature="method#Third_Step_For_Individual#0;class#Registration#0" />
-                <element signature="method#Third_Step_Switchers#0;class#Registration#0" />
-                <element signature="method#Third_Step_Switchers_Check#0;class#Registration#0" />
-                <element signature="method#Check_Info_In_MyAccount#0;class#Registration#0" />
-                <element signature="method#Match_Value_For_Diff_Types#0;class#Registration#0" />
+                <marker date="1550160039863" expanded="true" signature="385:2940" ph="..." />
               </folding>
             </state>
           </provider>
@@ -137,9 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/SupportClasses/TestLinkResult.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Pages.java" />
         <option value="$PROJECT_DIR$/src/test/java/SupportClasses/SetupClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Login.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/InvestorTypeCheck.java" />
@@ -185,9 +122,12 @@
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/AccountType.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/test_RegistrationAllTypes.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/test_ContactUS.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/id.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/StaticPages.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_UI_MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java" />
       </list>
     </option>
   </component>
@@ -266,7 +206,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="UnitClassSet" type="462c0819:PsiDirectoryNode" />
-              <item name="Registration" type="462c0819:PsiDirectoryNode" />
+              <item name="StaticPages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projectformanual" type="b2602c69:ProjectViewProjectNode" />
@@ -418,7 +358,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32897604" />
@@ -426,13 +365,13 @@
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.33006537" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.15245202" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="8" visible="true" weight="0.15245202" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49946696" visible="true" weight="0.291939" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49946696" weight="0.28867102" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.35947713" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.17324094" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.17324094" />
       <window_info anchor="bottom" id="Structure" order="3" sideWeight="0.50053304" side_tool="true" weight="0.33006537" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
@@ -487,8 +426,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../git_repository/git_tests/MavenTestProject/src/test/java/TestClass.java" />
-    <entry file="file://$PROJECT_DIR$/target/screenshots/screenshot5425148684399677542.png" />
     <entry file="file://$PROJECT_DIR$/target/allure-results/b6032e24-d6b0-4795-a8fc-d79a5bac28a4-attachment.png" />
     <entry file="file://$PROJECT_DIR$/target/surefire-reports/failed.png" />
     <entry file="file://$PROJECT_DIR$/src/test/java/SupportClasses/AllureFunc/LogUtil.java">
@@ -709,30 +646,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/test_ContactUS.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/id.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-          <folding>
-            <marker date="1550153512238" expanded="true" signature="381:2593" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -740,6 +664,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/test_ContactUS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -756,17 +697,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/id.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
+        <state relative-caret-position="497">
+          <caret line="582" column="5" selection-start-line="582" selection-start-column="5" selection-end-line="582" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Register#0;class#Registration#0" />
@@ -777,10 +711,31 @@
             <element signature="method#SecondStep#0;class#Registration#0" />
             <element signature="method#ThirdStep#0;class#Registration#0" />
             <element signature="method#Third_Step_For_Individual#0;class#Registration#0" />
+            <element signature="method#Third_Step_For_Entity#0;class#Registration#0" />
             <element signature="method#Third_Step_Switchers#0;class#Registration#0" />
             <element signature="method#Third_Step_Switchers_Check#0;class#Registration#0" />
             <element signature="method#Check_Info_In_MyAccount#0;class#Registration#0" />
             <element signature="method#Match_Value_For_Diff_Types#0;class#Registration#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+          <folding>
+            <marker date="1550160039863" expanded="true" signature="385:2940" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

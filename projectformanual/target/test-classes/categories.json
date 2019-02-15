@@ -1,0 +1,20 @@
+[
+{
+  "name": "Assert defects;",
+  "matchedStatuses": ["failed"]
+},
+{
+  "name": "Broken tests;",
+  "matchedStatuses": ["broken"]
+},
+{
+  "name": "Page loading to long",
+  "matchedStatuses": ["broken"],
+  "messageRegex": ".*Timed out receiving message from renderer.*"
+},
+{
+  "name": "Assertion problems;",
+  "matchedStatuses": ["broken", "failed"],
+  "messageRegex": ".*Assertion finished false.*"
+}
+]

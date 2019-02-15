@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c09ba75-c11e-4fc2-bbfe-ae92e986a408" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,8 +34,8 @@
       <file leaf-file-name="Registration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1186">
-              <caret line="582" column="5" selection-start-line="582" selection-start-column="5" selection-end-line="582" selection-end-column="5" />
+            <state relative-caret-position="408">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Register#0;class#Registration#0" />
@@ -58,10 +58,10 @@
       <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="65" selection-end-column="11" />
+            <state relative-caret-position="34">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
               <folding>
-                <marker date="1550226187370" expanded="true" signature="381:2593" ph="..." />
+                <marker date="1550227559953" expanded="true" signature="401:2613" ph="..." />
               </folding>
             </state>
           </provider>
@@ -146,11 +146,11 @@
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/AccountType.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/test_RegistrationAllTypes.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/test_ContactUS.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/id.txt" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/StaticPages.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_UI_MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
       </list>
     </option>
@@ -728,8 +728,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1186">
-          <caret line="582" column="5" selection-start-line="582" selection-start-column="5" selection-end-line="582" selection-end-column="5" />
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Register#0;class#Registration#0" />
@@ -750,10 +750,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="65" selection-end-column="11" />
+        <state relative-caret-position="34">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
           <folding>
-            <marker date="1550226187370" expanded="true" signature="381:2593" ph="..." />
+            <marker date="1550227559953" expanded="true" signature="401:2613" ph="..." />
           </folding>
         </state>
       </provider>

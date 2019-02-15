@@ -22,6 +22,7 @@ import java.io.*;
 import java.util.Scanner;
 
 public class Registration {
+
     private Field field = new Field();
     private Switchers switcher = new Switchers();
     private AppearingError error_appears = new AppearingError();

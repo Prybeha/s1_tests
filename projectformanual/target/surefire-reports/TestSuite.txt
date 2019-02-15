@@ -1,181 +1,52 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 26, Failures: 24, Errors: 0, Skipped: 0, Time elapsed: 3,080.453 s <<< FAILURE! - in TestSuite
-Register_EntityUS(UnitClassSet.Registration.test_RegistrationAllTypes)  Time elapsed: 247.051 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-unknown error: Element <input type="text" id="registration_second_step_fwLegalLastName" name="registration_second_step[fwLegalLastName]" data-autocomplete="data-autocomplete" class="form-control" value="123456789"> is not clickable at point (1130, 463). Other element would receive the click: <div class="flex-center">...</div>
-  (Session info: chrome=72.0.3626.109)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+Tests run: 26, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 2,927.735 s <<< FAILURE! - in TestSuite
+Register_EntityUS(UnitClassSet.Registration.test_RegistrationAllTypes)  Time elapsed: 436.644 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.id: flash-messages-success (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50119}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: c3150bc8bd61a2ec94a8572429bd6170
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50750}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 86423e56f2d6209159c801f41ea24f94
 	at UnitClassSet.Registration.test_RegistrationAllTypes.Register_EntityUS(test_RegistrationAllTypes.java:32)
 
-Register_IndividualUS(UnitClassSet.Registration.test_RegistrationAllTypes)  Time elapsed: 631.075 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-unknown error: Element <input type="checkbox" id="registration_second_step_fwIsLegalNameThesame" name="registration_second_step[fwIsLegalNameThesame]" class="margin-left-0" data-same-with="[fwLegalFirstName=firstName][fwLegalLastName=lastName]" data-disable-autocomplete="data-disable-autocomplete" value="1"> is not clickable at point (1159, 6). Other element would receive the click: <div class="container-fluid">...</div>
-  (Session info: chrome=72.0.3626.109)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+Register_EntitynoUS(UnitClassSet.Registration.test_RegistrationAllTypes)  Time elapsed: 429.568 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.id: flash-messages-success (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50440}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: 9087bc54609de397e70a4f3b1d6f7bd9
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51234}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 23be73e7a775aabb31ea907b07cf6a54
+	at UnitClassSet.Registration.test_RegistrationAllTypes.Register_EntitynoUS(test_RegistrationAllTypes.java:37)
+
+Register_IndividualUS(UnitClassSet.Registration.test_RegistrationAllTypes)  Time elapsed: 316.792 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.id: flash-messages-success (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51712}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 49544f0e9a976f07d8cec8e3528063d5
 	at UnitClassSet.Registration.test_RegistrationAllTypes.Register_IndividualUS(test_RegistrationAllTypes.java:22)
 
-Register_IndividualnoUS(UnitClassSet.Registration.test_RegistrationAllTypes)  Time elapsed: 188.695 s  <<< FAILURE!
+Register_IndividualUSnoAccredited(UnitClassSet.Registration.test_RegistrationAllTypes)  Time elapsed: 350.73 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.id: flash-messages-success (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52080}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: fbdf4e1427c43300b09976106136ac46
+	at UnitClassSet.Registration.test_RegistrationAllTypes.Register_IndividualUSnoAccredited(test_RegistrationAllTypes.java:42)
+
+Register_IndividualnoUS(UnitClassSet.Registration.test_RegistrationAllTypes)  Time elapsed: 191.01 s  <<< FAILURE!
 SupportClasses.Exceptions.NewAssertError: For locator '//input[@id='registration_second_step_phone']' value '' works wrong!
 	at UnitClassSet.Registration.test_RegistrationAllTypes.Register_IndividualnoUS(test_RegistrationAllTypes.java:27)
 
-Investment_ACH(UnitClassSet.Investment.test_IndividualUS)  Time elapsed: 40.066 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-	at UnitClassSet.Investment.test_IndividualUS.Investment_ACH(test_IndividualUS.java:41)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-	at UnitClassSet.Investment.test_IndividualUS.Investment_ACH(test_IndividualUS.java:41)
-
-Investment_Wire(UnitClassSet.Investment.test_IndividualUS)  Time elapsed: 46.744 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-	at UnitClassSet.Investment.test_IndividualUS.Investment_Wire(test_IndividualUS.java:68)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-	at UnitClassSet.Investment.test_IndividualUS.Investment_Wire(test_IndividualUS.java:68)
-
-Investment_Bitcoin(UnitClassSet.Investment.test_IndividualUS)  Time elapsed: 39.278 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-	at UnitClassSet.Investment.test_IndividualUS.Investment_Bitcoin(test_IndividualUS.java:95)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-	at UnitClassSet.Investment.test_IndividualUS.Investment_Bitcoin(test_IndividualUS.java:95)
-
-Investment_Ethereum(UnitClassSet.Investment.test_IndividualUS)  Time elapsed: 43.229 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-	at UnitClassSet.Investment.test_IndividualUS.Investment_Ethereum(test_IndividualUS.java:122)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-	at UnitClassSet.Investment.test_IndividualUS.Investment_Ethereum(test_IndividualUS.java:122)
-
-Investment_ACH(UnitClassSet.Investment.test_IndividualnoUS)  Time elapsed: 46.268 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-	at UnitClassSet.Investment.test_IndividualnoUS.Investment_ACH(test_IndividualnoUS.java:39)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-	at UnitClassSet.Investment.test_IndividualnoUS.Investment_ACH(test_IndividualnoUS.java:39)
-
-Investment_Wire(UnitClassSet.Investment.test_IndividualnoUS)  Time elapsed: 44.052 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-	at UnitClassSet.Investment.test_IndividualnoUS.Investment_Wire(test_IndividualnoUS.java:66)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-	at UnitClassSet.Investment.test_IndividualnoUS.Investment_Wire(test_IndividualnoUS.java:66)
-
-Investment_Bitcoin(UnitClassSet.Investment.test_IndividualnoUS)  Time elapsed: 40.543 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-	at UnitClassSet.Investment.test_IndividualnoUS.Investment_Bitcoin(test_IndividualnoUS.java:93)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-	at UnitClassSet.Investment.test_IndividualnoUS.Investment_Bitcoin(test_IndividualnoUS.java:93)
-
-Investment_Ethereum(UnitClassSet.Investment.test_IndividualnoUS)  Time elapsed: 40.284 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-	at UnitClassSet.Investment.test_IndividualnoUS.Investment_Ethereum(test_IndividualnoUS.java:120)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-	at UnitClassSet.Investment.test_IndividualnoUS.Investment_Ethereum(test_IndividualnoUS.java:120)
-
-Investment_ACH(UnitClassSet.Investment.test_IndividualUSnoAccredited)  Time elapsed: 39.701 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-	at UnitClassSet.Investment.test_IndividualUSnoAccredited.Investment_ACH(test_IndividualUSnoAccredited.java:39)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-	at UnitClassSet.Investment.test_IndividualUSnoAccredited.Investment_ACH(test_IndividualUSnoAccredited.java:39)
-
-Investment_Wire(UnitClassSet.Investment.test_IndividualUSnoAccredited)  Time elapsed: 40.077 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-	at UnitClassSet.Investment.test_IndividualUSnoAccredited.Investment_Wire(test_IndividualUSnoAccredited.java:66)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-	at UnitClassSet.Investment.test_IndividualUSnoAccredited.Investment_Wire(test_IndividualUSnoAccredited.java:66)
-
-Investment_Bitcoin(UnitClassSet.Investment.test_IndividualUSnoAccredited)  Time elapsed: 39.189 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-	at UnitClassSet.Investment.test_IndividualUSnoAccredited.Investment_Bitcoin(test_IndividualUSnoAccredited.java:93)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-	at UnitClassSet.Investment.test_IndividualUSnoAccredited.Investment_Bitcoin(test_IndividualUSnoAccredited.java:93)
-
-Investment_Ethereum(UnitClassSet.Investment.test_IndividualUSnoAccredited)  Time elapsed: 39.778 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-	at UnitClassSet.Investment.test_IndividualUSnoAccredited.Investment_Ethereum(test_IndividualUSnoAccredited.java:120)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-	at UnitClassSet.Investment.test_IndividualUSnoAccredited.Investment_Ethereum(test_IndividualUSnoAccredited.java:120)
-
-Investment_ACH(UnitClassSet.Investment.test_EntityUS)  Time elapsed: 40.308 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-	at UnitClassSet.Investment.test_EntityUS.Investment_ACH(test_EntityUS.java:36)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-	at UnitClassSet.Investment.test_EntityUS.Investment_ACH(test_EntityUS.java:36)
-
-Investment_Wire(UnitClassSet.Investment.test_EntityUS)  Time elapsed: 39.431 s  <<< FAILURE!
+Investment_Wire(UnitClassSet.Investment.test_EntityUS)  Time elapsed: 38.217 s  <<< FAILURE!
 org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
 	at UnitClassSet.Investment.test_EntityUS.Investment_Wire(test_EntityUS.java:63)
 Caused by: org.openqa.selenium.NoSuchElementException: 
@@ -186,73 +57,22 @@ System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', o
 Driver info: driver.version: unknown
 	at UnitClassSet.Investment.test_EntityUS.Investment_Wire(test_EntityUS.java:63)
 
-Investment_Bitcoin(UnitClassSet.Investment.test_EntityUS)  Time elapsed: 39.312 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-	at UnitClassSet.Investment.test_EntityUS.Investment_Bitcoin(test_EntityUS.java:90)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
+Investment_Ethereum(UnitClassSet.Investment.test_EntityUS)  Time elapsed: 40.106 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/section/div/div[2]/div[1]/div[1]/div[2]"}
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-	at UnitClassSet.Investment.test_EntityUS.Investment_Bitcoin(test_EntityUS.java:90)
-
-Investment_Ethereum(UnitClassSet.Investment.test_EntityUS)  Time elapsed: 39.339 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-	at UnitClassSet.Investment.test_EntityUS.Investment_Ethereum(test_EntityUS.java:117)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54901}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: dc343073039895b52801f3d05951e07b
+*** Element info: {Using=xpath, value=//*[@id="content"]/section/div/div[2]/div[1]/div[1]/div[2]}
 	at UnitClassSet.Investment.test_EntityUS.Investment_Ethereum(test_EntityUS.java:117)
 
-Investment_ACH(UnitClassSet.Investment.test_EntitynoUS)  Time elapsed: 39.823 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-	at UnitClassSet.Investment.test_EntitynoUS.Investment_ACH(test_EntitynoUS.java:39)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-	at UnitClassSet.Investment.test_EntitynoUS.Investment_ACH(test_EntitynoUS.java:39)
-
-Investment_Wire(UnitClassSet.Investment.test_EntitynoUS)  Time elapsed: 39.295 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-	at UnitClassSet.Investment.test_EntitynoUS.Investment_Wire(test_EntitynoUS.java:66)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-	at UnitClassSet.Investment.test_EntitynoUS.Investment_Wire(test_EntitynoUS.java:66)
-
-Investment_Bitcoin(UnitClassSet.Investment.test_EntitynoUS)  Time elapsed: 40.113 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-	at UnitClassSet.Investment.test_EntitynoUS.Investment_Bitcoin(test_EntitynoUS.java:93)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-	at UnitClassSet.Investment.test_EntitynoUS.Investment_Bitcoin(test_EntitynoUS.java:93)
-
-Investment_Ethereum(UnitClassSet.Investment.test_EntitynoUS)  Time elapsed: 38.846 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-	at UnitClassSet.Investment.test_EntitynoUS.Investment_Ethereum(test_EntitynoUS.java:120)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-	at UnitClassSet.Investment.test_EntitynoUS.Investment_Ethereum(test_EntitynoUS.java:120)
-
-ContactUS_Raise_Funds(UnitClassSet.ContactUS.test_ContactUS)  Time elapsed: 34.493 s  <<< FAILURE!
+ContactUS_Raise_Funds(UnitClassSet.ContactUS.test_ContactUS)  Time elapsed: 34.594 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='start_raise_description']"}
   (Session info: chrome=72.0.3626.109)
@@ -262,8 +82,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52281}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: 2702e77c7ea45ce220e3bf6eaadfbf1e
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55643}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 3bcbd06a12e2cfaf1e1697f9acaa6e04
 *** Element info: {Using=xpath, value=//input[@id='start_raise_description']}
 	at UnitClassSet.ContactUS.test_ContactUS.ContactUS_Raise_Funds(test_ContactUS.java:11)
 

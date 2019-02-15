@@ -1,59 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="24" ignored="0" total="26" passed="2">
+<testng-results skipped="0" failed="8" ignored="0" total="26" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="Sone tests" duration-ms="3079247" started-at="2019-02-15T11:48:22Z" finished-at="2019-02-15T12:39:42Z">
+  <suite name="Sone tests" duration-ms="2926575" started-at="2019-02-15T17:34:39Z" finished-at="2019-02-15T18:23:25Z">
     <groups>
     </groups>
-    <test name="Registration" duration-ms="2126935" started-at="2019-02-15T11:48:22Z" finished-at="2019-02-15T12:23:49Z">
+    <test name="Registration" duration-ms="1749285" started-at="2019-02-15T17:34:39Z" finished-at="2019-02-15T18:03:48Z">
       <class name="UnitClassSet.Registration.test_RegistrationAllTypes">
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@1caa9eb6]" name="setup" is-config="true" duration-ms="4430" started-at="2019-02-15T11:48:23Z" finished-at="2019-02-15T11:48:27Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@33425811]" name="setup" is-config="true" duration-ms="4847" started-at="2019-02-15T17:34:39Z" finished-at="2019-02-15T17:34:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Register_EntityUS()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@1caa9eb6]" name="Register_EntityUS" duration-ms="246520" started-at="2019-02-15T11:48:27Z" finished-at="2019-02-15T11:52:33Z">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method status="FAIL" signature="Register_EntityUS()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@33425811]" name="Register_EntityUS" duration-ms="435388" started-at="2019-02-15T17:34:44Z" finished-at="2019-02-15T17:41:59Z">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[unknown error: Element <input type="text" id="registration_second_step_fwLegalLastName" name="registration_second_step[fwLegalLastName]" data-autocomplete="data-autocomplete" class="form-control" value="123456789"> is not clickable at point (1130, 463). Other element would receive the click: <div class="flex-center">...</div>
-  (Session info: chrome=72.0.3626.109)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: flash-messages-success (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50119}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: c3150bc8bd61a2ec94a8572429bd6170]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50750}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 86423e56f2d6209159c801f41ea24f94]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <input type="text" id="registration_second_step_fwLegalLastName" name="registration_second_step[fwLegalLastName]" data-autocomplete="data-autocomplete" class="form-control" value="123456789"> is not clickable at point (1130, 463). Other element would receive the click: <div class="flex-center">...</div>
-  (Session info: chrome=72.0.3626.109)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: flash-messages-success (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50119}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: c3150bc8bd61a2ec94a8572429bd6170
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-at UnitClassSet.Field.EnterValue(Field.java:20)
-at UnitClassSet.CheckAppearingError.AppearingError.AppearingErrorCheck(AppearingError.java:22)
-at UnitClassSet.CheckAppearingError.AppearingError.CallErrorCheck(AppearingError.java:147)
-at UnitClassSet.Registration.Registration.Third_Step_For_Entity(Registration.java:376)
-at UnitClassSet.Registration.Registration.ThirdStep(Registration.java:279)
-at UnitClassSet.Registration.Registration.Register(Registration.java:70)
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50750}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 86423e56f2d6209159c801f41ea24f94
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+at UnitClassSet.Registration.Registration.Register(Registration.java:77)
 at UnitClassSet.Registration.test_RegistrationAllTypes.Register_EntityUS(test_RegistrationAllTypes.java:32)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -70,15 +47,15 @@ at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:62
 at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Register_EntityUS -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@1caa9eb6]" name="teardown" is-config="true" duration-ms="1187" started-at="2019-02-15T11:52:34Z" finished-at="2019-02-15T11:52:35Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@33425811]" name="teardown" is-config="true" duration-ms="1458" started-at="2019-02-15T17:42:00Z" finished-at="2019-02-15T17:42:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Register_EntityUS status=FAILURE method=test_RegistrationAllTypes.Register_EntityUS()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@1caa9eb6] output={null}]]]>
+                <![CDATA[[TestResult name=Register_EntityUS status=FAILURE method=test_RegistrationAllTypes.Register_EntityUS()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@33425811] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -90,19 +67,55 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@1caa9eb6]" name="setup" is-config="true" duration-ms="3255" started-at="2019-02-15T11:52:35Z" finished-at="2019-02-15T11:52:38Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@33425811]" name="setup" is-config="true" duration-ms="3218" started-at="2019-02-15T17:42:02Z" finished-at="2019-02-15T17:42:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Register_EntitynoUS()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@1caa9eb6]" name="Register_EntitynoUS" duration-ms="641412" started-at="2019-02-15T11:52:38Z" finished-at="2019-02-15T12:03:20Z">
+        <test-method status="FAIL" signature="Register_EntitynoUS()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@33425811]" name="Register_EntitynoUS" duration-ms="428514" started-at="2019-02-15T17:42:05Z" finished-at="2019-02-15T17:49:13Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: flash-messages-success (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51234}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 23be73e7a775aabb31ea907b07cf6a54]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: flash-messages-success (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51234}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 23be73e7a775aabb31ea907b07cf6a54
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+at UnitClassSet.Registration.Registration.Register(Registration.java:77)
+at UnitClassSet.Registration.test_RegistrationAllTypes.Register_EntitynoUS(test_RegistrationAllTypes.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Register_EntitynoUS -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@1caa9eb6]" name="teardown" is-config="true" duration-ms="678" started-at="2019-02-15T12:03:20Z" finished-at="2019-02-15T12:03:21Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@33425811]" name="teardown" is-config="true" duration-ms="1377" started-at="2019-02-15T17:49:14Z" finished-at="2019-02-15T17:49:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Register_EntitynoUS status=SUCCESS method=test_RegistrationAllTypes.Register_EntitynoUS()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@1caa9eb6] output={null}]]]>
+                <![CDATA[[TestResult name=Register_EntitynoUS status=FAILURE method=test_RegistrationAllTypes.Register_EntitynoUS()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@33425811] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -114,50 +127,30 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@1caa9eb6]" name="setup" is-config="true" duration-ms="3333" started-at="2019-02-15T12:03:21Z" finished-at="2019-02-15T12:03:24Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@33425811]" name="setup" is-config="true" duration-ms="3193" started-at="2019-02-15T17:49:16Z" finished-at="2019-02-15T17:49:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Register_IndividualUS()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@1caa9eb6]" name="Register_IndividualUS" duration-ms="630415" started-at="2019-02-15T12:03:24Z" finished-at="2019-02-15T12:13:54Z">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method status="FAIL" signature="Register_IndividualUS()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@33425811]" name="Register_IndividualUS" duration-ms="315697" started-at="2019-02-15T17:49:19Z" finished-at="2019-02-15T17:54:35Z">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[unknown error: Element <input type="checkbox" id="registration_second_step_fwIsLegalNameThesame" name="registration_second_step[fwIsLegalNameThesame]" class="margin-left-0" data-same-with="[fwLegalFirstName=firstName][fwLegalLastName=lastName]" data-disable-autocomplete="data-disable-autocomplete" value="1"> is not clickable at point (1159, 6). Other element would receive the click: <div class="container-fluid">...</div>
-  (Session info: chrome=72.0.3626.109)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: flash-messages-success (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50440}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: 9087bc54609de397e70a4f3b1d6f7bd9]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51712}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 49544f0e9a976f07d8cec8e3528063d5]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <input type="checkbox" id="registration_second_step_fwIsLegalNameThesame" name="registration_second_step[fwIsLegalNameThesame]" class="margin-left-0" data-same-with="[fwLegalFirstName=firstName][fwLegalLastName=lastName]" data-disable-autocomplete="data-disable-autocomplete" value="1"> is not clickable at point (1159, 6). Other element would receive the click: <div class="container-fluid">...</div>
-  (Session info: chrome=72.0.3626.109)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: flash-messages-success (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50440}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: 9087bc54609de397e70a4f3b1d6f7bd9
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-at UnitClassSet.Registration.Registration.Third_Step_For_Individual(Registration.java:295)
-at UnitClassSet.Registration.Registration.ThirdStep(Registration.java:276)
-at UnitClassSet.Registration.Registration.Register(Registration.java:70)
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51712}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 49544f0e9a976f07d8cec8e3528063d5
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+at UnitClassSet.Registration.Registration.Register(Registration.java:77)
 at UnitClassSet.Registration.test_RegistrationAllTypes.Register_IndividualUS(test_RegistrationAllTypes.java:22)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -174,15 +167,15 @@ at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:62
 at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Register_IndividualUS -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@1caa9eb6]" name="teardown" is-config="true" duration-ms="1080" started-at="2019-02-15T12:13:55Z" finished-at="2019-02-15T12:13:56Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@33425811]" name="teardown" is-config="true" duration-ms="1367" started-at="2019-02-15T17:54:36Z" finished-at="2019-02-15T17:54:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Register_IndividualUS status=FAILURE method=test_RegistrationAllTypes.Register_IndividualUS()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@1caa9eb6] output={null}]]]>
+                <![CDATA[[TestResult name=Register_IndividualUS status=FAILURE method=test_RegistrationAllTypes.Register_IndividualUS()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@33425811] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -194,19 +187,55 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@1caa9eb6]" name="setup" is-config="true" duration-ms="3253" started-at="2019-02-15T12:13:56Z" finished-at="2019-02-15T12:13:59Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@33425811]" name="setup" is-config="true" duration-ms="3257" started-at="2019-02-15T17:54:37Z" finished-at="2019-02-15T17:54:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Register_IndividualUSnoAccredited()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@1caa9eb6]" name="Register_IndividualUSnoAccredited" duration-ms="396511" started-at="2019-02-15T12:13:59Z" finished-at="2019-02-15T12:20:36Z">
+        <test-method status="FAIL" signature="Register_IndividualUSnoAccredited()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@33425811]" name="Register_IndividualUSnoAccredited" duration-ms="349684" started-at="2019-02-15T17:54:40Z" finished-at="2019-02-15T18:00:30Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: flash-messages-success (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52080}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: fbdf4e1427c43300b09976106136ac46]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: flash-messages-success (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52080}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: fbdf4e1427c43300b09976106136ac46
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+at UnitClassSet.Registration.Registration.Register(Registration.java:77)
+at UnitClassSet.Registration.test_RegistrationAllTypes.Register_IndividualUSnoAccredited(test_RegistrationAllTypes.java:42)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Register_IndividualUSnoAccredited -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@1caa9eb6]" name="teardown" is-config="true" duration-ms="673" started-at="2019-02-15T12:20:36Z" finished-at="2019-02-15T12:20:36Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@33425811]" name="teardown" is-config="true" duration-ms="1412" started-at="2019-02-15T18:00:31Z" finished-at="2019-02-15T18:00:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Register_IndividualUSnoAccredited status=SUCCESS method=test_RegistrationAllTypes.Register_IndividualUSnoAccredited()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@1caa9eb6] output={null}]]]>
+                <![CDATA[[TestResult name=Register_IndividualUSnoAccredited status=FAILURE method=test_RegistrationAllTypes.Register_IndividualUSnoAccredited()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@33425811] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -218,11 +247,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@1caa9eb6]" name="setup" is-config="true" duration-ms="3218" started-at="2019-02-15T12:20:36Z" finished-at="2019-02-15T12:20:40Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@33425811]" name="setup" is-config="true" duration-ms="3305" started-at="2019-02-15T18:00:33Z" finished-at="2019-02-15T18:00:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Register_IndividualnoUS()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@1caa9eb6]" name="Register_IndividualnoUS" duration-ms="188311" started-at="2019-02-15T12:20:40Z" finished-at="2019-02-15T12:23:48Z">
+        <test-method status="FAIL" signature="Register_IndividualnoUS()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@33425811]" name="Register_IndividualnoUS" duration-ms="190645" started-at="2019-02-15T18:00:36Z" finished-at="2019-02-15T18:03:47Z">
           <exception class="SupportClasses.Exceptions.NewAssertError">
             <message>
               <![CDATA[For locator '//input[@id='registration_second_step_phone']' value '' works wrong!]]>
@@ -253,11 +282,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Register_IndividualnoUS -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@1caa9eb6]" name="teardown" is-config="true" duration-ms="997" started-at="2019-02-15T12:23:48Z" finished-at="2019-02-15T12:23:49Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@33425811]" name="teardown" is-config="true" duration-ms="1026" started-at="2019-02-15T18:03:47Z" finished-at="2019-02-15T18:03:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Register_IndividualnoUS status=FAILURE method=test_RegistrationAllTypes.Register_IndividualnoUS()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@1caa9eb6] output={null}]]]>
+                <![CDATA[[TestResult name=Register_IndividualnoUS status=FAILURE method=test_RegistrationAllTypes.Register_IndividualnoUS()[pri:0, instance:UnitClassSet.Registration.test_RegistrationAllTypes@33425811] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -271,62 +300,21 @@ at java.lang.Thread.run(Thread.java:748)
         </test-method> <!-- teardown -->
       </class> <!-- UnitClassSet.Registration.test_RegistrationAllTypes -->
     </test> <!-- Registration -->
-    <test name="Investments" duration-ms="913136" started-at="2019-02-15T12:23:50Z" finished-at="2019-02-15T12:39:03Z">
+    <test name="Investments" duration-ms="1137954" started-at="2019-02-15T18:03:48Z" finished-at="2019-02-15T18:22:46Z">
       <class name="UnitClassSet.Investment.test_EntitynoUS">
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@3ebe4ccc]" name="setup" is-config="true" duration-ms="3278" started-at="2019-02-15T12:36:06Z" finished-at="2019-02-15T12:36:09Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@1f67761b]" name="setup" is-config="true" duration-ms="3262" started-at="2019-02-15T18:18:21Z" finished-at="2019-02-15T18:18:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Investment_ACH()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@3ebe4ccc]" name="Investment_ACH" duration-ms="39091" started-at="2019-02-15T12:36:09Z" finished-at="2019-02-15T12:36:48Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at UnitClassSet.AccountType.AccountTypeCheck(AccountType.java:15)
-at UnitClassSet.Investment.test_EntitynoUS.Investment_ACH(test_EntitynoUS.java:39)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 15 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Investment_ACH()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@1f67761b]" name="Investment_ACH" duration-ms="72773" started-at="2019-02-15T18:18:24Z" finished-at="2019-02-15T18:19:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Investment_ACH -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@3ebe4ccc]" name="teardown" is-config="true" duration-ms="1410" started-at="2019-02-15T12:36:49Z" finished-at="2019-02-15T12:36:50Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@1f67761b]" name="teardown" is-config="true" duration-ms="676" started-at="2019-02-15T18:19:37Z" finished-at="2019-02-15T18:19:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Investment_ACH status=FAILURE method=test_EntitynoUS.Investment_ACH()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@3ebe4ccc] output={null}]]]>
+                <![CDATA[[TestResult name=Investment_ACH status=SUCCESS method=test_EntitynoUS.Investment_ACH()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@1f67761b] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -338,60 +326,19 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@3ebe4ccc]" name="setup" is-config="true" duration-ms="3494" started-at="2019-02-15T12:36:50Z" finished-at="2019-02-15T12:36:54Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@1f67761b]" name="setup" is-config="true" duration-ms="3303" started-at="2019-02-15T18:19:38Z" finished-at="2019-02-15T18:19:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Investment_Wire()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@3ebe4ccc]" name="Investment_Wire" duration-ms="38555" started-at="2019-02-15T12:36:54Z" finished-at="2019-02-15T12:37:32Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at UnitClassSet.AccountType.AccountTypeCheck(AccountType.java:15)
-at UnitClassSet.Investment.test_EntitynoUS.Investment_Wire(test_EntitynoUS.java:66)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 15 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Investment_Wire()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@1f67761b]" name="Investment_Wire" duration-ms="60081" started-at="2019-02-15T18:19:41Z" finished-at="2019-02-15T18:20:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Investment_Wire -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@3ebe4ccc]" name="teardown" is-config="true" duration-ms="1362" started-at="2019-02-15T12:37:33Z" finished-at="2019-02-15T12:37:34Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@1f67761b]" name="teardown" is-config="true" duration-ms="651" started-at="2019-02-15T18:20:41Z" finished-at="2019-02-15T18:20:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Investment_Wire status=FAILURE method=test_EntitynoUS.Investment_Wire()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@3ebe4ccc] output={null}]]]>
+                <![CDATA[[TestResult name=Investment_Wire status=SUCCESS method=test_EntitynoUS.Investment_Wire()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@1f67761b] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -403,60 +350,19 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@3ebe4ccc]" name="setup" is-config="true" duration-ms="3227" started-at="2019-02-15T12:37:34Z" finished-at="2019-02-15T12:37:38Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@1f67761b]" name="setup" is-config="true" duration-ms="3239" started-at="2019-02-15T18:20:42Z" finished-at="2019-02-15T18:20:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Investment_Bitcoin()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@3ebe4ccc]" name="Investment_Bitcoin" duration-ms="39298" started-at="2019-02-15T12:37:38Z" finished-at="2019-02-15T12:38:17Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at UnitClassSet.AccountType.AccountTypeCheck(AccountType.java:15)
-at UnitClassSet.Investment.test_EntitynoUS.Investment_Bitcoin(test_EntitynoUS.java:93)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 15 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Investment_Bitcoin()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@1f67761b]" name="Investment_Bitcoin" duration-ms="58344" started-at="2019-02-15T18:20:45Z" finished-at="2019-02-15T18:21:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Investment_Bitcoin -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@3ebe4ccc]" name="teardown" is-config="true" duration-ms="1425" started-at="2019-02-15T12:38:18Z" finished-at="2019-02-15T12:38:19Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@1f67761b]" name="teardown" is-config="true" duration-ms="692" started-at="2019-02-15T18:21:43Z" finished-at="2019-02-15T18:21:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Investment_Bitcoin status=FAILURE method=test_EntitynoUS.Investment_Bitcoin()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@3ebe4ccc] output={null}]]]>
+                <![CDATA[[TestResult name=Investment_Bitcoin status=SUCCESS method=test_EntitynoUS.Investment_Bitcoin()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@1f67761b] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -468,60 +374,19 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@3ebe4ccc]" name="setup" is-config="true" duration-ms="3245" started-at="2019-02-15T12:38:19Z" finished-at="2019-02-15T12:38:22Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@1f67761b]" name="setup" is-config="true" duration-ms="3285" started-at="2019-02-15T18:21:44Z" finished-at="2019-02-15T18:21:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Investment_Ethereum()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@3ebe4ccc]" name="Investment_Ethereum" duration-ms="38094" started-at="2019-02-15T12:38:22Z" finished-at="2019-02-15T12:39:01Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at UnitClassSet.AccountType.AccountTypeCheck(AccountType.java:15)
-at UnitClassSet.Investment.test_EntitynoUS.Investment_Ethereum(test_EntitynoUS.java:120)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 15 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Investment_Ethereum()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@1f67761b]" name="Investment_Ethereum" duration-ms="58296" started-at="2019-02-15T18:21:47Z" finished-at="2019-02-15T18:22:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Investment_Ethereum -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@3ebe4ccc]" name="teardown" is-config="true" duration-ms="1533" started-at="2019-02-15T12:39:01Z" finished-at="2019-02-15T12:39:03Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@1f67761b]" name="teardown" is-config="true" duration-ms="673" started-at="2019-02-15T18:22:46Z" finished-at="2019-02-15T18:22:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Investment_Ethereum status=FAILURE method=test_EntitynoUS.Investment_Ethereum()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@3ebe4ccc] output={null}]]]>
+                <![CDATA[[TestResult name=Investment_Ethereum status=SUCCESS method=test_EntitynoUS.Investment_Ethereum()[pri:0, instance:UnitClassSet.Investment.test_EntitynoUS@1f67761b] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -535,60 +400,19 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
         </test-method> <!-- teardown -->
       </class> <!-- UnitClassSet.Investment.test_EntitynoUS -->
       <class name="UnitClassSet.Investment.test_IndividualUSnoAccredited">
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@141d3d43]" name="setup" is-config="true" duration-ms="3314" started-at="2019-02-15T12:30:10Z" finished-at="2019-02-15T12:30:14Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@204abeff]" name="setup" is-config="true" duration-ms="3312" started-at="2019-02-15T18:12:55Z" finished-at="2019-02-15T18:12:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Investment_ACH()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@141d3d43]" name="Investment_ACH" duration-ms="38901" started-at="2019-02-15T12:30:14Z" finished-at="2019-02-15T12:30:53Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at UnitClassSet.AccountType.AccountTypeCheck(AccountType.java:15)
-at UnitClassSet.Investment.test_IndividualUSnoAccredited.Investment_ACH(test_IndividualUSnoAccredited.java:39)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 15 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Investment_ACH()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@204abeff]" name="Investment_ACH" duration-ms="17270" started-at="2019-02-15T18:12:59Z" finished-at="2019-02-15T18:13:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Investment_ACH -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@141d3d43]" name="teardown" is-config="true" duration-ms="1457" started-at="2019-02-15T12:30:53Z" finished-at="2019-02-15T12:30:55Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@204abeff]" name="teardown" is-config="true" duration-ms="656" started-at="2019-02-15T18:13:16Z" finished-at="2019-02-15T18:13:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Investment_ACH status=FAILURE method=test_IndividualUSnoAccredited.Investment_ACH()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@141d3d43] output={null}]]]>
+                <![CDATA[[TestResult name=Investment_ACH status=SUCCESS method=test_IndividualUSnoAccredited.Investment_ACH()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@204abeff] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -600,60 +424,19 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@141d3d43]" name="setup" is-config="true" duration-ms="3311" started-at="2019-02-15T12:30:55Z" finished-at="2019-02-15T12:30:58Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@204abeff]" name="setup" is-config="true" duration-ms="3210" started-at="2019-02-15T18:13:16Z" finished-at="2019-02-15T18:13:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Investment_Wire()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@141d3d43]" name="Investment_Wire" duration-ms="39330" started-at="2019-02-15T12:30:58Z" finished-at="2019-02-15T12:31:37Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at UnitClassSet.AccountType.AccountTypeCheck(AccountType.java:15)
-at UnitClassSet.Investment.test_IndividualUSnoAccredited.Investment_Wire(test_IndividualUSnoAccredited.java:66)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 15 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Investment_Wire()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@204abeff]" name="Investment_Wire" duration-ms="16287" started-at="2019-02-15T18:13:20Z" finished-at="2019-02-15T18:13:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Investment_Wire -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@141d3d43]" name="teardown" is-config="true" duration-ms="1439" started-at="2019-02-15T12:31:38Z" finished-at="2019-02-15T12:31:40Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@204abeff]" name="teardown" is-config="true" duration-ms="661" started-at="2019-02-15T18:13:36Z" finished-at="2019-02-15T18:13:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Investment_Wire status=FAILURE method=test_IndividualUSnoAccredited.Investment_Wire()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@141d3d43] output={null}]]]>
+                <![CDATA[[TestResult name=Investment_Wire status=SUCCESS method=test_IndividualUSnoAccredited.Investment_Wire()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@204abeff] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -665,60 +448,19 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@141d3d43]" name="setup" is-config="true" duration-ms="3214" started-at="2019-02-15T12:31:40Z" finished-at="2019-02-15T12:31:43Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@204abeff]" name="setup" is-config="true" duration-ms="3276" started-at="2019-02-15T18:13:37Z" finished-at="2019-02-15T18:13:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Investment_Bitcoin()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@141d3d43]" name="Investment_Bitcoin" duration-ms="38436" started-at="2019-02-15T12:31:43Z" finished-at="2019-02-15T12:32:21Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at UnitClassSet.AccountType.AccountTypeCheck(AccountType.java:15)
-at UnitClassSet.Investment.test_IndividualUSnoAccredited.Investment_Bitcoin(test_IndividualUSnoAccredited.java:93)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 15 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Investment_Bitcoin()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@204abeff]" name="Investment_Bitcoin" duration-ms="16970" started-at="2019-02-15T18:13:40Z" finished-at="2019-02-15T18:13:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Investment_Bitcoin -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@141d3d43]" name="teardown" is-config="true" duration-ms="1414" started-at="2019-02-15T12:32:22Z" finished-at="2019-02-15T12:32:23Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@204abeff]" name="teardown" is-config="true" duration-ms="668" started-at="2019-02-15T18:13:57Z" finished-at="2019-02-15T18:13:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Investment_Bitcoin status=FAILURE method=test_IndividualUSnoAccredited.Investment_Bitcoin()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@141d3d43] output={null}]]]>
+                <![CDATA[[TestResult name=Investment_Bitcoin status=SUCCESS method=test_IndividualUSnoAccredited.Investment_Bitcoin()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@204abeff] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -730,60 +472,19 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@141d3d43]" name="setup" is-config="true" duration-ms="3433" started-at="2019-02-15T12:32:23Z" finished-at="2019-02-15T12:32:27Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@204abeff]" name="setup" is-config="true" duration-ms="3237" started-at="2019-02-15T18:13:58Z" finished-at="2019-02-15T18:14:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Investment_Ethereum()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@141d3d43]" name="Investment_Ethereum" duration-ms="38988" started-at="2019-02-15T12:32:27Z" finished-at="2019-02-15T12:33:06Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at UnitClassSet.AccountType.AccountTypeCheck(AccountType.java:15)
-at UnitClassSet.Investment.test_IndividualUSnoAccredited.Investment_Ethereum(test_IndividualUSnoAccredited.java:120)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 15 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Investment_Ethereum()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@204abeff]" name="Investment_Ethereum" duration-ms="16467" started-at="2019-02-15T18:14:01Z" finished-at="2019-02-15T18:14:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Investment_Ethereum -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@141d3d43]" name="teardown" is-config="true" duration-ms="1534" started-at="2019-02-15T12:33:07Z" finished-at="2019-02-15T12:33:08Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@204abeff]" name="teardown" is-config="true" duration-ms="704" started-at="2019-02-15T18:14:17Z" finished-at="2019-02-15T18:14:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Investment_Ethereum status=FAILURE method=test_IndividualUSnoAccredited.Investment_Ethereum()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@141d3d43] output={null}]]]>
+                <![CDATA[[TestResult name=Investment_Ethereum status=SUCCESS method=test_IndividualUSnoAccredited.Investment_Ethereum()[pri:0, instance:UnitClassSet.Investment.test_IndividualUSnoAccredited@204abeff] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -797,60 +498,19 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
         </test-method> <!-- teardown -->
       </class> <!-- UnitClassSet.Investment.test_IndividualUSnoAccredited -->
       <class name="UnitClassSet.Investment.test_IndividualnoUS">
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@3a8d467e]" name="setup" is-config="true" duration-ms="3299" started-at="2019-02-15T12:27:00Z" finished-at="2019-02-15T12:27:03Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@4483d35]" name="setup" is-config="true" duration-ms="3321" started-at="2019-02-15T18:08:39Z" finished-at="2019-02-15T18:08:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Investment_ACH()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@3a8d467e]" name="Investment_ACH" duration-ms="45439" started-at="2019-02-15T12:27:03Z" finished-at="2019-02-15T12:27:48Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at UnitClassSet.AccountType.AccountTypeCheck(AccountType.java:15)
-at UnitClassSet.Investment.test_IndividualnoUS.Investment_ACH(test_IndividualnoUS.java:39)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 15 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Investment_ACH()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@4483d35]" name="Investment_ACH" duration-ms="64521" started-at="2019-02-15T18:08:42Z" finished-at="2019-02-15T18:09:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Investment_ACH -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@3a8d467e]" name="teardown" is-config="true" duration-ms="1510" started-at="2019-02-15T12:27:49Z" finished-at="2019-02-15T12:27:51Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@4483d35]" name="teardown" is-config="true" duration-ms="693" started-at="2019-02-15T18:09:47Z" finished-at="2019-02-15T18:09:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Investment_ACH status=FAILURE method=test_IndividualnoUS.Investment_ACH()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@3a8d467e] output={null}]]]>
+                <![CDATA[[TestResult name=Investment_ACH status=SUCCESS method=test_IndividualnoUS.Investment_ACH()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@4483d35] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -862,60 +522,19 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@3a8d467e]" name="setup" is-config="true" duration-ms="3317" started-at="2019-02-15T12:27:51Z" finished-at="2019-02-15T12:27:54Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@4483d35]" name="setup" is-config="true" duration-ms="3250" started-at="2019-02-15T18:09:47Z" finished-at="2019-02-15T18:09:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Investment_Wire()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@3a8d467e]" name="Investment_Wire" duration-ms="43249" started-at="2019-02-15T12:27:54Z" finished-at="2019-02-15T12:28:37Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at UnitClassSet.AccountType.AccountTypeCheck(AccountType.java:15)
-at UnitClassSet.Investment.test_IndividualnoUS.Investment_Wire(test_IndividualnoUS.java:66)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 15 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Investment_Wire()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@4483d35]" name="Investment_Wire" duration-ms="60150" started-at="2019-02-15T18:09:51Z" finished-at="2019-02-15T18:10:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Investment_Wire -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@3a8d467e]" name="teardown" is-config="true" duration-ms="1480" started-at="2019-02-15T12:28:38Z" finished-at="2019-02-15T12:28:40Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@4483d35]" name="teardown" is-config="true" duration-ms="780" started-at="2019-02-15T18:10:51Z" finished-at="2019-02-15T18:10:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Investment_Wire status=FAILURE method=test_IndividualnoUS.Investment_Wire()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@3a8d467e] output={null}]]]>
+                <![CDATA[[TestResult name=Investment_Wire status=SUCCESS method=test_IndividualnoUS.Investment_Wire()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@4483d35] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -927,60 +546,19 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@3a8d467e]" name="setup" is-config="true" duration-ms="3222" started-at="2019-02-15T12:28:40Z" finished-at="2019-02-15T12:28:43Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@4483d35]" name="setup" is-config="true" duration-ms="3311" started-at="2019-02-15T18:10:52Z" finished-at="2019-02-15T18:10:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Investment_Bitcoin()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@3a8d467e]" name="Investment_Bitcoin" duration-ms="39683" started-at="2019-02-15T12:28:43Z" finished-at="2019-02-15T12:29:22Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at UnitClassSet.AccountType.AccountTypeCheck(AccountType.java:15)
-at UnitClassSet.Investment.test_IndividualnoUS.Investment_Bitcoin(test_IndividualnoUS.java:93)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 15 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Investment_Bitcoin()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@4483d35]" name="Investment_Bitcoin" duration-ms="58743" started-at="2019-02-15T18:10:55Z" finished-at="2019-02-15T18:11:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Investment_Bitcoin -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@3a8d467e]" name="teardown" is-config="true" duration-ms="1892" started-at="2019-02-15T12:29:23Z" finished-at="2019-02-15T12:29:25Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@4483d35]" name="teardown" is-config="true" duration-ms="695" started-at="2019-02-15T18:11:54Z" finished-at="2019-02-15T18:11:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Investment_Bitcoin status=FAILURE method=test_IndividualnoUS.Investment_Bitcoin()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@3a8d467e] output={null}]]]>
+                <![CDATA[[TestResult name=Investment_Bitcoin status=SUCCESS method=test_IndividualnoUS.Investment_Bitcoin()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@4483d35] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -992,60 +570,19 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@3a8d467e]" name="setup" is-config="true" duration-ms="3455" started-at="2019-02-15T12:29:25Z" finished-at="2019-02-15T12:29:29Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@4483d35]" name="setup" is-config="true" duration-ms="3231" started-at="2019-02-15T18:11:54Z" finished-at="2019-02-15T18:11:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Investment_Ethereum()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@3a8d467e]" name="Investment_Ethereum" duration-ms="39417" started-at="2019-02-15T12:29:29Z" finished-at="2019-02-15T12:30:08Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at UnitClassSet.AccountType.AccountTypeCheck(AccountType.java:15)
-at UnitClassSet.Investment.test_IndividualnoUS.Investment_Ethereum(test_IndividualnoUS.java:120)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 15 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Investment_Ethereum()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@4483d35]" name="Investment_Ethereum" duration-ms="56989" started-at="2019-02-15T18:11:58Z" finished-at="2019-02-15T18:12:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Investment_Ethereum -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@3a8d467e]" name="teardown" is-config="true" duration-ms="1407" started-at="2019-02-15T12:30:09Z" finished-at="2019-02-15T12:30:10Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@4483d35]" name="teardown" is-config="true" duration-ms="664" started-at="2019-02-15T18:12:55Z" finished-at="2019-02-15T18:12:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Investment_Ethereum status=FAILURE method=test_IndividualnoUS.Investment_Ethereum()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@3a8d467e] output={null}]]]>
+                <![CDATA[[TestResult name=Investment_Ethereum status=SUCCESS method=test_IndividualnoUS.Investment_Ethereum()[pri:0, instance:UnitClassSet.Investment.test_IndividualnoUS@4483d35] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -1059,60 +596,19 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
         </test-method> <!-- teardown -->
       </class> <!-- UnitClassSet.Investment.test_IndividualnoUS -->
       <class name="UnitClassSet.Investment.test_IndividualUS">
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@1b6924cb]" name="setup" is-config="true" duration-ms="3316" started-at="2019-02-15T12:23:50Z" finished-at="2019-02-15T12:23:53Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@7a45d714]" name="setup" is-config="true" duration-ms="3223" started-at="2019-02-15T18:03:48Z" finished-at="2019-02-15T18:03:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Investment_ACH()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@1b6924cb]" name="Investment_ACH" duration-ms="39320" started-at="2019-02-15T12:23:53Z" finished-at="2019-02-15T12:24:32Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at UnitClassSet.AccountType.AccountTypeCheck(AccountType.java:15)
-at UnitClassSet.Investment.test_IndividualUS.Investment_ACH(test_IndividualUS.java:41)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 15 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Investment_ACH()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@7a45d714]" name="Investment_ACH" duration-ms="88450" started-at="2019-02-15T18:03:52Z" finished-at="2019-02-15T18:05:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Investment_ACH -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@1b6924cb]" name="teardown" is-config="true" duration-ms="1430" started-at="2019-02-15T12:24:33Z" finished-at="2019-02-15T12:24:34Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@7a45d714]" name="teardown" is-config="true" duration-ms="691" started-at="2019-02-15T18:05:20Z" finished-at="2019-02-15T18:05:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Investment_ACH status=FAILURE method=test_IndividualUS.Investment_ACH()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@1b6924cb] output={null}]]]>
+                <![CDATA[[TestResult name=Investment_ACH status=SUCCESS method=test_IndividualUS.Investment_ACH()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@7a45d714] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -1124,60 +620,19 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@1b6924cb]" name="setup" is-config="true" duration-ms="3240" started-at="2019-02-15T12:24:34Z" finished-at="2019-02-15T12:24:38Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@7a45d714]" name="setup" is-config="true" duration-ms="3273" started-at="2019-02-15T18:05:21Z" finished-at="2019-02-15T18:05:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Investment_Wire()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@1b6924cb]" name="Investment_Wire" duration-ms="45987" started-at="2019-02-15T12:24:38Z" finished-at="2019-02-15T12:25:24Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at UnitClassSet.AccountType.AccountTypeCheck(AccountType.java:15)
-at UnitClassSet.Investment.test_IndividualUS.Investment_Wire(test_IndividualUS.java:68)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 15 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Investment_Wire()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@7a45d714]" name="Investment_Wire" duration-ms="61599" started-at="2019-02-15T18:05:24Z" finished-at="2019-02-15T18:06:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Investment_Wire -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@1b6924cb]" name="teardown" is-config="true" duration-ms="3035" started-at="2019-02-15T12:25:24Z" finished-at="2019-02-15T12:25:28Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@7a45d714]" name="teardown" is-config="true" duration-ms="950" started-at="2019-02-15T18:06:26Z" finished-at="2019-02-15T18:06:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Investment_Wire status=FAILURE method=test_IndividualUS.Investment_Wire()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@1b6924cb] output={null}]]]>
+                <![CDATA[[TestResult name=Investment_Wire status=SUCCESS method=test_IndividualUS.Investment_Wire()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@7a45d714] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -1189,60 +644,19 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@1b6924cb]" name="setup" is-config="true" duration-ms="3220" started-at="2019-02-15T12:25:28Z" finished-at="2019-02-15T12:25:31Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@7a45d714]" name="setup" is-config="true" duration-ms="3459" started-at="2019-02-15T18:06:26Z" finished-at="2019-02-15T18:06:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Investment_Bitcoin()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@1b6924cb]" name="Investment_Bitcoin" duration-ms="38587" started-at="2019-02-15T12:25:31Z" finished-at="2019-02-15T12:26:09Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at UnitClassSet.AccountType.AccountTypeCheck(AccountType.java:15)
-at UnitClassSet.Investment.test_IndividualUS.Investment_Bitcoin(test_IndividualUS.java:95)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 15 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Investment_Bitcoin()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@7a45d714]" name="Investment_Bitcoin" duration-ms="60748" started-at="2019-02-15T18:06:30Z" finished-at="2019-02-15T18:07:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Investment_Bitcoin -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@1b6924cb]" name="teardown" is-config="true" duration-ms="1479" started-at="2019-02-15T12:26:10Z" finished-at="2019-02-15T12:26:11Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@7a45d714]" name="teardown" is-config="true" duration-ms="703" started-at="2019-02-15T18:07:31Z" finished-at="2019-02-15T18:07:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Investment_Bitcoin status=FAILURE method=test_IndividualUS.Investment_Bitcoin()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@1b6924cb] output={null}]]]>
+                <![CDATA[[TestResult name=Investment_Bitcoin status=SUCCESS method=test_IndividualUS.Investment_Bitcoin()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@7a45d714] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -1254,60 +668,19 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@1b6924cb]" name="setup" is-config="true" duration-ms="3354" started-at="2019-02-15T12:26:11Z" finished-at="2019-02-15T12:26:15Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@7a45d714]" name="setup" is-config="true" duration-ms="3256" started-at="2019-02-15T18:07:31Z" finished-at="2019-02-15T18:07:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Investment_Ethereum()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@1b6924cb]" name="Investment_Ethereum" duration-ms="42423" started-at="2019-02-15T12:26:15Z" finished-at="2019-02-15T12:26:57Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at UnitClassSet.AccountType.AccountTypeCheck(AccountType.java:15)
-at UnitClassSet.Investment.test_IndividualUS.Investment_Ethereum(test_IndividualUS.java:122)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 15 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Investment_Ethereum()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@7a45d714]" name="Investment_Ethereum" duration-ms="63532" started-at="2019-02-15T18:07:35Z" finished-at="2019-02-15T18:08:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Investment_Ethereum -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@1b6924cb]" name="teardown" is-config="true" duration-ms="1508" started-at="2019-02-15T12:26:58Z" finished-at="2019-02-15T12:27:00Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@7a45d714]" name="teardown" is-config="true" duration-ms="697" started-at="2019-02-15T18:08:38Z" finished-at="2019-02-15T18:08:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Investment_Ethereum status=FAILURE method=test_IndividualUS.Investment_Ethereum()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@1b6924cb] output={null}]]]>
+                <![CDATA[[TestResult name=Investment_Ethereum status=SUCCESS method=test_IndividualUS.Investment_Ethereum()[pri:0, instance:UnitClassSet.Investment.test_IndividualUS@7a45d714] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -1321,60 +694,19 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
         </test-method> <!-- teardown -->
       </class> <!-- UnitClassSet.Investment.test_IndividualUS -->
       <class name="UnitClassSet.Investment.test_EntityUS">
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@6ca372ef]" name="setup" is-config="true" duration-ms="3323" started-at="2019-02-15T12:33:08Z" finished-at="2019-02-15T12:33:11Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@4b4ee511]" name="setup" is-config="true" duration-ms="3211" started-at="2019-02-15T18:14:18Z" finished-at="2019-02-15T18:14:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Investment_ACH()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@6ca372ef]" name="Investment_ACH" duration-ms="39519" started-at="2019-02-15T12:33:11Z" finished-at="2019-02-15T12:33:51Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at UnitClassSet.AccountType.AccountTypeCheck(AccountType.java:15)
-at UnitClassSet.Investment.test_EntityUS.Investment_ACH(test_EntityUS.java:36)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 15 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Investment_ACH()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@4b4ee511]" name="Investment_ACH" duration-ms="76501" started-at="2019-02-15T18:14:21Z" finished-at="2019-02-15T18:15:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Investment_ACH -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_EntityUS@6ca372ef]" name="teardown" is-config="true" duration-ms="1618" started-at="2019-02-15T12:33:52Z" finished-at="2019-02-15T12:33:53Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_EntityUS@4b4ee511]" name="teardown" is-config="true" duration-ms="665" started-at="2019-02-15T18:15:38Z" finished-at="2019-02-15T18:15:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Investment_ACH status=FAILURE method=test_EntityUS.Investment_ACH()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@6ca372ef] output={null}]]]>
+                <![CDATA[[TestResult name=Investment_ACH status=SUCCESS method=test_EntityUS.Investment_ACH()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@4b4ee511] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -1386,11 +718,11 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@6ca372ef]" name="setup" is-config="true" duration-ms="3466" started-at="2019-02-15T12:33:53Z" finished-at="2019-02-15T12:33:57Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@4b4ee511]" name="setup" is-config="true" duration-ms="3281" started-at="2019-02-15T18:15:38Z" finished-at="2019-02-15T18:15:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Investment_Wire()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@6ca372ef]" name="Investment_Wire" duration-ms="38708" started-at="2019-02-15T12:33:57Z" finished-at="2019-02-15T12:34:36Z">
+        <test-method status="FAIL" signature="Investment_Wire()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@4b4ee511]" name="Investment_Wire" duration-ms="37391" started-at="2019-02-15T18:15:42Z" finished-at="2019-02-15T18:16:19Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)]]>
@@ -1435,11 +767,11 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Investment_Wire -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_EntityUS@6ca372ef]" name="teardown" is-config="true" duration-ms="1437" started-at="2019-02-15T12:34:36Z" finished-at="2019-02-15T12:34:38Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_EntityUS@4b4ee511]" name="teardown" is-config="true" duration-ms="1437" started-at="2019-02-15T18:16:20Z" finished-at="2019-02-15T18:16:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Investment_Wire status=FAILURE method=test_EntityUS.Investment_Wire()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@6ca372ef] output={null}]]]>
+                <![CDATA[[TestResult name=Investment_Wire status=FAILURE method=test_EntityUS.Investment_Wire()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@4b4ee511] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -1451,60 +783,19 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@6ca372ef]" name="setup" is-config="true" duration-ms="3317" started-at="2019-02-15T12:34:38Z" finished-at="2019-02-15T12:34:41Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@4b4ee511]" name="setup" is-config="true" duration-ms="3224" started-at="2019-02-15T18:16:21Z" finished-at="2019-02-15T18:16:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Investment_Bitcoin()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@6ca372ef]" name="Investment_Bitcoin" duration-ms="38477" started-at="2019-02-15T12:34:41Z" finished-at="2019-02-15T12:35:20Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at UnitClassSet.AccountType.AccountTypeCheck(AccountType.java:15)
-at UnitClassSet.Investment.test_EntityUS.Investment_Bitcoin(test_EntityUS.java:90)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 15 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Investment_Bitcoin()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@4b4ee511]" name="Investment_Bitcoin" duration-ms="71387" started-at="2019-02-15T18:16:25Z" finished-at="2019-02-15T18:17:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Investment_Bitcoin -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_EntityUS@6ca372ef]" name="teardown" is-config="true" duration-ms="1407" started-at="2019-02-15T12:35:20Z" finished-at="2019-02-15T12:35:22Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_EntityUS@4b4ee511]" name="teardown" is-config="true" duration-ms="678" started-at="2019-02-15T18:17:36Z" finished-at="2019-02-15T18:17:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Investment_Bitcoin status=FAILURE method=test_EntityUS.Investment_Bitcoin()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@6ca372ef] output={null}]]]>
+                <![CDATA[[TestResult name=Investment_Bitcoin status=SUCCESS method=test_EntityUS.Investment_Bitcoin()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@4b4ee511] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -1516,20 +807,53 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@6ca372ef]" name="setup" is-config="true" duration-ms="3274" started-at="2019-02-15T12:35:22Z" finished-at="2019-02-15T12:35:25Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@4b4ee511]" name="setup" is-config="true" duration-ms="3334" started-at="2019-02-15T18:17:37Z" finished-at="2019-02-15T18:17:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Investment_Ethereum()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@6ca372ef]" name="Investment_Ethereum" duration-ms="38560" started-at="2019-02-15T12:35:25Z" finished-at="2019-02-15T12:36:04Z">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method status="FAIL" signature="Investment_Ethereum()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@4b4ee511]" name="Investment_Ethereum" duration-ms="39735" started-at="2019-02-15T18:17:40Z" finished-at="2019-02-15T18:18:20Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/section/div/div[2]/div[1]/div[1]/div[2]"}
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54901}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: dc343073039895b52801f3d05951e07b
+*** Element info: {Using=xpath, value=//*[@id="content"]/section/div/div[2]/div[1]/div[1]/div[2]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at UnitClassSet.AccountType.AccountTypeCheck(AccountType.java:15)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/section/div/div[2]/div[1]/div[1]/div[2]"}
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54901}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: dc343073039895b52801f3d05951e07b
+*** Element info: {Using=xpath, value=//*[@id="content"]/section/div/div[2]/div[1]/div[1]/div[2]}
+at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at UnitClassSet.AccountType.AccountTypeCheck(AccountType.java:30)
 at UnitClassSet.Investment.test_EntityUS.Investment_Ethereum(test_EntityUS.java:117)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -1544,32 +868,17 @@ at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 15 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Investment_Ethereum -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_EntityUS@6ca372ef]" name="teardown" is-config="true" duration-ms="1336" started-at="2019-02-15T12:36:04Z" finished-at="2019-02-15T12:36:06Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.Investment.test_EntityUS@4b4ee511]" name="teardown" is-config="true" duration-ms="948" started-at="2019-02-15T18:18:20Z" finished-at="2019-02-15T18:18:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Investment_Ethereum status=FAILURE method=test_EntityUS.Investment_Ethereum()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@6ca372ef] output={null}]]]>
+                <![CDATA[[TestResult name=Investment_Ethereum status=FAILURE method=test_EntityUS.Investment_Ethereum()[pri:0, instance:UnitClassSet.Investment.test_EntityUS@4b4ee511] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -1583,13 +892,13 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
         </test-method> <!-- teardown -->
       </class> <!-- UnitClassSet.Investment.test_EntityUS -->
     </test> <!-- Investments -->
-    <test name="ContactUS forms" duration-ms="38750" started-at="2019-02-15T12:39:03Z" finished-at="2019-02-15T12:39:42Z">
+    <test name="ContactUS forms" duration-ms="38887" started-at="2019-02-15T18:22:46Z" finished-at="2019-02-15T18:23:25Z">
       <class name="UnitClassSet.ContactUS.test_ContactUS">
-        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.ContactUS.test_ContactUS@47b11ec7]" name="setup" is-config="true" duration-ms="3271" started-at="2019-02-15T12:39:03Z" finished-at="2019-02-15T12:39:06Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:UnitClassSet.ContactUS.test_ContactUS@43bf5397]" name="setup" is-config="true" duration-ms="3255" started-at="2019-02-15T18:22:46Z" finished-at="2019-02-15T18:22:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="ContactUS_Raise_Funds()[pri:0, instance:UnitClassSet.ContactUS.test_ContactUS@47b11ec7]" name="ContactUS_Raise_Funds" duration-ms="34147" started-at="2019-02-15T12:39:06Z" finished-at="2019-02-15T12:39:40Z">
+        <test-method status="FAIL" signature="ContactUS_Raise_Funds()[pri:0, instance:UnitClassSet.ContactUS.test_ContactUS@43bf5397]" name="ContactUS_Raise_Funds" duration-ms="34181" started-at="2019-02-15T18:22:50Z" finished-at="2019-02-15T18:23:24Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='start_raise_description']"}
@@ -1600,8 +909,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52281}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: 2702e77c7ea45ce220e3bf6eaadfbf1e
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55643}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 3bcbd06a12e2cfaf1e1697f9acaa6e04
 *** Element info: {Using=xpath, value=//input[@id='start_raise_description']}]]>
             </message>
             <full-stacktrace>
@@ -1613,8 +922,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52281}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: 2702e77c7ea45ce220e3bf6eaadfbf1e
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55643}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 3bcbd06a12e2cfaf1e1697f9acaa6e04
 *** Element info: {Using=xpath, value=//input[@id='start_raise_description']}
 at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1653,11 +962,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactUS_Raise_Funds -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.ContactUS.test_ContactUS@47b11ec7]" name="teardown" is-config="true" duration-ms="984" started-at="2019-02-15T12:39:41Z" finished-at="2019-02-15T12:39:42Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.ContactUS.test_ContactUS@43bf5397]" name="teardown" is-config="true" duration-ms="1038" started-at="2019-02-15T18:23:24Z" finished-at="2019-02-15T18:23:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ContactUS_Raise_Funds status=FAILURE method=test_ContactUS.ContactUS_Raise_Funds()[pri:0, instance:UnitClassSet.ContactUS.test_ContactUS@47b11ec7] output={null}]]]>
+                <![CDATA[[TestResult name=ContactUS_Raise_Funds status=FAILURE method=test_ContactUS.ContactUS_Raise_Funds()[pri:0, instance:UnitClassSet.ContactUS.test_ContactUS@43bf5397] output={null}]]]>
               </value>
             </param>
             <param index="1">

@@ -20,4 +20,7 @@ public class PagesURL {
     public void LoginPage(){
         SetupClass.GetDriver().get("https://secure-seriesone.dynamo-ny.com/login");
     }
+    public void ContactUSPage(){
+        SetupClass.GetDriver().get("https://secure-seriesone.dynamo-ny.com/contact-us/");
+    }
 }

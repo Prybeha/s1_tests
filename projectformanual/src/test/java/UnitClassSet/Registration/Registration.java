@@ -68,6 +68,8 @@ public class Registration {
                 LogUtil.log("Third step");
                 SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("//img[@class='footer-logo']")));
                 ThirdStep(user_type);
+                SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("//img[@class='footer-logo']")));
+                Thread.sleep(3000);
             }
             else if(CheckRegistrationStep(current_step) == 4){
                 current_step = 4;// after success third step it will load home page. 4 means check if we on the home page.
@@ -597,13 +599,13 @@ public class Registration {
                 while(value_for_cleared.contains("(")){
                     value_for_cleared = value_for_cleared.replace("(","");
                 }
-                if(value_for_cleared.contains(")")){
+                while(value_for_cleared.contains(")")){
                     value_for_cleared = value_for_cleared.replace(")","");
                 }
-                if(value_for_cleared.contains("-")){
+                while(value_for_cleared.contains("-")){
                     value_for_cleared = value_for_cleared.replace("-","");
                 }
-                if(value_for_cleared.contains(" ")){
+                while(value_for_cleared.contains(" ")){
                     value_for_cleared = value_for_cleared.replace(" ","");
                 }
                 if (!value_for_cleared.contains(values_array[i])) {

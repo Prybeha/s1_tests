@@ -58,16 +58,16 @@
             <!--</class>-->
         <!--</classes>-->
     <!--</test>-->
-    <!--<test thread-count="1" verbose="1" name="ContactUS forms" annotations="JDK" parallel="classes">-->
-        <!--<classes>-->
-            <!--<class name="UnitClassSet.ContactUS.test_ContactUS">-->
-            <!--</class>-->
-        <!--</classes>-->
-    <!--</test>-->
-    <test thread-count="1" verbose="1" name="Static" annotations="JDK" parallel="classes">
+    <test thread-count="1" verbose="1" name="ContactUS forms" annotations="JDK" parallel="classes">
         <classes>
-            <class name="UnitClassSet.StaticPages.test_MainPage">
+            <class name="UnitClassSet.ContactUS.test_ContactUS">
             </class>
         </classes>
     </test>
+    <!--<test thread-count="1" verbose="1" name="Static" annotations="JDK" parallel="classes">-->
+        <!--<classes>-->
+            <!--<class name="UnitClassSet.StaticPages.test_MainPage">-->
+            <!--</class>-->
+        <!--</classes>-->
+    <!--</test>-->
 </suite>

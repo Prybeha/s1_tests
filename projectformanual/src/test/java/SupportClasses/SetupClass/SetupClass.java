@@ -46,6 +46,6 @@ public class SetupClass {
             String path = "./target/allure-results/" + test_name.getName();
             FileHandler.copy(screenshot, new File(path));
         }
-        driver.quit();
+        //driver.quit();
     }
 }

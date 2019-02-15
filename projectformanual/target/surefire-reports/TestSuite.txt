@@ -1,93 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 87.805 s - in TestSuite
-=======
-Tests run: 26, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 2,927.735 s <<< FAILURE! - in TestSuite
-Register_EntityUS(UnitClassSet.Registration.test_RegistrationAllTypes)  Time elapsed: 436.644 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of element located by By.id: flash-messages-success (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50750}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: 86423e56f2d6209159c801f41ea24f94
-	at UnitClassSet.Registration.test_RegistrationAllTypes.Register_EntityUS(test_RegistrationAllTypes.java:32)
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 27.549 s <<< FAILURE! - in TestSuite
+ContactUSForms_ContactUS(UnitClassSet.ContactUS.test_ContactUS)  Time elapsed: 3.982 s  <<< FAILURE!
+java.util.InputMismatchException
+	at UnitClassSet.ContactUS.test_ContactUS.ContactUSForms_ContactUS(test_ContactUS.java:21)
 
-Register_EntitynoUS(UnitClassSet.Registration.test_RegistrationAllTypes)  Time elapsed: 429.568 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of element located by By.id: flash-messages-success (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51234}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: 23be73e7a775aabb31ea907b07cf6a54
-	at UnitClassSet.Registration.test_RegistrationAllTypes.Register_EntitynoUS(test_RegistrationAllTypes.java:37)
+ContactUSForms_License_Platform(UnitClassSet.ContactUS.test_ContactUS)  Time elapsed: 5.812 s  <<< FAILURE!
+java.util.InputMismatchException
+	at UnitClassSet.ContactUS.test_ContactUS.ContactUSForms_License_Platform(test_ContactUS.java:16)
 
-Register_IndividualUS(UnitClassSet.Registration.test_RegistrationAllTypes)  Time elapsed: 316.792 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of element located by By.id: flash-messages-success (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51712}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: 49544f0e9a976f07d8cec8e3528063d5
-	at UnitClassSet.Registration.test_RegistrationAllTypes.Register_IndividualUS(test_RegistrationAllTypes.java:22)
+ContactUSForms_Raise_Funds(UnitClassSet.ContactUS.test_ContactUS)  Time elapsed: 3.968 s  <<< FAILURE!
+java.util.InputMismatchException
+	at UnitClassSet.ContactUS.test_ContactUS.ContactUSForms_Raise_Funds(test_ContactUS.java:11)
 
-Register_IndividualUSnoAccredited(UnitClassSet.Registration.test_RegistrationAllTypes)  Time elapsed: 350.73 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of element located by By.id: flash-messages-success (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52080}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: fbdf4e1427c43300b09976106136ac46
-	at UnitClassSet.Registration.test_RegistrationAllTypes.Register_IndividualUSnoAccredited(test_RegistrationAllTypes.java:42)
-
-Register_IndividualnoUS(UnitClassSet.Registration.test_RegistrationAllTypes)  Time elapsed: 191.01 s  <<< FAILURE!
-SupportClasses.Exceptions.NewAssertError: For locator '//input[@id='registration_second_step_phone']' value '' works wrong!
-	at UnitClassSet.Registration.test_RegistrationAllTypes.Register_IndividualnoUS(test_RegistrationAllTypes.java:27)
-
-Investment_Wire(UnitClassSet.Investment.test_EntityUS)  Time elapsed: 38.217 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='login-block-authorized-container pull-right'] (tried for 20 second(s) with 500 milliseconds interval)
-	at UnitClassSet.Investment.test_EntityUS.Investment_Wire(test_EntityUS.java:63)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //div[@class='login-block-authorized-container pull-right']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-	at UnitClassSet.Investment.test_EntityUS.Investment_Wire(test_EntityUS.java:63)
-
-Investment_Ethereum(UnitClassSet.Investment.test_EntityUS)  Time elapsed: 40.106 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/section/div/div[2]/div[1]/div[1]/div[2]"}
-  (Session info: chrome=72.0.3626.109)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54901}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: dc343073039895b52801f3d05951e07b
-*** Element info: {Using=xpath, value=//*[@id="content"]/section/div/div[2]/div[1]/div[1]/div[2]}
-	at UnitClassSet.Investment.test_EntityUS.Investment_Ethereum(test_EntityUS.java:117)
-
-ContactUS_Raise_Funds(UnitClassSet.ContactUS.test_ContactUS)  Time elapsed: 34.594 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='start_raise_description']"}
-  (Session info: chrome=72.0.3626.109)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'VPRYBEHA-W10', ip: '10.91.130.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\vprybeha\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55643}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: 3bcbd06a12e2cfaf1e1697f9acaa6e04
-*** Element info: {Using=xpath, value=//input[@id='start_raise_description']}
-	at UnitClassSet.ContactUS.test_ContactUS.ContactUS_Raise_Funds(test_ContactUS.java:11)
-
->>>>>>> 0899fc5dfcdff1fd1a37e0610866ea659ae4737b

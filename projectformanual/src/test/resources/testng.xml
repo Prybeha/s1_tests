@@ -8,66 +8,66 @@
             <!--</class>-->
         <!--</classes>-->
     <!--</test>-->
-    <!--<test thread-count="1" verbose="1" name="Registration" annotations="JDK" parallel="classes">-->
-        <!--<classes>-->
-            <!--<class name="UnitClassSet.Registration.test_RegistrationAllTypes">-->
-            <!--</class>-->
-        <!--</classes>-->
-    <!--</test>-->
-    <!--<test thread-count="1" verbose="1" name="Investments" annotations="JDK" parallel="classes">-->
-        <!--<classes>-->
-            <!--<class name="UnitClassSet.Investment.test_IndividualUS">-->
-                <!--<methods>-->
-                    <!--<include name="Investment_ACH"/>-->
-                    <!--<include name="Investment_Wire"/>-->
-                    <!--<include name="Investment_Bitcoin"/>-->
-                    <!--<include name="Investment_Ethereum"/>-->
-                <!--</methods>-->
-            <!--</class>-->
-            <!--<class name="UnitClassSet.Investment.test_IndividualnoUS">-->
-                <!--<methods>-->
-                    <!--<include name="Investment_ACH"/>-->
-                    <!--<include name="Investment_Wire"/>-->
-                    <!--<include name="Investment_Bitcoin"/>-->
-                    <!--<include name="Investment_Ethereum"/>-->
-                <!--</methods>-->
-            <!--</class>-->
-            <!--<class name="UnitClassSet.Investment.test_IndividualUSnoAccredited">-->
-                <!--<methods>-->
-                    <!--<include name="Investment_ACH"/>-->
-                    <!--<include name="Investment_Wire"/>-->
-                    <!--<include name="Investment_Bitcoin"/>-->
-                    <!--<include name="Investment_Ethereum"/>-->
-                <!--</methods>-->
-            <!--</class>-->
-            <!--<class name="UnitClassSet.Investment.test_EntityUS">-->
-                <!--<methods>-->
-                    <!--<include name="Investment_ACH"/>-->
-                    <!--<include name="Investment_Wire"/>-->
-                    <!--<include name="Investment_Bitcoin"/>-->
-                    <!--<include name="Investment_Ethereum"/>-->
-                <!--</methods>-->
-            <!--</class>-->
-            <!--<class name="UnitClassSet.Investment.test_EntitynoUS">-->
-                <!--<methods>-->
-                    <!--<include name="Investment_ACH"/>-->
-                    <!--<include name="Investment_Wire"/>-->
-                    <!--<include name="Investment_Bitcoin"/>-->
-                    <!--<include name="Investment_Ethereum"/>-->
-                <!--</methods>-->
-            <!--</class>-->
-        <!--</classes>-->
-    <!--</test>-->
-    <!--<test thread-count="1" verbose="1" name="ContactUS forms" annotations="JDK" parallel="classes">-->
-        <!--<classes>-->
-            <!--<class name="UnitClassSet.ContactUS.test_ContactUS">-->
-            <!--</class>-->
-        <!--</classes>-->
-    <!--</test>-->
-    <test thread-count="1" verbose="1" name="Static" annotations="JDK" parallel="classes">
+    <test thread-count="1" verbose="1" name="Registration" annotations="JDK" parallel="classes">
         <classes>
-            <class name="UnitClassSet.StaticPages.test_MainPage">
+            <class name="UnitClassSet.Registration.test_RegistrationAllTypes">
             </class>
         </classes>
     </test>
+    <test thread-count="1" verbose="1" name="Investments" annotations="JDK" parallel="classes">
+        <classes>
+            <class name="UnitClassSet.Investment.test_IndividualUS">
+                <methods>
+                    <include name="Investment_ACH"/>
+                    <include name="Investment_Wire"/>
+                    <include name="Investment_Bitcoin"/>
+                    <include name="Investment_Ethereum"/>
+                </methods>
+            </class>
+            <class name="UnitClassSet.Investment.test_IndividualnoUS">
+                <methods>
+                    <include name="Investment_ACH"/>
+                    <include name="Investment_Wire"/>
+                    <include name="Investment_Bitcoin"/>
+                    <include name="Investment_Ethereum"/>
+                </methods>
+            </class>
+            <class name="UnitClassSet.Investment.test_IndividualUSnoAccredited">
+                <methods>
+                    <include name="Investment_ACH"/>
+                    <include name="Investment_Wire"/>
+                    <include name="Investment_Bitcoin"/>
+                    <include name="Investment_Ethereum"/>
+                </methods>
+            </class>
+            <class name="UnitClassSet.Investment.test_EntityUS">
+                <methods>
+                    <include name="Investment_ACH"/>
+                    <include name="Investment_Wire"/>
+                    <include name="Investment_Bitcoin"/>
+                    <include name="Investment_Ethereum"/>
+                </methods>
+            </class>
+            <class name="UnitClassSet.Investment.test_EntitynoUS">
+                <methods>
+                    <include name="Investment_ACH"/>
+                    <include name="Investment_Wire"/>
+                    <include name="Investment_Bitcoin"/>
+                    <include name="Investment_Ethereum"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test thread-count="1" verbose="1" name="ContactUS forms" annotations="JDK" parallel="classes">
+        <classes>
+            <class name="UnitClassSet.ContactUS.test_ContactUS">
+            </class>
+        </classes>
+    </test>
+    <!--<test thread-count="1" verbose="1" name="Static" annotations="JDK" parallel="classes">-->
+        <!--<classes>-->
+            <!--<class name="UnitClassSet.StaticPages.test_MainPage">-->
+            <!--</class>-->
+        <!--</classes>-->
+    <!--</test>-->
 </suite>

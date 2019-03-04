@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6c09ba75-c11e-4fc2-bbfe-ae92e986a408" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/Raise_Funds_ContactUS_Form.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/lead_id.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/test_ContactUS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,38 +19,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EmailReceivingChecking_ContactUS.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java">
+      <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="19" column="69" lean-forward="true" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+            <state relative-caret-position="238">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmailReceivingChecking_Registration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_Registration.java">
+      <file leaf-file-name="test_EntitynoUS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntitynoUS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+            <state relative-caret-position="-622">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Investment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_BrowseDealsPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BrowseDealsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3062">
+              <caret line="194" column="23" selection-start-line="194" selection-start-column="23" selection-end-line="194" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_MainPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Registration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="237" column="54" selection-start-line="237" selection-start-column="54" selection-end-line="237" selection-end-column="54" />
+            <state relative-caret-position="476">
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -119,7 +133,6 @@
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_EducationResourcesPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_ImportantDisclaimerPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_InvestorsQuestionsPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_PrivacyPolicyPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_RaiseFundsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_TermsOfUsePage.java" />
@@ -142,6 +155,7 @@
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java" />
         <option value="$PROJECT_DIR$/../../../../BackUp/3.1.2019/projectformanual/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java" />
       </list>
     </option>
   </component>
@@ -221,7 +235,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="UnitClassSet" type="462c0819:PsiDirectoryNode" />
-              <item name="Gmail_Mailbox" type="462c0819:PsiDirectoryNode" />
+              <item name="StaticPages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projectformanual" type="b2602c69:ProjectViewProjectNode" />
@@ -462,8 +476,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="209" column="30" selection-start-line="209" selection-start-column="30" selection-end-line="209" selection-end-column="30" />
+        <state relative-caret-position="17">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -483,7 +497,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntitynoUS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
+        <state relative-caret-position="-622">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
@@ -523,7 +537,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BrowseDealsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
+        <state relative-caret-position="3062">
           <caret line="194" column="23" selection-start-line="194" selection-start-column="23" selection-end-line="194" selection-end-column="23" />
         </state>
       </provider>
@@ -572,8 +586,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
+        <state relative-caret-position="391">
+          <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -650,33 +664,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/lead_id.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/test_ContactUS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/Raise_Funds_ContactUS_Form.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/lead_id.txt" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/test_ContactUS.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/Raise_Funds_ContactUS_Form.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-238">
@@ -715,7 +705,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -728,8 +718,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        <state relative-caret-position="476">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
         </state>
       </provider>
     </entry>

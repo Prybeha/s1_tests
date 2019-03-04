@@ -17,7 +17,7 @@ public class EmailReceivingChecking_ContactUS {
     private void Gmail_CheckContent_for_LeadCreation(int request_page) throws Exception{
         Scanner reader = new Scanner(new File("src/test/java/UnitClassSet/ContactUS/lead_id.txt"));
         int id = reader.nextInt();
-        String email = "prybehavtests+lead_raise_funds_" + Integer.toString(id - 1) + "@gmail.com";
+        String email = "prybehavtests+lead" + Integer.toString(id - 1) + "@gmail.com";
         String name = "AutoTest_Name" + Integer.toString(id - 1);
 
         Thread.sleep(5000);

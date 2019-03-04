@@ -59,18 +59,4 @@
             <class name="UnitClassSet.Investment.test_EntitynoUS"/>
         </classes>
     </test>
-    <test thread-count="1" verbose="1" name="ContactUS forms" annotations="JDK" parallel="classes">
-        <classes>
-            <class name="UnitClassSet.ContactUS.test_ContactUS">
-                <methods>
-                    <include name="ContactUSForms_Raise_Funds"/>
-                    <include name="ContactUSForms_CheckEmail_Raise_Funds"/>
-                    <include name="ContactUSForms_License_Platform"/>
-                    <include name="ContactUSForms_CheckEmail_License_Platform"/>
-                    <include name="ContactUSForms_ContactUS"/>
-                    <include name="ContactUSForms_CheckEmail_ContactUS"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
 </suite>

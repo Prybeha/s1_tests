@@ -2,105 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c09ba75-c11e-4fc2-bbfe-ae92e986a408" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/PagesURL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SupportClasses/SetupClass/SetupClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SupportClasses/SetupClass/SetupClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/AccountType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/AccountType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/CheckAppearingError/AppearingError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/CheckAppearingError/AppearingError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/Raise_Funds_ContactUS_Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/Raise_Funds_ContactUS_Form.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/lead_id.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/lead_id.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/test_ContactUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/test_ContactUS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SupportClasses/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntityUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntityUS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntitynoUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntitynoUS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualUS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualUSnoAccredited.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualUSnoAccredited.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualnoUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualnoUS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Maintenance/Maintenance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Maintenance/Maintenance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/PagesURL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/id.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/id.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/test_RegistrationAllTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/test_RegistrationAllTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Switchers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SupportClasses/Switchers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/Raise_Funds_ContactUS_Form.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/lead_id.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/test_ContactUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/240239c3-5964-41fe-99b0-2f63d246f9c5-testsuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/environment.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-02-15T19-10-37_208.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Sone tests/ContactUS forms.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Sone tests/ContactUS forms.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-UnitClassSet.ContactUS.test_ContactUS.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Sone tests/ContactUS forms.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Sone tests/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Sone tests/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Sone tests/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Sone tests/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Sone tests/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Sone tests/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Sone tests/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Sone tests/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Sone tests/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Sone tests/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DB/db_registration_first_step.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DB/db_registration_second_step.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DB/db_registration_third_step_E.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DB/db_registration_third_step_general.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LoggingForTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SupportClasses/AllureFunc/LogUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SupportClasses/AllureFunc/ScreenShotUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SupportClasses/Exceptions/NewAssertError.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SupportClasses/Exceptions/NewException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SupportClasses/SetupClass/SetupClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SupportClasses/TestLink/TestLinkResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SupportClasses/WaitingForElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitClassSet/AccountType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitClassSet/CheckAppearingError/AppearingError.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitClassSet/ContactUS/Raise_Funds_ContactUS_Form.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitClassSet/ContactUS/test_ContactUS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitClassSet/Field.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitClassSet/Investment/Investment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitClassSet/Investment/test_EntityUS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitClassSet/Investment/test_EntitynoUS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitClassSet/Investment/test_IndividualUS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitClassSet/Investment/test_IndividualUSnoAccredited.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitClassSet/Investment/test_IndividualnoUS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitClassSet/Login/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitClassSet/Maintenance/Maintenance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitClassSet/PagesURL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitClassSet/Registration/Registration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitClassSet/Registration/test_RegistrationAllTypes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitClassSet/StaticPages/test_MainPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitClassSet/Switchers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/environment.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/jar_library/testlink-api-client-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/jar_library/ws-commons-util-1.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/jar_library/xmlrpc-client-3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/jar_library/xmlrpc-common-3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -116,26 +23,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
+      <file leaf-file-name="EmailReceivingChecking_ContactUS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="19" column="69" lean-forward="true" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EmailReceivingChecking_Registration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_Registration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1377">
+              <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="88" lean-forward="true" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
-              <folding>
-                <marker date="1551456967386" expanded="true" signature="1819:4226" ph="..." />
-              </folding>
+            <state relative-caret-position="1037">
+              <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -143,32 +53,8 @@
       <file leaf-file-name="Registration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
-              <folding>
-                <element signature="method#Register#0;class#Registration#0" />
-                <element signature="method#CheckRegistrationStep#0;class#Registration#0" />
-                <element signature="method#CheckEmailExist#0;class#Registration#0" />
-                <element signature="method#FirstStep#0;class#Registration#0" />
-                <element signature="method#SecondStep_ChooseAccountType#0;class#Registration#0" />
-                <element signature="method#SecondStep#0;class#Registration#0" />
-                <element signature="method#ThirdStep#0;class#Registration#0" />
-                <element signature="method#Third_Step_For_Individual#0;class#Registration#0" />
-                <element signature="method#Third_Step_For_Entity#0;class#Registration#0" />
-                <element signature="method#Third_Step_Switchers#0;class#Registration#0" />
-                <element signature="method#Third_Step_Switchers_Check#0;class#Registration#0" />
-                <element signature="method#Check_Info_In_MyAccount#0;class#Registration#0" />
-                <element signature="method#Match_Value_For_Diff_Types#0;class#Registration#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="id.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/id.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+            <state relative-caret-position="-238">
+              <caret line="237" column="54" selection-start-line="237" selection-start-column="54" selection-end-line="237" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -205,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/SupportClasses/WaitingForElement.java" />
         <option value="$PROJECT_DIR$/src/test/java/CheckLink.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/PagesURL.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntitynoUS.java" />
@@ -250,12 +135,13 @@
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/Raise_Funds_ContactUS_Form.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/Gmail.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_Registration.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/test_ContactUS.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/id.txt" />
+        <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java" />
+        <option value="$PROJECT_DIR$/../../../../BackUp/3.1.2019/projectformanual/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java" />
       </list>
     </option>
   </component>
@@ -294,6 +180,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -332,13 +219,21 @@
               <item name="projectformanual" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UnitClassSet" type="462c0819:PsiDirectoryNode" />
+              <item name="Gmail_Mailbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectformanual" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectformanual" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -491,21 +386,40 @@
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.35947713" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.13006397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.13113007" />
       <window_info anchor="bottom" id="Structure" order="3" sideWeight="0.50053304" side_tool="true" weight="0.33006537" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" sideWeight="0.50108933" side_tool="true" weight="0.16044776" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.13006397" />
+      <window_info anchor="bottom" id="Structure" order="3" sideWeight="0.50053304" side_tool="true" weight="0.33006537" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.32897604" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49946696" weight="0.29411766" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.12153518" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.33006537" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32900432" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.35947713" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.18603411" />
+      <window_info id="Favorites" order="5" sideWeight="0.50108933" side_tool="true" weight="0.16044776" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -546,20 +460,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/CheckLink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="97" column="86" selection-start-line="97" selection-start-column="86" selection-end-line="97" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -743,13 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_Registration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="88" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/Gmail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -764,66 +657,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/test_ContactUS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
+        <state relative-caret-position="357">
           <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/Raise_Funds_ContactUS_Form.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="305" lean-forward="true" selection-start-line="305" selection-end-line="305" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/Raise_Funds_ContactUS_Form.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="88" lean-forward="true" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
+        <state relative-caret-position="51">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding>
-            <marker date="1551456967386" expanded="true" signature="1819:4226" ph="..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
-          <folding>
-            <element signature="method#Register#0;class#Registration#0" />
-            <element signature="method#CheckRegistrationStep#0;class#Registration#0" />
-            <element signature="method#CheckEmailExist#0;class#Registration#0" />
-            <element signature="method#FirstStep#0;class#Registration#0" />
-            <element signature="method#SecondStep_ChooseAccountType#0;class#Registration#0" />
-            <element signature="method#SecondStep#0;class#Registration#0" />
-            <element signature="method#ThirdStep#0;class#Registration#0" />
-            <element signature="method#Third_Step_For_Individual#0;class#Registration#0" />
-            <element signature="method#Third_Step_For_Entity#0;class#Registration#0" />
-            <element signature="method#Third_Step_Switchers#0;class#Registration#0" />
-            <element signature="method#Third_Step_Switchers_Check#0;class#Registration#0" />
-            <element signature="method#Check_Info_In_MyAccount#0;class#Registration#0" />
-            <element signature="method#Match_Value_For_Diff_Types#0;class#Registration#0" />
-          </folding>
+        <state relative-caret-position="-238">
+          <caret line="237" column="54" selection-start-line="237" selection-start-column="54" selection-end-line="237" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -831,6 +688,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../BackUp/3.1.2019/projectformanual/src/test/java/UnitClassSet/ContactUS/Raise_Funds_ContactUS_Form.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="34" column="63" lean-forward="true" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../BackUp/3.1.2019/projectformanual/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="69" lean-forward="true" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
         </state>
       </provider>
     </entry>

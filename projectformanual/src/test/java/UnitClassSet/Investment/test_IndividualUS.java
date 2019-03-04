@@ -2,12 +2,9 @@ package UnitClassSet.Investment;
 
 import SupportClasses.AllureFunc.LogUtil;
 import SupportClasses.SetupClass.SetupClass;
-import UnitClassSet.AccountType;
-import UnitClassSet.Investment.Investment;
 import UnitClassSet.Login.Login;
 import UnitClassSet.Maintenance.Maintenance;
-import UnitClassSet.PagesURL;
-import org.testng.Assert;
+import UnitClassSet.StaticPages.PagesURL;
 import org.testng.annotations.Test;
 import ru.yandex.qatools.allure.annotations.Description;
 import ru.yandex.qatools.allure.annotations.Features;
@@ -24,8 +21,7 @@ public class test_IndividualUS extends SetupClass{
     @Description("Login > check account type > make ACH investment")
     @Test
     public void Investment_ACH() throws Exception{
-        PagesURL url = new PagesURL();
-        url.LoginPage();
+        PagesURL.LoginPage();
 
         Maintenance maintenance = new Maintenance();
         if (maintenance.MaintenancePageCheck()){
@@ -51,8 +47,7 @@ public class test_IndividualUS extends SetupClass{
     @Description("Login > check account type > make Wire investment")
     @Test
     public void Investment_Wire() throws Exception{
-        PagesURL url = new PagesURL();
-        url.LoginPage();
+        PagesURL.LoginPage();
 
         Maintenance maintenance = new Maintenance();
         if (maintenance.MaintenancePageCheck()){
@@ -78,8 +73,7 @@ public class test_IndividualUS extends SetupClass{
     @Description("Login > check account type > make Bitcoin investment")
     @Test
     public void Investment_Bitcoin() throws Exception{
-        PagesURL url = new PagesURL();
-        url.LoginPage();
+        PagesURL.LoginPage();
 
         Maintenance maintenance = new Maintenance();
         if (maintenance.MaintenancePageCheck()){
@@ -105,8 +99,7 @@ public class test_IndividualUS extends SetupClass{
     @Description("Login > check account type > make Ethereum investment")
     @Test
     public void Investment_Ethereum() throws Exception{
-        PagesURL url = new PagesURL();
-        url.LoginPage();
+        PagesURL.LoginPage();
 
         Maintenance maintenance = new Maintenance();
         if (maintenance.MaintenancePageCheck()){

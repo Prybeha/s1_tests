@@ -6,106 +6,63 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
 
-public class test_MainPage extends SetupClass{
+public class test_PrivacyPolicyPage extends SetupClass {
     private CheckLink check_link = new CheckLink();
 
     @Test
-    public void MainPage_Title(){
-        PagesURL.MainPage();
+    public void PrivacyPolicyPage_Title(){
+        PagesURL.PrivacyPolicyPage();
 
-        if(!SetupClass.GetDriver().getTitle().equals("Token offerings, debt and equity investment platform | seriesOne")){
+        //  "seriesOne" word - make first char uppercase
+        if(!SetupClass.GetDriver().getTitle().equals("Privacy Policy | seriesOne")){
             throw new NewAssertError("Title on the main page does not match with required");
         }
     }
 
     @Test
-    public void MainPage_HeaderAndFooterSeriesOneLogoButton(){
-        PagesURL.MainPage();
+    public void PrivacyPolicyPage_HeaderButtons() throws Exception{
+        PagesURL.PrivacyPolicyPage();
 
-        SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(
-                By.xpath("//img[@src='https://secure-seriesone.dynamo-ny.com/media/cache/seriesone_logo/bundles/frontend/images/logos/seriesOne-white.png']")));
-        SetupClass.GetDriver().findElement(By.xpath("//img[@src='https://secure-seriesone.dynamo-ny.com/media/cache/seriesone_logo/bundles/frontend/images/logos/seriesOne-white.png']")).click();
-        if(!SetupClass.GetDriver().getCurrentUrl().equals("https://seriesone.dynamo-ny.com/")){
-            throw new NewAssertError("UpperSeriesOneLogoButton goes on the wrong page");
-        }
-
-        PagesURL.MainPage();
-
-        check_link.CheckLinkURL("SeriesOne Logo",
-                "//img[@class='footer-logo']",
-                "https://seriesone.dynamo-ny.com/");
-    }
-
-    @Test
-    public void MainPage_HeaderButtons() throws Exception{
-        PagesURL.MainPage();
         String[] expected_urls = {"https://secure-seriesone.dynamo-ny.com/deals", "https://seriesone.dynamo-ny.com/start-raising-funds/",
                 "https://seriesone.dynamo-ny.com/brokerone/", "https://seriesone.dynamo-ny.com/learn/", "https://seriesone.dynamo-ny.com/digital-security-offerings/"};
 
         for(int i = 1;i <= expected_urls.length; i++) {
-            System.out.println(i);
-            SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div/div[1]/header/div[2]/div/ul/li[" + i + "]/a")));
-            SetupClass.GetDriver().findElement(By.xpath("/html/body/div/div[1]/header/div[2]/div/ul/li[" + i + "]/a")).click();
+            SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/header/div[2]/div/ul/li[" + i + "]/a")));
+            SetupClass.GetDriver().findElement(By.xpath("/html/body/header/div[2]/div/ul/li[" + i + "]/a")).click();
             Thread.sleep(500);
             if (!SetupClass.GetDriver().getCurrentUrl().equals(expected_urls[i-1])) {
                 throw new NewAssertError("Header button goes on the wrong page: " + SetupClass.GetDriver().getCurrentUrl());
             }
-            PagesURL.MainPage();
+            PagesURL.PrivacyPolicyPage();
         }
     }
 
     @Test
-    public void MainPage_SignUpAndLogin(){
-        PagesURL.MainPage();
+    public void PrivacyPolicyPage_SignUpAndLogin() throws Exception {
+        PagesURL.PrivacyPolicyPage();
 
         check_link.CheckLinkURL("SignUp",
-                "/html/body/div/div[1]/header/div[2]/div/div[2]/div/a[1]",
+                "/html/body/header/div[2]/div/div[2]/div/a[1]",
                 "https://secure-seriesone.dynamo-ny.com/register");
 
-        PagesURL.MainPage();
+        PagesURL.PrivacyPolicyPage();
 
         check_link.CheckLinkURL("Login",
-                "/html/body/div/div[1]/header/div[2]/div/div[2]/div/a[2]",
+                "/html/body/header/div[2]/div/div[2]/div/a[2]",
                 "https://secure-seriesone.dynamo-ny.com/login");
+
+        PagesURL.PrivacyPolicyPage();
+        Thread.sleep(1000);
+
+        check_link.CheckLinkURL("Learn more",
+                "//a[text()='Learn More']",
+                "https://secure-seriesone.dynamo-ny.com/deals");
     }
 
     @Test
-    public void MainPage_BodyButtons(){
-        PagesURL.MainPage();
+    public void PrivacyPolicyPage_SocialMediaIcons() throws Exception{
 
-        check_link.CheckLinkURL("Browse deals",
-                "/html/body/div/div[2]/div[2]/section[1]/div/div/div[1]/div[1]/div/div[3]/figure/figcaption/div[2]/a",
-                "https://secure-seriesone.dynamo-ny.com/deals");
-
-        PagesURL.MainPage();
-
-        check_link.CheckLinkURL("Browse deals",
-                "/html/body/div/div[2]/div[2]/div/section[1]/div[2]/div[2]/a",
-                "https://secure-seriesone.dynamo-ny.com/deals");
-
-        PagesURL.MainPage();
-
-        check_link.CheckLinkURL("Sign Up",
-                "/html/body/div/div[2]/div[2]/div/div/div/section[1]/div/div/div[2]/a/button",
-                "https://secure-seriesone.dynamo-ny.com/register");
-
-        PagesURL.MainPage();
-
-        check_link.CheckLinkURL("Start Raising Funds",
-                "/html/body/div/div[2]/div[2]/div/div/div/div/section[2]/div/div/div/div[1]/div/a/button",
-                "https://seriesone.dynamo-ny.com/start-raising-funds/");
-
-        PagesURL.MainPage();
-
-        check_link.CheckLinkURL("Start Investing",
-                "/html/body/div/div[2]/div[2]/div/div/div/div/section[2]/div/div/div/div[3]/div/a/button",
-                "https://secure-seriesone.dynamo-ny.com/register");
-    }
-
-    @Test
-    public void MainPage_SocialMediaIcons() throws Exception{
-
-        PagesURL.MainPage();
+        PagesURL.PrivacyPolicyPage();
         Thread.sleep(500);
         String parentWindow = SetupClass.GetDriver().getWindowHandle();
 
@@ -138,7 +95,7 @@ public class test_MainPage extends SetupClass{
             if(!windowHandle.equals(parentWindow))
             {
                 SetupClass.GetDriver().switchTo().window(windowHandle);
-                Thread.sleep(2000);
+                Thread.sleep(3000);
                 if (!SetupClass.GetDriver().getCurrentUrl().equals("https://business.facebook.com/seriesOneFinance/") &&
                         !SetupClass.GetDriver().getCurrentUrl().equals("https://business.facebook.com/SeriesOne-162178631110154")) {
                     throw new NewAssertError("'Facebook Logo' button has been broken");
@@ -147,6 +104,7 @@ public class test_MainPage extends SetupClass{
                 SetupClass.GetDriver().switchTo().window(parentWindow); //cntrl to parent window
             }
         }
+
         Thread.sleep(500);
         parentWindow = SetupClass.GetDriver().getWindowHandle();
 
@@ -169,89 +127,103 @@ public class test_MainPage extends SetupClass{
     }
 
     @Test
-    public void MainPage_FooterLinks(){
-        PagesURL.MainPage();
+    public void PrivacyPolicyPage_FooterLinks() throws Exception{
+        PagesURL.PrivacyPolicyPage();
+        Thread.sleep(500);
 
         check_link.CheckLinkURL("About Us",
-                "/html/body/div/div[2]/div[3]/footer/div[1]/div[2]/div[1]/ul/li[1]/a",
+                "/html/body/div/footer/div[1]/div[2]/div[1]/ul/li[1]/a",
                 "https://secure-seriesone.dynamo-ny.com/about-us");
 
-        PagesURL.MainPage();
+        PagesURL.PrivacyPolicyPage();
+        Thread.sleep(500);
 
         check_link.CheckLinkURL("Blog",
-                "/html/body/div/div[2]/div[3]/footer/div[1]/div[2]/div[1]/ul/li[2]/a",
+                "/html/body/div/footer/div[1]/div[2]/div[1]/ul/li[2]/a",
                 "https://seriesone.dynamo-ny.com/blog/");
 
-        PagesURL.MainPage();
+        PagesURL.PrivacyPolicyPage();
+        Thread.sleep(500);
 
         check_link.CheckLinkURL("Contact Us",
-                "/html/body/div/div[2]/div[3]/footer/div[1]/div[2]/div[1]/ul/li[3]/a",
+                "/html/body/div/footer/div[1]/div[2]/div[1]/ul/li[3]/a",
                 "https://secure-seriesone.dynamo-ny.com/contact-us/");
 
-        PagesURL.MainPage();
+        PagesURL.PrivacyPolicyPage();
+        Thread.sleep(500);
 
         check_link.CheckLinkURL("Browse deals",
-                "/html/body/div/div[2]/div[3]/footer/div[1]/div[2]/div[2]/ul/li[1]/a",
+                "/html/body/div/footer/div[1]/div[2]/div[2]/ul/li[1]/a",
                 "https://secure-seriesone.dynamo-ny.com/deals");
 
-        PagesURL.MainPage();
+        PagesURL.PrivacyPolicyPage();
+        Thread.sleep(500);
 
         check_link.CheckLinkURL("About Investing",
-                "/html/body/div/div[2]/div[3]/footer/div[1]/div[2]/div[2]/ul/li[2]/a",
+                "/html/body/div/footer/div[1]/div[2]/div[2]/ul/li[2]/a",
                 "https://seriesone.dynamo-ny.com/learn/");
 
-        PagesURL.MainPage();
+        PagesURL.PrivacyPolicyPage();
+        Thread.sleep(500);
 
         check_link.CheckLinkURL("Investor Questions",
-                "/html/body/div/div[2]/div[3]/footer/div[1]/div[2]/div[2]/ul/li[3]/a",
+                "/html/body/div/footer/div[1]/div[2]/div[2]/ul/li[3]/a",
                 "https://seriesone.dynamo-ny.com/faqs-for-investors/");
 
-        PagesURL.MainPage();
+        PagesURL.PrivacyPolicyPage();
+        Thread.sleep(500);
 
         check_link.CheckLinkURL("Raise Funds",
-                "/html/body/div/div[2]/div[3]/footer/div[1]/div[2]/div[4]/ul/li[1]/a",
+                "/html/body/div/footer/div[1]/div[2]/div[4]/ul/li[1]/a",
                 "https://seriesone.dynamo-ny.com/start-raising-funds/");
 
-        PagesURL.MainPage();
+        PagesURL.PrivacyPolicyPage();
+        Thread.sleep(500);
 
         check_link.CheckLinkURL("Business Questions",
-                "/html/body/div/div[2]/div[3]/footer/div[1]/div[2]/div[4]/ul/li[2]/a",
+                "/html/body/div/footer/div[1]/div[2]/div[4]/ul/li[2]/a",
                 "https://seriesone.dynamo-ny.com/faqs-for-business-owners/");
 
-        PagesURL.MainPage();
+        PagesURL.PrivacyPolicyPage();
+        Thread.sleep(500);
 
         check_link.CheckLinkURL("License Platform",
-                "/html/body/div/div[2]/div[3]/footer/div[1]/div[2]/div[5]/ul/li/a",
+                "/html/body/div/footer/div[1]/div[2]/div[5]/ul/li/a",
                 "https://seriesone.dynamo-ny.com/brokerone/");
 
-        PagesURL.MainPage();
+        PagesURL.PrivacyPolicyPage();
+        Thread.sleep(500);
 
         check_link.CheckLinkURL("FAQs & Educations",
-                "/html/body/div/div[2]/div[3]/footer/div[1]/div[2]/div[8]/ul/li[1]/a",
+                "/html/body/div/footer/div[1]/div[2]/div[8]/ul/li[1]/a",
                 "https://seriesone.dynamo-ny.com/faqs-for-investors/");
 
-        PagesURL.MainPage();
+        PagesURL.PrivacyPolicyPage();
+        Thread.sleep(500);
 
         check_link.CheckLinkURL("Important Disclaimer",
-                "/html/body/div/div[2]/div[3]/footer/div[1]/div[2]/div[8]/ul/li[2]/a",
+                "/html/body/div/footer/div[1]/div[2]/div[8]/ul/li[2]/a",
                 "https://secure-seriesone.dynamo-ny.com/important-disclaimer");
 
-        PagesURL.MainPage();
+        PagesURL.PrivacyPolicyPage();
+        Thread.sleep(500);
 
         check_link.CheckLinkURL("Digital Security Offerings",
-                "/html/body/div/div[2]/div[3]/footer/div[1]/div[2]/div[8]/ul/li[3]/a",
+                "/html/body/div/footer/div[1]/div[2]/div[8]/ul/li[3]/a",
                 "https://seriesone.dynamo-ny.com/digital-security-offerings/");
 
-        PagesURL.MainPage();
+        PagesURL.PrivacyPolicyPage();
+        Thread.sleep(500);
 
         check_link.CheckLinkURL("Terms of Use",
-                "/html/body/div/div[2]/div[3]/footer/div[2]/div/div/a[1]",
+                "/html/body/div/footer/div[2]/div/div/a[1]",
                 "https://secure-seriesone.dynamo-ny.com/terms-of-use");
 
-        PagesURL.MainPage();
+        PagesURL.PrivacyPolicyPage();
+        Thread.sleep(500);
 
         check_link.CheckLinkURL("Privacy Policy",
-                "/html/body/div/div[2]/div[3]/footer/div[2]/div/div/a[2]",
+                "/html/body/div/footer/div[2]/div/div/a[2]",
                 "https://secure-seriesone.dynamo-ny.com/privacy-policy");
     }
 }

@@ -2,21 +2,18 @@ package UnitClassSet.Investment;
 
 import SupportClasses.AllureFunc.LogUtil;
 import SupportClasses.SetupClass.SetupClass;
-import UnitClassSet.Field;
-import UnitClassSet.PagesURL;
-import UnitClassSet.Switchers;
+import SupportClasses.Field;
+import UnitClassSet.StaticPages.PagesURL;
+import SupportClasses.Switchers;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Investment {
     private Field field = new Field();
     private Switchers switcher = new Switchers();
-    private PagesURL url = new PagesURL();
     public void Investment(int user_type, String payment_method, String value_invest) throws Exception{
-        url.DealPage();
+        PagesURL.DealPage();
 
         WebElement LearnMoreButton = SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='https://secure-seriesone.dynamo-ny.com/deal/pdp-qa']"))); // using xpath locator that find element by link
         Thread.sleep(500);
@@ -98,8 +95,18 @@ public class Investment {
     private int CheckInvestmentStep(int prev_step) throws Exception{
         int wait_time = 5;
 
-        SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("//img[@class='footer-logo']")));
-        Thread.sleep(1000);
+        Thread.sleep(500);
+        int time_waiting = 0;
+        while (SetupClass.GetDriver().findElement(By.xpath("//img[@src='/bundles/frontend/images/loading_spinner.gif']")).isDisplayed()){
+            time_waiting++;
+            if(time_waiting == 60){
+                System.out.println("Expected time more then 30 seconds");
+                break;
+            }
+            Thread.sleep(500);
+        }
+        //SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("//img[@class='footer-logo']")));
+        Thread.sleep(500);
         if(prev_step == 0) {
             if (field.ExistElementOnThePage("//input[@id='investment_contact_agree']", wait_time)) { return 1; }
             else { return 0; }
@@ -177,30 +184,37 @@ public class Investment {
     }
 
     private void ThirdStep() throws Exception{
-        SetupClass.GetDriverWait().until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(0));
+        if (!field.ExistElementOnThePage("//div[@id='fa__issuer_signature']",3)) {
+            SetupClass.GetDriverWait().until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(0));
 
-        SetupClass.GetDriverWait().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='Got it!']")));
-        SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='onboarding-step-shade']")));
-        SetupClass.GetDriver().findElement(By.xpath("//div[@class='onboarding-step-shade']")).click();
-        SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='onboarding-step-shade']")));
-        SetupClass.GetDriver().findElement(By.xpath("//div[@class='onboarding-step-shade']")).click();
+            SetupClass.GetDriverWait().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='Got it!']")));
+            SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='onboarding-step-shade']")));
+            SetupClass.GetDriver().findElement(By.xpath("//div[@class='onboarding-step-shade']")).click();
+            SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='onboarding-step-shade']")));
+            SetupClass.GetDriver().findElement(By.xpath("//div[@class='onboarding-step-shade']")).click();
 
-        SetupClass.GetDriver().findElement(By.xpath("//div[@class='next-required-field down ember-view']")).click();
-        SetupClass.GetDriver().findElement(By.xpath("//div[@class='signature-field ember-view']")).click();
-        SetupClass.GetDriver().findElement(By.xpath("//button[@class='minimal green theme_link']")).click();
-        SetupClass.GetDriverWait().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='signature-pad-wrapper text']")));
-        SetupClass.GetDriver().findElement(By.xpath("//input[@class='type-pad ember-text-field ember-view']")).click();
-        SetupClass.GetDriver().findElement(By.xpath("//input[@class='type-pad ember-text-field ember-view']")).sendKeys("TestUser");
+            SetupClass.GetDriver().findElement(By.xpath("//div[@class='next-required-field down ember-view']")).click();
+            SetupClass.GetDriver().findElement(By.xpath("//div[@class='signature-field ember-view']")).click();
+            SetupClass.GetDriver().findElement(By.xpath("//button[@class='minimal green theme_link']")).click();
+            SetupClass.GetDriverWait().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='signature-pad-wrapper text']")));
+            SetupClass.GetDriver().findElement(By.xpath("//input[@class='type-pad ember-text-field ember-view']")).click();
+            SetupClass.GetDriver().findElement(By.xpath("//input[@class='type-pad ember-text-field ember-view']")).sendKeys("TestUser");
 
-        SetupClass.GetDriver().findElement(By.xpath("//button[@class='rs-button is-primary ember-view']")).click();
-        Thread.sleep(500);
+            SetupClass.GetDriver().findElement(By.xpath("//button[@class='rs-button is-primary ember-view']")).click();
+            Thread.sleep(600);
 
-        SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Submit Signature']")));
-        SetupClass.GetDriver().findElement(By.xpath("//div[text()='Submit Signature']")).click();
-        Thread.sleep(300);
-        SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Submit']")));
-        SetupClass.GetDriver().findElement(By.xpath("//div[text()='Submit']")).click();
-
+            SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Submit Signature']")));
+            SetupClass.GetDriver().findElement(By.xpath("//div[text()='Submit Signature']")).click();
+            Thread.sleep(400);
+            SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Submit']")));
+            Thread.sleep(400);
+            SetupClass.GetDriver().findElement(By.xpath("//div[text()='Submit']")).click();
+        }
+        else{
+            SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='literal_signature']")));
+            field.EnterValue("//input[@id='literal_signature']",
+                    SetupClass.GetDriver().findElement(By.xpath("/html/body/header/div[2]/div/div[2]/div[2]/p/span")).getText());
+        }
         Thread.sleep(1000);
 
         SetupClass.GetDriver().switchTo().defaultContent();

@@ -8,17 +8,20 @@ import SupportClasses.AllureFunc.LogUtil;
 import SupportClasses.Exceptions.NewAssertError;
 import SupportClasses.SetupClass.SetupClass;
 import UnitClassSet.CheckAppearingError.AppearingError;
-import UnitClassSet.Field;
+import SupportClasses.Field;
+import UnitClassSet.Gmail_Mailbox.Gmail;
 import UnitClassSet.Login.Login;
 import UnitClassSet.Maintenance.Maintenance;
-import UnitClassSet.PagesURL;
-import UnitClassSet.Switchers;
+import UnitClassSet.StaticPages.PagesURL;
+import SupportClasses.Switchers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
 import java.io.*;
+import java.util.List;
 import java.util.Scanner;
 
 public class Registration {
@@ -27,6 +30,8 @@ public class Registration {
     private Switchers switcher = new Switchers();
     private AppearingError error_appears = new AppearingError();
     public void Register(int user_type) throws Exception{
+        //MakeEmailEmptyForS1();
+
         SetupClass.GetDriver().get("https://seriesone.dynamo-ny.com/");
 
         Maintenance maintenance = new Maintenance();
@@ -52,7 +57,7 @@ public class Registration {
 
                 System.out.println("First step");
                 LogUtil.log("First step");
-                FirstStep();
+                FirstStep(user_type);
             }
             else if(CheckRegistrationStep(current_step) == 2){
                 current_step = 2;
@@ -132,7 +137,7 @@ public class Registration {
     private int CheckEmailExist(int id) throws Exception{
         JavascriptExecutor jse = (JavascriptExecutor)SetupClass.GetDriver();
         SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.id("registration_investor_email")));
-        field.EnterValue("//input[@id='registration_investor_email']","prybehav+autotest" + id + "@gmail.com");
+        field.EnterValue("//input[@id='registration_investor_email']","prybehavtests+autotest" + id + "@gmail.com");
         SetupClass.GetDriver().findElement(By.id("next")).click();
         Thread.sleep(500);
 
@@ -140,7 +145,7 @@ public class Registration {
         while(field.ExistElementOnThePage("//*[@id=\"ajaxContent\"]/div[3]/div[2]/div/form/div[1]/div/div/ul/li",3)){
             id++;
 
-            field.EnterValue("//input[@id='registration_investor_email']","prybehav+autotest" + id + "@gmail.com");
+            field.EnterValue("//input[@id='registration_investor_email']","prybehavtests+autotest" + id + "@gmail.com");
             SetupClass.GetDriver().findElement(By.id("next")).click();
             Thread.sleep(500);
             jse.executeScript("window.scrollTo(5000,0)");
@@ -148,40 +153,61 @@ public class Registration {
         return id;
     }
 
-    private void FirstStep() throws Exception{
+    private void FirstStep(int user_type) throws Exception{
         Scanner reader = new Scanner(new File("src/test/java/UnitClassSet/Registration/id.txt"));
         int id = reader.nextInt(); // id > unique number for email, that reads from the file and writes bigger on one.
 
         int id_unique = CheckEmailExist(id);
 
-        error_appears.EmailErrorCheck(db_registration_first_step.FirstStep_Email_Negative(),true);
-        error_appears.EmailErrorCheck(db_registration_first_step.FirstStep_Email_Positive("prybehav+autotest" + id_unique + "@gmail.com"),false);
-        id_unique++;
-        String str = Integer.toString(id_unique);
-        BufferedWriter writer = new BufferedWriter(new FileWriter("src/test/java/UnitClassSet/Registration/id.txt"));
-        writer.write(str);
-        writer.close();
+        // if you want to check fields with values from db on the first step for all users, remove this statement
+        if(user_type == 1) {
+            error_appears.EmailErrorCheck(db_registration_first_step.FirstStep_Email_Negative(), true);
 
-        error_appears.CallErrorCheck(db_registration_first_step.FirstStep_UserName_Negative(), db_registration_first_step.FirstStep_UserName_Positive(),
-                "//input[@id='registration_investor_firstName']",
-                "//*[@id=\"ajaxContent\"]/div[3]/div[2]/div/form/div[2]/div[1]/div/ul/li"); // for positive TC expected result = false => we expect that error does not appears
+            error_appears.EmailErrorCheck(db_registration_first_step.FirstStep_Email_Positive("prybehavtests+autotest" + id_unique + "@gmail.com"), false);
+            id_unique++;
+            String str = Integer.toString(id_unique);
+            BufferedWriter writer = new BufferedWriter(new FileWriter("src/test/java/UnitClassSet/Registration/id.txt"));
+            writer.write(str);
+            writer.close();
 
-        error_appears.CallErrorCheck(db_registration_first_step.FirstStep_UserLastName_Negative(),db_registration_first_step.FirstStep_UserLastName_Positive(),
-                "//input[@id='registration_investor_lastName']",
-                "//*[@id=\"ajaxContent\"]/div[3]/div[2]/div/form/div[2]/div[2]/div/ul/li");
+            error_appears.CallErrorCheck(db_registration_first_step.FirstStep_UserName_Negative(), db_registration_first_step.FirstStep_UserName_Positive(),
+                    "//input[@id='registration_investor_firstName']",
+                    "//*[@id=\"ajaxContent\"]/div[3]/div[2]/div/form/div[2]/div[1]/div/ul/li"); // for positive TC expected result = false => we expect that error does not appears
 
-        SetupClass.GetDriver().findElement(By.xpath("//input[@id='registration_investor_firstName']")).clear();
+            error_appears.CallErrorCheck(db_registration_first_step.FirstStep_UserLastName_Negative(), db_registration_first_step.FirstStep_UserLastName_Positive(),
+                    "//input[@id='registration_investor_lastName']",
+                    "//*[@id=\"ajaxContent\"]/div[3]/div[2]/div/form/div[2]/div[2]/div/ul/li");
 
-        Thread.sleep(100);
-        error_appears.CallErrorCheck(db_registration_first_step.FirstStep_Pass_Negative(),db_registration_first_step.FirstStep_Pass_Positive(),
-                "//input[@id='registration_investor_password']",
-                "//*[@id=\"ajaxContent\"]/div[3]/div[2]/div/form/div[4]/div/div/ul/li");
+            SetupClass.GetDriver().findElement(By.xpath("//input[@id='registration_investor_firstName']")).clear();
 
-        Thread.sleep(200);
-        field.EnterValue("//input[@id='registration_investor_firstName']",
-                db_registration_first_step.FirstStep_UserName_Positive()[db_registration_first_step.FirstStep_UserName_Positive().length-1]);
-        field.EnterValue("//input[@id='registration_investor_password']",
-                db_registration_first_step.FirstStep_Pass_Positive()[db_registration_first_step.FirstStep_Pass_Positive().length-1]);// foreach field will be match last in db file
+            Thread.sleep(100);
+            error_appears.CallErrorCheck(db_registration_first_step.FirstStep_Pass_Negative(), db_registration_first_step.FirstStep_Pass_Positive(),
+                    "//input[@id='registration_investor_password']",
+                    "//*[@id=\"ajaxContent\"]/div[3]/div[2]/div/form/div[4]/div/div/ul/li");
+
+            Thread.sleep(200);
+            field.EnterValue("//input[@id='registration_investor_firstName']",
+                    db_registration_first_step.FirstStep_UserName_Positive()[db_registration_first_step.FirstStep_UserName_Positive().length - 1]);
+            field.EnterValue("//input[@id='registration_investor_password']",
+                    db_registration_first_step.FirstStep_Pass_Positive()[db_registration_first_step.FirstStep_Pass_Positive().length - 1]);// foreach field will be match last in db file
+        }
+        else{
+            field.EnterValue("//input[@id='registration_investor_firstName']",
+                    db_registration_first_step.FirstStep_UserName_Positive()[db_registration_first_step.FirstStep_UserName_Positive().length - 1]);
+
+            field.EnterValue("//input[@id='registration_investor_lastName']",
+                    db_registration_first_step.FirstStep_UserName_Positive()[db_registration_first_step.FirstStep_UserName_Positive().length - 1]);
+
+            field.EnterValue("//input[@id='registration_investor_email']", "prybehavtests+autotest" + id_unique + "@gmail.com");
+            id_unique++;
+            String str = Integer.toString(id_unique);
+            BufferedWriter writer = new BufferedWriter(new FileWriter("src/test/java/UnitClassSet/Registration/id.txt"));
+            writer.write(str);
+            writer.close();
+
+            field.EnterValue("//input[@id='registration_investor_password']",
+                    db_registration_first_step.FirstStep_UserName_Positive()[db_registration_first_step.FirstStep_UserName_Positive().length - 1]);
+        }
 
         SetupClass.GetDriver().findElement(By.id("next")).click();
     }
@@ -291,7 +317,7 @@ public class Registration {
     }
 
     private void Third_Step_For_Individual(int user_type) throws Exception{
-        String[] empty_value = {""};
+        String[] empty_value = {" "};
         JavascriptExecutor jse = (JavascriptExecutor)SetupClass.GetDriver();
 
         SetupClass.GetDriver().findElement(By.id("registration_second_step_fwIsLegalNameThesame")).click();
@@ -326,7 +352,6 @@ public class Registration {
                     "//*[@id=\"ajaxContent\"]/div[3]/div/div/form/div[7]/div[3]/div/ul/li");
         }
         else{
-
             Select dropdown = new Select(SetupClass.GetDriver().findElement(By.id("registration_second_step_mailingCountryCode")));
             dropdown.selectByVisibleText("Ukraine");
 
@@ -501,13 +526,12 @@ public class Registration {
     }
 
     private void Check_Info_In_MyAccount(int user_type) throws Exception{
-        PagesURL url = new PagesURL();
-        url.LoginPage();
+        PagesURL.LoginPage();
 
         Login l = new Login();
         Scanner reader = new Scanner(new File("src/test/java/UnitClassSet/Registration/id.txt"));
         int id = reader.nextInt();
-        String email_field = "prybehav+autotest" + Integer.toString(id-1) + "@gmail.com";
+        String email_field = "prybehavtests+autotest" + Integer.toString(id-1) + "@gmail.com";
         l.LoginTest(email_field);
         LogUtil.log("Login");
 

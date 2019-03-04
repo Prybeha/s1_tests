@@ -43,7 +43,7 @@ public class test_MainPage extends SetupClass{
                 "https://seriesone.dynamo-ny.com/brokerone/", "https://seriesone.dynamo-ny.com/learn/", "https://seriesone.dynamo-ny.com/digital-security-offerings/"};
 
         for(int i = 1;i <= expected_urls.length; i++) {
-            System.out.println(i);
+            //System.out.println(i);
             SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div/div[1]/header/div[2]/div/ul/li[" + i + "]/a")));
             SetupClass.GetDriver().findElement(By.xpath("/html/body/div/div[1]/header/div[2]/div/ul/li[" + i + "]/a")).click();
             Thread.sleep(500);

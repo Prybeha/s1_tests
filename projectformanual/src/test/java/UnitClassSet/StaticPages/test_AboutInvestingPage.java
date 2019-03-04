@@ -116,7 +116,7 @@ public class test_AboutInvestingPage extends SetupClass {
         {
             if(!windowHandle.equals(parentWindow))
             {
-                //SetupClass.GetDriver().switchTo().window(windowHandle);
+                SetupClass.GetDriver().switchTo().window(windowHandle);
                 Thread.sleep(2000);
                 if (!SetupClass.GetDriver().getCurrentUrl().equals("https://www.linkedin.com/company/seriesone") &&
                         !SetupClass.GetDriver().getCurrentUrl().contains("https://www.linkedin.com/authwall")) {

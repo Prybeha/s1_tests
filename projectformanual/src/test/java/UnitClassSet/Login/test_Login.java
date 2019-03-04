@@ -1,8 +1,10 @@
 package UnitClassSet.Login;
 
+import SupportClasses.AllureFunc.LogUtil;
 import SupportClasses.Exceptions.NewAssertError;
 import SupportClasses.Field;
 import SupportClasses.SetupClass.SetupClass;
+import UnitClassSet.Maintenance.Maintenance;
 import UnitClassSet.StaticPages.PagesURL;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -14,6 +16,12 @@ public class test_Login extends SetupClass {
     @Test
     public void Login() throws Exception{
         PagesURL.LoginPage();
+
+        Maintenance maintenance = new Maintenance();
+        if (maintenance.MaintenancePageCheck()){
+            LogUtil.log("Maintenance mode is on!");
+            return;
+        }
 
         Login l = new Login();
         l.LoginTest("prybehav+155@gmail.com");

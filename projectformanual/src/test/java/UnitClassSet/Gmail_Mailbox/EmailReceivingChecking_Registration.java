@@ -5,6 +5,7 @@ import SupportClasses.Field;
 import SupportClasses.SetupClass.SetupClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.io.File;
 import java.util.List;
@@ -28,8 +29,9 @@ public class EmailReceivingChecking_Registration {
 
         for (int i = 0; i < quantity.size(); i++){
             System.out.println(Integer.toString(i + 1) + " : " + quantity.get(i).getText());
-
             if (quantity.get(i).getText().equals("Sandbox: Welcome, please confirm your email")){
+                SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(quantity.get(i)));
+                Thread.sleep(500);
                 quantity.get(i).click();
                 Thread.sleep(1000);
 

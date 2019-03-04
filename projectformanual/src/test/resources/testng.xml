@@ -8,25 +8,25 @@
             <!--<class name="TestClass"/>-->
         <!--</classes>-->
     <!--</test>-->
-    <!--<test thread-count="1" verbose="1" name="Static Pages Tests" annotations="JDK" parallel="classes">-->
-        <!--<classes>-->
-            <!--<class name="UnitClassSet.StaticPages.test_MainPage"/>-->
-            <!--<class name="UnitClassSet.StaticPages.test_BrowseDealsPage"/>-->
-            <!--<class name="UnitClassSet.StaticPages.test_RaiseFundsPage"/>-->
-            <!--<class name="UnitClassSet.StaticPages.test_LicensePlatformPage"/>-->
-            <!--<class name="UnitClassSet.StaticPages.test_AboutInvestingPage"/>-->
-            <!--<class name="UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage"/>-->
-            <!--<class name="UnitClassSet.StaticPages.test_ContactUsPage"/>-->
-            <!--<class name="UnitClassSet.StaticPages.test_AboutUsPage"/>-->
-            <!--<class name="UnitClassSet.StaticPages.test_BlogPage"/>-->
-            <!--<class name="UnitClassSet.StaticPages.test_InvestorsQuestionsPage"/>-->
-            <!--<class name="UnitClassSet.StaticPages.test_BusinessQuestionsPage"/>-->
-            <!--<class name="UnitClassSet.StaticPages.test_EducationResourcesPage"/>-->
-            <!--<class name="UnitClassSet.StaticPages.test_ImportantDisclaimerPage"/>-->
-            <!--<class name="UnitClassSet.StaticPages.test_TermsOfUsePage"/>-->
-            <!--<class name="UnitClassSet.StaticPages.test_PrivacyPolicyPage"/>-->
-        <!--</classes>-->
-    <!--</test>-->
+    <test thread-count="1" verbose="1" name="Static Pages Tests" annotations="JDK" parallel="classes">
+        <classes>
+            <class name="UnitClassSet.StaticPages.test_MainPage"/>
+            <class name="UnitClassSet.StaticPages.test_BrowseDealsPage"/>
+            <class name="UnitClassSet.StaticPages.test_RaiseFundsPage"/>
+            <class name="UnitClassSet.StaticPages.test_LicensePlatformPage"/>
+            <class name="UnitClassSet.StaticPages.test_AboutInvestingPage"/>
+            <class name="UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage"/>
+            <class name="UnitClassSet.StaticPages.test_ContactUsPage"/>
+            <class name="UnitClassSet.StaticPages.test_AboutUsPage"/>
+            <class name="UnitClassSet.StaticPages.test_BlogPage"/>
+            <class name="UnitClassSet.StaticPages.test_InvestorsQuestionsPage"/>
+            <class name="UnitClassSet.StaticPages.test_BusinessQuestionsPage"/>
+            <class name="UnitClassSet.StaticPages.test_EducationResourcesPage"/>
+            <class name="UnitClassSet.StaticPages.test_ImportantDisclaimerPage"/>
+            <class name="UnitClassSet.StaticPages.test_TermsOfUsePage"/>
+            <class name="UnitClassSet.StaticPages.test_PrivacyPolicyPage"/>
+        </classes>
+    </test>
     <test thread-count="1" verbose="1" name="Registration" annotations="JDK" parallel="classes">
         <classes>
             <class name="UnitClassSet.Registration.test_RegistrationAllTypes">
@@ -45,20 +45,20 @@
             </class>
         </classes>
     </test>
-    <!--<test name="Login">-->
-        <!--<classes>-->
-            <!--<class name="UnitClassSet.Login.test_Login"/>-->
-        <!--</classes>-->
-    <!--</test>-->
-    <!--<test thread-count="1" verbose="1" name="Investments" annotations="JDK" parallel="classes">-->
-        <!--<classes>-->
-            <!--<class name="UnitClassSet.Investment.test_IndividualUS"/>-->
-            <!--<class name="UnitClassSet.Investment.test_IndividualnoUS"/>-->
-            <!--<class name="UnitClassSet.Investment.test_IndividualUSnoAccredited"/>-->
-            <!--<class name="UnitClassSet.Investment.test_EntityUS"/>-->
-            <!--<class name="UnitClassSet.Investment.test_EntitynoUS"/>-->
-        <!--</classes>-->
-    <!--</test>-->
+    <test name="Login">
+        <classes>
+            <class name="UnitClassSet.Login.test_Login"/>
+        </classes>
+    </test>
+    <test thread-count="1" verbose="1" name="Investments" annotations="JDK" parallel="classes">
+        <classes>
+            <class name="UnitClassSet.Investment.test_IndividualUS"/>
+            <class name="UnitClassSet.Investment.test_IndividualnoUS"/>
+            <class name="UnitClassSet.Investment.test_IndividualUSnoAccredited"/>
+            <class name="UnitClassSet.Investment.test_EntityUS"/>
+            <class name="UnitClassSet.Investment.test_EntitynoUS"/>
+        </classes>
+    </test>
     <test thread-count="1" verbose="1" name="ContactUS forms" annotations="JDK" parallel="classes">
         <classes>
             <class name="UnitClassSet.ContactUS.test_ContactUS">

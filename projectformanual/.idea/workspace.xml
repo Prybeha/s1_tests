@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c09ba75-c11e-4fc2-bbfe-ae92e986a408" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Login/test_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Login/test_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutInvestingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutInvestingPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_EntitynoUS.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntitynoUS.java">
+      <file leaf-file-name="test_Login.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Login/test_Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-622">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="136">
+              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -40,26 +41,26 @@
       <file leaf-file-name="Investment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="68">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_BrowseDealsPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BrowseDealsPage.java">
+      <file leaf-file-name="test_EntitynoUS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntitynoUS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3062">
-              <caret line="194" column="23" selection-start-line="194" selection-start-column="23" selection-end-line="194" selection-end-column="23" />
+            <state relative-caret-position="204">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="29" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_MainPage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java">
+      <file leaf-file-name="EmailReceivingChecking_Registration.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_Registration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+            <state relative-caret-position="408">
+              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -115,7 +116,6 @@
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/CheckLink.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/CheckLink.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_RaiseFunds.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Login/test_Login.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/BusinessQuestionsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/PagesURL.java" />
         <option value="$PROJECT_DIR$/src/test/java/SupportClasses/Field.java" />
@@ -124,7 +124,6 @@
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/lead_id.txt" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/CheckAppearingError/AppearingError.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutInvestingPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutUsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BrowseDealsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BusinessQuestionsPage.java" />
@@ -147,7 +146,6 @@
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/test_RegistrationAllTypes.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/Raise_Funds_ContactUS_Form.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/Gmail.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_Registration.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/test_ContactUS.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" />
@@ -156,6 +154,9 @@
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java" />
         <option value="$PROJECT_DIR$/../../../../BackUp/3.1.2019/projectformanual/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutInvestingPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Login/test_Login.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_Registration.java" />
       </list>
     </option>
   </component>
@@ -227,15 +228,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="UnitClassSet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectformanual" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectformanual" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitClassSet" type="462c0819:PsiDirectoryNode" />
-              <item name="StaticPages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projectformanual" type="b2602c69:ProjectViewProjectNode" />
@@ -470,35 +462,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="94" />
+      <option name="time" value="96" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/AccountType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Login/test_Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntitynoUS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-622">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -528,20 +499,6 @@
     <entry file="file://$PROJECT_DIR$/target/allure-results/CheckRegisterEmail_IndividualnoUS" />
     <entry file="file://$PROJECT_DIR$/target/allure-results/CheckRegisterEmail_EntitynoUS" />
     <entry file="file://$PROJECT_DIR$/target/allure-results/Register_IndividualUS" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutUsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="818">
-          <caret line="111" column="23" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BrowseDealsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3062">
-          <caret line="194" column="23" selection-start-line="194" selection-start-column="23" selection-end-line="194" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BusinessQuestionsPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
@@ -584,13 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_PrivacyPolicyPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -612,33 +562,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/PagesURL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutInvestingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208">
-          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/allure-results/BlogPage_Body" />
     <entry file="file://$PROJECT_DIR$/target/allure-results/LicensePlatformPage_Body" />
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_LicensePlatformPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="56" column="59" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BlogPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -695,20 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_Registration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -720,6 +635,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BlogPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="65" column="69" lean-forward="true" selection-start-line="65" selection-start-column="69" selection-end-line="65" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutUsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1073">
+          <caret line="111" column="23" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutInvestingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="119" column="35" lean-forward="true" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/PagesURL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BrowseDealsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3062">
+          <caret line="194" column="23" selection-start-line="194" selection-start-column="23" selection-end-line="194" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Login/test_Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntitynoUS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
         </state>
       </provider>
     </entry>

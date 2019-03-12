@@ -30,15 +30,11 @@ public class Registration {
     private Switchers switcher = new Switchers();
     private AppearingError error_appears = new AppearingError();
     public void Register(int user_type) throws Exception{
-        //MakeEmailEmptyForS1();
 
         SetupClass.GetDriver().get("https://seriesone.dynamo-ny.com/");
 
         Maintenance maintenance = new Maintenance();
-        if (maintenance.MaintenancePageCheck()){
-            LogUtil.log("Maintenance mode is on!");
-            return;
-        }
+        maintenance.MaintenancePageCheck();
 
         SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='https://secure-seriesone.dynamo-ny.com/register']")));
         Thread.sleep(500);

@@ -27,36 +27,36 @@
             <class name="UnitClassSet.StaticPages.test_PrivacyPolicyPage"/>
         </classes>
     </test>
-    <test thread-count="1" verbose="1" name="Registration" annotations="JDK" parallel="classes">
-        <classes>
-            <class name="UnitClassSet.Registration.test_RegistrationAllTypes">
-                <methods>
-                    <include name="Register_IndividualUS"/>
-                    <include name="CheckRegisterEmail_IndividualUS"/>
-                    <include name="Register_IndividualnoUS"/>
-                    <include name="CheckRegisterEmail_IndividualnoUS"/>
-                    <include name="Register_EntityUS"/>
-                    <include name="CheckRegisterEmail_EntityUS"/>
-                    <include name="Register_EntitynoUS"/>
-                    <include name="CheckRegisterEmail_EntitynoUS"/>
-                    <include name="Register_IndividualUSnoAccredited"/>
-                    <include name="CheckRegisterEmail_IndividualUSnoAccredited"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-    <test name="Login">
-        <classes>
-            <class name="UnitClassSet.Login.test_Login"/>
-        </classes>
-    </test>
-    <test thread-count="1" verbose="1" name="Investments" annotations="JDK" parallel="classes">
-        <classes>
-            <class name="UnitClassSet.Investment.test_IndividualUS"/>
-            <class name="UnitClassSet.Investment.test_IndividualnoUS"/>
-            <class name="UnitClassSet.Investment.test_IndividualUSnoAccredited"/>
-            <class name="UnitClassSet.Investment.test_EntityUS"/>
-            <class name="UnitClassSet.Investment.test_EntitynoUS"/>
-        </classes>
-    </test>
+    <!--<test thread-count="1" verbose="1" name="Registration" annotations="JDK" parallel="classes">-->
+        <!--<classes>-->
+            <!--<class name="UnitClassSet.Registration.test_RegistrationAllTypes">-->
+                <!--<methods>-->
+                    <!--<include name="Register_IndividualUS"/>-->
+                    <!--<include name="CheckRegisterEmail_IndividualUS"/>-->
+                    <!--<include name="Register_IndividualnoUS"/>-->
+                    <!--<include name="CheckRegisterEmail_IndividualnoUS"/>-->
+                    <!--<include name="Register_EntityUS"/>-->
+                    <!--<include name="CheckRegisterEmail_EntityUS"/>-->
+                    <!--<include name="Register_EntitynoUS"/>-->
+                    <!--<include name="CheckRegisterEmail_EntitynoUS"/>-->
+                    <!--<include name="Register_IndividualUSnoAccredited"/>-->
+                    <!--<include name="CheckRegisterEmail_IndividualUSnoAccredited"/>-->
+                <!--</methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="Login">-->
+        <!--<classes>-->
+            <!--<class name="UnitClassSet.Login.test_Login"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test thread-count="1" verbose="1" name="Investments" annotations="JDK" parallel="classes">-->
+        <!--<classes>-->
+            <!--<class name="UnitClassSet.Investment.test_IndividualUS"/>-->
+            <!--<class name="UnitClassSet.Investment.test_IndividualnoUS"/>-->
+            <!--<class name="UnitClassSet.Investment.test_IndividualUSnoAccredited"/>-->
+            <!--<class name="UnitClassSet.Investment.test_EntityUS"/>-->
+            <!--<class name="UnitClassSet.Investment.test_EntitynoUS"/>-->
+        <!--</classes>-->
+    <!--</test>-->
 </suite>

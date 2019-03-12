@@ -24,10 +24,7 @@ public class test_IndividualUSnoAccredited extends SetupClass {
         PagesURL.LoginPage();
 
         Maintenance maintenance = new Maintenance();
-        if (maintenance.MaintenancePageCheck()){
-            LogUtil.log("Maintenance mode is on!");
-            return;
-        }
+        maintenance.MaintenancePageCheck();
 
         Login l = new Login();
         l.LoginTest(individual_US_noAccredited);
@@ -50,10 +47,7 @@ public class test_IndividualUSnoAccredited extends SetupClass {
         PagesURL.LoginPage();
 
         Maintenance maintenance = new Maintenance();
-        if (maintenance.MaintenancePageCheck()){
-            LogUtil.log("Maintenance mode is on!");
-            return;
-        }
+        maintenance.MaintenancePageCheck();
 
         Login l = new Login();
         l.LoginTest(individual_US_noAccredited);
@@ -76,10 +70,7 @@ public class test_IndividualUSnoAccredited extends SetupClass {
         PagesURL.LoginPage();
 
         Maintenance maintenance = new Maintenance();
-        if (maintenance.MaintenancePageCheck()){
-            LogUtil.log("Maintenance mode is on!");
-            return;
-        }
+        maintenance.MaintenancePageCheck();
 
         Login l = new Login();
         l.LoginTest(individual_US_noAccredited);
@@ -102,10 +93,7 @@ public class test_IndividualUSnoAccredited extends SetupClass {
         PagesURL.LoginPage();
 
         Maintenance maintenance = new Maintenance();
-        if (maintenance.MaintenancePageCheck()){
-            LogUtil.log("Maintenance mode is on!");
-            return;
-        }
+        maintenance.MaintenancePageCheck();
 
         Login l = new Login();
         l.LoginTest(individual_US_noAccredited);

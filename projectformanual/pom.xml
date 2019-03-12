@@ -103,7 +103,7 @@
                                 <!--<value>ru.yandex.qatools.allure.testng.AllureTestListener</value>-->
                             <!--</property>-->
                         <!--</properties>-->
-                        <testFailureIgnore>false</testFailureIgnore>
+                        <!--<testFailureIgnore>false</testFailureIgnore>-->
                     </configuration>
                 </plugin>
                 <plugin>

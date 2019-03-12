@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2,230.636" tests="86" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Share\vprybeha\Programs\git_repository\s1_tests\projectformanual\target\test-classes;D:\Share\vprybeha\Programs\git_repository\s1_tests\projectformanual\target\classes;C:\Users\vprybeha\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\vprybeha\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\vprybeha\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\vprybeha\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\vprybeha\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\vprybeha\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\vprybeha\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\vprybeha\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\vprybeha\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\vprybeha\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\vprybeha\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\vprybeha\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\vprybeha\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\vprybeha\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\vprybeha\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\vprybeha\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\vprybeha\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\vprybeha\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\vprybeha\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\vprybeha\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\vprybeha\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\vprybeha\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\vprybeha\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\vprybeha\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\vprybeha\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\vprybeha\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\vprybeha\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\vprybeha\.m2\repository\ru\yandex\qatools\allure\allure-testng-adaptor\1.5.4\allure-testng-adaptor-1.5.4.jar;C:\Users\vprybeha\.m2\repository\ru\yandex\qatools\allure\allure-java-aspects\1.5.4\allure-java-aspects-1.5.4.jar;C:\Users\vprybeha\.m2\repository\ru\yandex\qatools\allure\allure-java-adaptor-api\1.5.4\allure-java-adaptor-api-1.5.4.jar;C:\Users\vprybeha\.m2\repository\ru\yandex\qatools\allure\allure-java-annotations\1.5.4\allure-java-annotations-1.5.4.jar;C:\Users\vprybeha\.m2\repository\ru\yandex\qatools\allure\allure-model\1.5.4\allure-model-1.5.4.jar;C:\Users\vprybeha\.m2\repository\org\jvnet\jaxb2_commons\jaxb2-basics-runtime\0.9.3\jaxb2-basics-runtime-0.9.3.jar;C:\Users\vprybeha\.m2\repository\ru\qatools\commons\properties\2.0.RC5\properties-2.0.RC5.jar;C:\Users\vprybeha\.m2\repository\org\apache\tika\tika-core\1.7\tika-core-1.7.jar;C:\Users\vprybeha\.m2\repository\org\aspectj\aspectjrt\1.8.3\aspectjrt-1.8.3.jar;C:\Users\vprybeha\.m2\repository\org\slf4j\slf4j-log4j12\1.8.0-beta2\slf4j-log4j12-1.8.0-beta2.jar;C:\Users\vprybeha\.m2\repository\org\slf4j\slf4j-api\1.8.0-beta2\slf4j-api-1.8.0-beta2.jar;C:\Users\vprybeha\.m2\repository\org\aspectj\aspectjweaver\1.8.9\aspectjweaver-1.8.9.jar;C:\Users\vprybeha\.m2\repository\com\testlink\client\testlink-api-client\2.0\testlink-api-client-2.0.jar;C:\Users\vprybeha\.m2\repository\ws\commons\util\ws-commons-util\1.0.2\ws-commons-util-1.0.2.jar;C:\Users\vprybeha\.m2\repository\xmlrpc\client\xmlrpc-client\3.1\xmlrpc-client-3.1.jar;C:\Users\vprybeha\.m2\repository\xmlrpc\common\xmlrpc-common\3.1\xmlrpc-common-3.1.jar;C:\Users\vprybeha\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="sun.java.command" value="D:\Share\vprybeha\Trash\surefire7598205972222251671\surefirebooter2926564075461614455.jar D:\Share\vprybeha\Trash\surefire7598205972222251671 2019-03-07T18-08-29_074-jvmRun1 surefire5545638377995341850tmp surefire_02575997535274870817tmp"/>
+    <property name="surefire.test.class.path" value="D:\Share\vprybeha\Programs\git_repository\s1_tests\projectformanual\target\test-classes;D:\Share\vprybeha\Programs\git_repository\s1_tests\projectformanual\target\classes;C:\Users\vprybeha\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\vprybeha\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\vprybeha\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\vprybeha\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\vprybeha\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\vprybeha\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\vprybeha\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\vprybeha\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\vprybeha\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\vprybeha\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\vprybeha\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\vprybeha\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\vprybeha\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\vprybeha\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\vprybeha\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\vprybeha\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\vprybeha\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\vprybeha\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\vprybeha\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\vprybeha\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\vprybeha\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\vprybeha\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\vprybeha\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\vprybeha\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\vprybeha\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\vprybeha\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\vprybeha\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\vprybeha\.m2\repository\ru\yandex\qatools\allure\allure-testng-adaptor\1.5.4\allure-testng-adaptor-1.5.4.jar;C:\Users\vprybeha\.m2\repository\ru\yandex\qatools\allure\allure-java-aspects\1.5.4\allure-java-aspects-1.5.4.jar;C:\Users\vprybeha\.m2\repository\ru\yandex\qatools\allure\allure-java-adaptor-api\1.5.4\allure-java-adaptor-api-1.5.4.jar;C:\Users\vprybeha\.m2\repository\ru\yandex\qatools\allure\allure-java-annotations\1.5.4\allure-java-annotations-1.5.4.jar;C:\Users\vprybeha\.m2\repository\ru\yandex\qatools\allure\allure-model\1.5.4\allure-model-1.5.4.jar;C:\Users\vprybeha\.m2\repository\org\jvnet\jaxb2_commons\jaxb2-basics-runtime\0.9.3\jaxb2-basics-runtime-0.9.3.jar;C:\Users\vprybeha\.m2\repository\ru\qatools\commons\properties\2.0.RC5\properties-2.0.RC5.jar;C:\Users\vprybeha\.m2\repository\org\apache\tika\tika-core\1.7\tika-core-1.7.jar;C:\Users\vprybeha\.m2\repository\org\aspectj\aspectjrt\1.8.3\aspectjrt-1.8.3.jar;C:\Users\vprybeha\.m2\repository\org\slf4j\slf4j-log4j12\1.8.0-beta2\slf4j-log4j12-1.8.0-beta2.jar;C:\Users\vprybeha\.m2\repository\org\slf4j\slf4j-api\1.8.0-beta2\slf4j-api-1.8.0-beta2.jar;C:\Users\vprybeha\.m2\repository\org\aspectj\aspectjweaver\1.8.9\aspectjweaver-1.8.9.jar;C:\Users\vprybeha\.m2\repository\com\testlink\client\testlink-api-client\2.0\testlink-api-client-2.0.jar;C:\Users\vprybeha\.m2\repository\ws\commons\util\ws-commons-util\1.0.2\ws-commons-util-1.0.2.jar;C:\Users\vprybeha\.m2\repository\xmlrpc\client\xmlrpc-client\3.1\xmlrpc-client-3.1.jar;C:\Users\vprybeha\.m2\repository\xmlrpc\common\xmlrpc-common\3.1\xmlrpc-common-3.1.jar;C:\Users\vprybeha\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vprybeha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="basedir" value="D:\Share\vprybeha\Programs\git_repository\s1_tests\projectformanual"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="D:\Share\vprybeha\Trash\surefire7598205972222251671\surefirebooter2926564075461614455.jar;C:\Users\vprybeha\.m2\repository/org/aspectj/aspectjweaver/1.8.9/aspectjweaver-1.8.9.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="user.name" value="vprybeha"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\vprybeha\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="D:\Share\vprybeha\Trash\"/>
+    <property name="idea.version" value="2018.1.5"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.dir" value="D:\Share\vprybeha\Programs\git_repository\s1_tests\projectformanual"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\Apache\apache-maven-3.6.0\bin;C:\Users\vprybeha\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="MainPage_BodyButtons" classname="UnitClassSet.StaticPages.test_MainPage" time="23.163"/>
+  <testcase name="MainPage_FooterLinks" classname="UnitClassSet.StaticPages.test_MainPage" time="35.171"/>
+  <testcase name="MainPage_HeaderAndFooterSeriesOneLogoButton" classname="UnitClassSet.StaticPages.test_MainPage" time="6.048"/>
+  <testcase name="MainPage_HeaderButtons" classname="UnitClassSet.StaticPages.test_MainPage" time="28.009"/>
+  <testcase name="MainPage_SignUpAndLogin" classname="UnitClassSet.StaticPages.test_MainPage" time="6.971"/>
+  <testcase name="MainPage_SocialMediaIcons" classname="UnitClassSet.StaticPages.test_MainPage" time="23.352"/>
+  <testcase name="MainPage_Title" classname="UnitClassSet.StaticPages.test_MainPage" time="3.81"/>
+  <testcase name="BrowseDealsPage_Body" classname="UnitClassSet.StaticPages.test_BrowseDealsPage" time="17.945"/>
+  <testcase name="BrowseDealsPage_CheckDealsPage" classname="UnitClassSet.StaticPages.test_BrowseDealsPage" time="26.113"/>
+  <testcase name="BrowseDealsPage_FooterLinks" classname="UnitClassSet.StaticPages.test_BrowseDealsPage" time="37.796"/>
+  <testcase name="BrowseDealsPage_HeaderButtons" classname="UnitClassSet.StaticPages.test_BrowseDealsPage" time="23.631"/>
+  <testcase name="BrowseDealsPage_SignUpAndLogin" classname="UnitClassSet.StaticPages.test_BrowseDealsPage" time="12.561"/>
+  <testcase name="BrowseDealsPage_SocialMediaIcons" classname="UnitClassSet.StaticPages.test_BrowseDealsPage" time="29.754"/>
+  <testcase name="BrowseDealsPage_Title" classname="UnitClassSet.StaticPages.test_BrowseDealsPage" time="8.712"/>
+  <testcase name="RaiseFundsPage_Body" classname="UnitClassSet.StaticPages.test_RaiseFundsPage" time="17.255"/>
+  <testcase name="RaiseFundsPage_FooterLinks" classname="UnitClassSet.StaticPages.test_RaiseFundsPage" time="32.723"/>
+  <testcase name="RaiseFundsPage_HeaderButtons" classname="UnitClassSet.StaticPages.test_RaiseFundsPage" time="22.173"/>
+  <testcase name="RaiseFundsPage_SignUpAndLogin" classname="UnitClassSet.StaticPages.test_RaiseFundsPage" time="6.468"/>
+  <testcase name="RaiseFundsPage_SocialMediaIcons" classname="UnitClassSet.StaticPages.test_RaiseFundsPage" time="22.056"/>
+  <testcase name="RaiseFundsPage_Title" classname="UnitClassSet.StaticPages.test_RaiseFundsPage" time="1.601"/>
+  <testcase name="LicensePlatformPage_Body" classname="UnitClassSet.StaticPages.test_LicensePlatformPage" time="18.353"/>
+  <testcase name="LicensePlatformPage_FooterLinks" classname="UnitClassSet.StaticPages.test_LicensePlatformPage" time="42.994"/>
+  <testcase name="LicensePlatformPage_HeaderButtons" classname="UnitClassSet.StaticPages.test_LicensePlatformPage" time="20.17"/>
+  <testcase name="LicensePlatformPage_SignUpAndLogin" classname="UnitClassSet.StaticPages.test_LicensePlatformPage" time="5.823"/>
+  <testcase name="LicensePlatformPage_SocialMediaIcons" classname="UnitClassSet.StaticPages.test_LicensePlatformPage" time="22.536"/>
+  <testcase name="LicensePlatformPage_Title" classname="UnitClassSet.StaticPages.test_LicensePlatformPage" time="1.626"/>
+  <testcase name="AboutInvestingPage_Body" classname="UnitClassSet.StaticPages.test_AboutInvestingPage" time="17.733"/>
+  <testcase name="AboutInvestingPage_FooterLinks" classname="UnitClassSet.StaticPages.test_AboutInvestingPage" time="32.02"/>
+  <testcase name="AboutInvestingPage_HeaderButtons" classname="UnitClassSet.StaticPages.test_AboutInvestingPage" time="20.471"/>
+  <testcase name="AboutInvestingPage_SignUpAndLogin" classname="UnitClassSet.StaticPages.test_AboutInvestingPage" time="5.761"/>
+  <testcase name="DigitalSecurityOfferingsPage_Body" classname="UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage" time="21.93"/>
+  <testcase name="DigitalSecurityOfferingsPage_FooterLinks" classname="UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage" time="31.651"/>
+  <testcase name="DigitalSecurityOfferingsPage_HeaderButtons" classname="UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage" time="25.355"/>
+  <testcase name="DigitalSecurityOfferingsPage_SignUpAndLogin" classname="UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage" time="5.994"/>
+  <testcase name="DigitalSecurityOfferingsPage_SocialMediaIcons" classname="UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage" time="38.194"/>
+  <testcase name="DigitalSecurityOfferingsPage_Title" classname="UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage" time="1.615"/>
+  <testcase name="ContactUsPage_Body" classname="UnitClassSet.StaticPages.test_ContactUsPage" time="3.009"/>
+  <testcase name="ContactUsPage_FooterLinks" classname="UnitClassSet.StaticPages.test_ContactUsPage" time="31.389"/>
+  <testcase name="ContactUsPage_HeaderButtons" classname="UnitClassSet.StaticPages.test_ContactUsPage" time="23.2"/>
+  <testcase name="ContactUsPage_SignUpAndLogin" classname="UnitClassSet.StaticPages.test_ContactUsPage" time="4.636"/>
+  <testcase name="ContactUsPage_SocialMediaIcons" classname="UnitClassSet.StaticPages.test_ContactUsPage" time="23.22"/>
+  <testcase name="ContactUsPage_Title" classname="UnitClassSet.StaticPages.test_ContactUsPage" time="2.412"/>
+  <testcase name="AboutUsPage_FooterLinks" classname="UnitClassSet.StaticPages.test_AboutUsPage" time="31.128"/>
+  <testcase name="AboutUsPage_HeaderButtons" classname="UnitClassSet.StaticPages.test_AboutUsPage" time="21.648"/>
+  <testcase name="AboutUsPage_SignUpAndLogin" classname="UnitClassSet.StaticPages.test_AboutUsPage" time="10.979"/>
+  <testcase name="AboutUsPage_SocialMediaIcons" classname="UnitClassSet.StaticPages.test_AboutUsPage" time="23.587"/>
+  <testcase name="AboutUsPage_Title" classname="UnitClassSet.StaticPages.test_AboutUsPage" time="2.757"/>
+  <testcase name="BlogPage_Body" classname="UnitClassSet.StaticPages.test_BlogPage" time="10.285"/>
+  <testcase name="BlogPage_FooterLinks" classname="UnitClassSet.StaticPages.test_BlogPage" time="43.018"/>
+  <testcase name="BlogPage_HeaderButtons" classname="UnitClassSet.StaticPages.test_BlogPage" time="30.672"/>
+  <testcase name="BlogPage_SignUpAndLogin" classname="UnitClassSet.StaticPages.test_BlogPage" time="5.618"/>
+  <testcase name="BlogPage_SocialMediaIcons" classname="UnitClassSet.StaticPages.test_BlogPage" time="30.598"/>
+  <testcase name="BlogPage_Title" classname="UnitClassSet.StaticPages.test_BlogPage" time="1.824"/>
+  <testcase name="InvestorsQuestionsPage_Body" classname="UnitClassSet.StaticPages.test_InvestorsQuestionsPage" time="6.482"/>
+  <testcase name="InvestorsQuestionsPage_FooterLinks" classname="UnitClassSet.StaticPages.test_InvestorsQuestionsPage" time="36.289"/>
+  <testcase name="InvestorsQuestionsPage_HeaderButtons" classname="UnitClassSet.StaticPages.test_InvestorsQuestionsPage" time="26.425"/>
+  <testcase name="InvestorsQuestionsPage_SignUpAndLogin" classname="UnitClassSet.StaticPages.test_InvestorsQuestionsPage" time="5.95"/>
+  <testcase name="InvestorsQuestionsPage_SocialMediaIcons" classname="UnitClassSet.StaticPages.test_InvestorsQuestionsPage" time="22.71"/>
+  <testcase name="InvestorsQuestionsPage_Title" classname="UnitClassSet.StaticPages.test_InvestorsQuestionsPage" time="1.742"/>
+  <testcase name="BusinessQuestionsPage_Body" classname="UnitClassSet.StaticPages.test_BusinessQuestionsPage" time="7.1"/>
+  <testcase name="BusinessQuestionsPage_FooterLinks" classname="UnitClassSet.StaticPages.test_BusinessQuestionsPage" time="35.161"/>
+  <testcase name="BusinessQuestionsPage_HeaderButtons" classname="UnitClassSet.StaticPages.test_BusinessQuestionsPage" time="21.565"/>
+  <testcase name="BusinessQuestionsPage_SignUpAndLogin" classname="UnitClassSet.StaticPages.test_BusinessQuestionsPage" time="5.498"/>
+  <testcase name="BusinessQuestionsPage_SocialMediaIcons" classname="UnitClassSet.StaticPages.test_BusinessQuestionsPage" time="44.188"/>
+  <testcase name="BusinessQuestionsPage_Title" classname="UnitClassSet.StaticPages.test_BusinessQuestionsPage" time="2.03"/>
+  <testcase name="EducationResourcesPage_Body" classname="UnitClassSet.StaticPages.test_EducationResourcesPage" time="4.884"/>
+  <testcase name="EducationResourcesPage_FooterLinks" classname="UnitClassSet.StaticPages.test_EducationResourcesPage" time="32.559">
+    <failure message="invalid selector: Unable to locate an element with the xpath expression /html/body/div[2]/div[3]/footer/div[2]/div/div/a[1]1] because of the following error:&#10;SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;/html/body/div[2]/div[3]/footer/div[2]/div/div/a[1]1]&apos; is not a valid XPath expression.&#10;  (Session info: chrome=72.0.3626.121)&#10;  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;VPRYBEHA-W10&apos;, ip: &apos;10.91.130.113&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: D:\Share\vprybeha\Trash\sco...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60862}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}&#10;Session ID: b7c018d5af3869e9a4537f1f3c0062c2&#10;*** Element info: {Using=xpath, value=/html/body/div[2]/div[3]/footer/div[2]/div/div/a[1]1]}" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression /html/body/div[2]/div[3]/footer/div[2]/div/div/a[1]1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '/html/body/div[2]/div[3]/footer/div[2]/div/div/a[1]1]' is not a valid XPath expression.
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VPRYBEHA-W10', ip: '10.91.130.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: D:\Share\vprybeha\Trash\sco...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60862}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: b7c018d5af3869e9a4537f1f3c0062c2
+*** Element info: {Using=xpath, value=/html/body/div[2]/div[3]/footer/div[2]/div/div/a[1]1]}
+	at UnitClassSet.StaticPages.test_EducationResourcesPage.EducationResourcesPage_FooterLinks(test_EducationResourcesPage.java:89)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1) on port 34329
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Mar 07, 2019 6:37:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="EducationResourcesPage_HeaderButtons" classname="UnitClassSet.StaticPages.test_EducationResourcesPage" time="25.361"/>
+  <testcase name="EducationResourcesPage_SignUpAndLogin" classname="UnitClassSet.StaticPages.test_EducationResourcesPage" time="5.943"/>
+  <testcase name="EducationResourcesPage_SocialMediaIcons" classname="UnitClassSet.StaticPages.test_EducationResourcesPage" time="23.487"/>
+  <testcase name="EducationResourcesPage_Title" classname="UnitClassSet.StaticPages.test_EducationResourcesPage" time="1.561"/>
+  <testcase name="ImportantDisclaimerPage_FooterLinks" classname="UnitClassSet.StaticPages.test_ImportantDisclaimerPage" time="30.869"/>
+  <testcase name="ImportantDisclaimerPage_HeaderButtons" classname="UnitClassSet.StaticPages.test_ImportantDisclaimerPage" time="22.097"/>
+  <testcase name="ImportantDisclaimerPage_SignUpAndLogin" classname="UnitClassSet.StaticPages.test_ImportantDisclaimerPage" time="5.115"/>
+  <testcase name="ImportantDisclaimerPage_SocialMediaIcons" classname="UnitClassSet.StaticPages.test_ImportantDisclaimerPage" time="23.73"/>
+  <testcase name="ImportantDisclaimerPage_Title" classname="UnitClassSet.StaticPages.test_ImportantDisclaimerPage" time="2.827"/>
+  <testcase name="TermsOfUsePage_FooterLinks" classname="UnitClassSet.StaticPages.test_TermsOfUsePage" time="39.497"/>
+  <testcase name="TermsOfUsePage_HeaderButtons" classname="UnitClassSet.StaticPages.test_TermsOfUsePage" time="23.868"/>
+  <testcase name="TermsOfUsePage_SignUpAndLogin" classname="UnitClassSet.StaticPages.test_TermsOfUsePage" time="12.601"/>
+  <testcase name="TermsOfUsePage_SocialMediaIcons" classname="UnitClassSet.StaticPages.test_TermsOfUsePage" time="23.594"/>
+  <testcase name="TermsOfUsePage_Title" classname="UnitClassSet.StaticPages.test_TermsOfUsePage" time="4.123"/>
+  <testcase name="PrivacyPolicyPage_FooterLinks" classname="UnitClassSet.StaticPages.test_PrivacyPolicyPage" time="41.795"/>
+  <testcase name="PrivacyPolicyPage_HeaderButtons" classname="UnitClassSet.StaticPages.test_PrivacyPolicyPage" time="28.096"/>
+  <testcase name="PrivacyPolicyPage_SignUpAndLogin" classname="UnitClassSet.StaticPages.test_PrivacyPolicyPage" time="21.02"/>
+  <testcase name="PrivacyPolicyPage_SocialMediaIcons" classname="UnitClassSet.StaticPages.test_PrivacyPolicyPage" time="24.441"/>
+  <testcase name="PrivacyPolicyPage_Title" classname="UnitClassSet.StaticPages.test_PrivacyPolicyPage" time="2.889"/>
+</testsuite>

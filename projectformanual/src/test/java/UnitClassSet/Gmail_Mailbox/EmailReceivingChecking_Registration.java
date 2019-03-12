@@ -18,7 +18,7 @@ public class EmailReceivingChecking_Registration {
     private void Gmail_CheckContent_for_Registration() throws Exception{
         Scanner reader = new Scanner(new File("src/test/java/UnitClassSet/Registration/id.txt"));
         int id = reader.nextInt();
-        String email = "prybehavtests+autotest" + Integer.toString(26) + "@gmail.com";
+        String email = "prybehavtests+autotest" + Integer.toString(id-1) + "@gmail.com";
         String name = "test_UserName";
 
         Thread.sleep(5000);

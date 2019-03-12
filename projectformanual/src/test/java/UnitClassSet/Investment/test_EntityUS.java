@@ -21,10 +21,7 @@ public class test_EntityUS extends SetupClass {
         PagesURL.LoginPage();
 
         Maintenance maintenance = new Maintenance();
-        if (maintenance.MaintenancePageCheck()){
-            LogUtil.log("Maintenance mode is on!");
-            return;
-        }
+        maintenance.MaintenancePageCheck();
 
         Login l = new Login();
         l.LoginTest(entity_US);
@@ -47,10 +44,7 @@ public class test_EntityUS extends SetupClass {
         PagesURL.LoginPage();
 
         Maintenance maintenance = new Maintenance();
-        if (maintenance.MaintenancePageCheck()){
-            LogUtil.log("Maintenance mode is on!");
-            return;
-        }
+        maintenance.MaintenancePageCheck();
 
         Login l = new Login();
         l.LoginTest(entity_US);
@@ -73,10 +67,7 @@ public class test_EntityUS extends SetupClass {
         PagesURL.LoginPage();
 
         Maintenance maintenance = new Maintenance();
-        if (maintenance.MaintenancePageCheck()){
-            LogUtil.log("Maintenance mode is on!");
-            return;
-        }
+        maintenance.MaintenancePageCheck();
 
         Login l = new Login();
         l.LoginTest(entity_US);
@@ -99,10 +90,7 @@ public class test_EntityUS extends SetupClass {
         PagesURL.LoginPage();
 
         Maintenance maintenance = new Maintenance();
-        if (maintenance.MaintenancePageCheck()){
-            LogUtil.log("Maintenance mode is on!");
-            return;
-        }
+        maintenance.MaintenancePageCheck();
 
         Login l = new Login();
         l.LoginTest(entity_US);

@@ -1,0 +1,2785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="14" total="100" passed="85">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sone tests" duration-ms="2228607" started-at="2019-03-07T16:08:31Z" finished-at="2019-03-07T16:45:40Z">
+    <groups>
+    </groups>
+    <test name="Static Pages Tests" duration-ms="2228607" started-at="2019-03-07T16:08:31Z" finished-at="2019-03-07T16:45:40Z">
+      <class name="UnitClassSet.StaticPages.test_BlogPage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2]" name="setup" is-config="true" duration-ms="3414" started-at="2019-03-07T16:30:43Z" finished-at="2019-03-07T16:30:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BlogPage_Body()[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2]" name="BlogPage_Body" duration-ms="10284" started-at="2019-03-07T16:30:46Z" finished-at="2019-03-07T16:30:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlogPage_Body -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2]" name="teardown" is-config="true" duration-ms="667" started-at="2019-03-07T16:30:57Z" finished-at="2019-03-07T16:30:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BlogPage_Body status=SUCCESS method=test_BlogPage.BlogPage_Body()[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_BlogPage.BlogPage_Body() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2]" name="setup" is-config="true" duration-ms="3337" started-at="2019-03-07T16:30:57Z" finished-at="2019-03-07T16:31:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BlogPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2]" name="BlogPage_FooterLinks" duration-ms="43018" started-at="2019-03-07T16:31:01Z" finished-at="2019-03-07T16:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlogPage_FooterLinks -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2]" name="teardown" is-config="true" duration-ms="773" started-at="2019-03-07T16:31:44Z" finished-at="2019-03-07T16:31:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BlogPage_FooterLinks status=SUCCESS method=test_BlogPage.BlogPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_BlogPage.BlogPage_FooterLinks() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2]" name="setup" is-config="true" duration-ms="3343" started-at="2019-03-07T16:31:44Z" finished-at="2019-03-07T16:31:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BlogPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2]" name="BlogPage_HeaderButtons" duration-ms="30673" started-at="2019-03-07T16:31:48Z" finished-at="2019-03-07T16:32:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlogPage_HeaderButtons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2]" name="teardown" is-config="true" duration-ms="641" started-at="2019-03-07T16:32:19Z" finished-at="2019-03-07T16:32:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BlogPage_HeaderButtons status=SUCCESS method=test_BlogPage.BlogPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_BlogPage.BlogPage_HeaderButtons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2]" name="setup" is-config="true" duration-ms="3297" started-at="2019-03-07T16:32:19Z" finished-at="2019-03-07T16:32:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BlogPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2]" name="BlogPage_SignUpAndLogin" duration-ms="5618" started-at="2019-03-07T16:32:22Z" finished-at="2019-03-07T16:32:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlogPage_SignUpAndLogin -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2]" name="teardown" is-config="true" duration-ms="728" started-at="2019-03-07T16:32:28Z" finished-at="2019-03-07T16:32:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BlogPage_SignUpAndLogin status=SUCCESS method=test_BlogPage.BlogPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_BlogPage.BlogPage_SignUpAndLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2]" name="setup" is-config="true" duration-ms="3448" started-at="2019-03-07T16:32:29Z" finished-at="2019-03-07T16:32:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BlogPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2]" name="BlogPage_SocialMediaIcons" duration-ms="30595" started-at="2019-03-07T16:32:32Z" finished-at="2019-03-07T16:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlogPage_SocialMediaIcons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2]" name="teardown" is-config="true" duration-ms="916" started-at="2019-03-07T16:33:03Z" finished-at="2019-03-07T16:33:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BlogPage_SocialMediaIcons status=SUCCESS method=test_BlogPage.BlogPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_BlogPage.BlogPage_SocialMediaIcons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2]" name="setup" is-config="true" duration-ms="3322" started-at="2019-03-07T16:33:04Z" finished-at="2019-03-07T16:33:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BlogPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2]" name="BlogPage_Title" duration-ms="1832" started-at="2019-03-07T16:33:07Z" finished-at="2019-03-07T16:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlogPage_Title -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2]" name="teardown" is-config="true" duration-ms="784" started-at="2019-03-07T16:33:09Z" finished-at="2019-03-07T16:33:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BlogPage_Title status=SUCCESS method=test_BlogPage.BlogPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_BlogPage@49d831c2] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_BlogPage.BlogPage_Title()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UnitClassSet.StaticPages.test_BlogPage -->
+      <class name="UnitClassSet.StaticPages.test_AboutUsPage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_AboutUsPage@43fda8d9]" name="setup" is-config="true" duration-ms="3315" started-at="2019-03-07T16:28:53Z" finished-at="2019-03-07T16:28:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AboutUsPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_AboutUsPage@43fda8d9]" name="AboutUsPage_FooterLinks" duration-ms="31128" started-at="2019-03-07T16:28:56Z" finished-at="2019-03-07T16:29:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutUsPage_FooterLinks -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_AboutUsPage@43fda8d9]" name="teardown" is-config="true" duration-ms="638" started-at="2019-03-07T16:29:27Z" finished-at="2019-03-07T16:29:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AboutUsPage_FooterLinks status=SUCCESS method=test_AboutUsPage.AboutUsPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_AboutUsPage@43fda8d9] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_AboutUsPage.AboutUsPage_FooterLinks() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_AboutUsPage@43fda8d9]" name="setup" is-config="true" duration-ms="3442" started-at="2019-03-07T16:29:28Z" finished-at="2019-03-07T16:29:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AboutUsPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_AboutUsPage@43fda8d9]" name="AboutUsPage_HeaderButtons" duration-ms="21648" started-at="2019-03-07T16:29:31Z" finished-at="2019-03-07T16:29:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutUsPage_HeaderButtons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_AboutUsPage@43fda8d9]" name="teardown" is-config="true" duration-ms="635" started-at="2019-03-07T16:29:53Z" finished-at="2019-03-07T16:29:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AboutUsPage_HeaderButtons status=SUCCESS method=test_AboutUsPage.AboutUsPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_AboutUsPage@43fda8d9] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_AboutUsPage.AboutUsPage_HeaderButtons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_AboutUsPage@43fda8d9]" name="setup" is-config="true" duration-ms="3360" started-at="2019-03-07T16:29:54Z" finished-at="2019-03-07T16:29:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AboutUsPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_AboutUsPage@43fda8d9]" name="AboutUsPage_SignUpAndLogin" duration-ms="10979" started-at="2019-03-07T16:29:57Z" finished-at="2019-03-07T16:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutUsPage_SignUpAndLogin -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_AboutUsPage@43fda8d9]" name="teardown" is-config="true" duration-ms="633" started-at="2019-03-07T16:30:08Z" finished-at="2019-03-07T16:30:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AboutUsPage_SignUpAndLogin status=SUCCESS method=test_AboutUsPage.AboutUsPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_AboutUsPage@43fda8d9] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_AboutUsPage.AboutUsPage_SignUpAndLogin() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_AboutUsPage@43fda8d9]" name="setup" is-config="true" duration-ms="3363" started-at="2019-03-07T16:30:08Z" finished-at="2019-03-07T16:30:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AboutUsPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_AboutUsPage@43fda8d9]" name="AboutUsPage_SocialMediaIcons" duration-ms="23587" started-at="2019-03-07T16:30:12Z" finished-at="2019-03-07T16:30:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutUsPage_SocialMediaIcons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_AboutUsPage@43fda8d9]" name="teardown" is-config="true" duration-ms="733" started-at="2019-03-07T16:30:35Z" finished-at="2019-03-07T16:30:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AboutUsPage_SocialMediaIcons status=SUCCESS method=test_AboutUsPage.AboutUsPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_AboutUsPage@43fda8d9] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_AboutUsPage.AboutUsPage_SocialMediaIcons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_AboutUsPage@43fda8d9]" name="setup" is-config="true" duration-ms="3384" started-at="2019-03-07T16:30:36Z" finished-at="2019-03-07T16:30:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AboutUsPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_AboutUsPage@43fda8d9]" name="AboutUsPage_Title" duration-ms="2757" started-at="2019-03-07T16:30:40Z" finished-at="2019-03-07T16:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutUsPage_Title -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_AboutUsPage@43fda8d9]" name="teardown" is-config="true" duration-ms="676" started-at="2019-03-07T16:30:42Z" finished-at="2019-03-07T16:30:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AboutUsPage_Title status=SUCCESS method=test_AboutUsPage.AboutUsPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_AboutUsPage@43fda8d9] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_AboutUsPage.AboutUsPage_Title()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UnitClassSet.StaticPages.test_AboutUsPage -->
+      <class name="UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e]" name="setup" is-config="true" duration-ms="3257" started-at="2019-03-07T16:24:31Z" finished-at="2019-03-07T16:24:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DigitalSecurityOfferingsPage_Body()[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e]" name="DigitalSecurityOfferingsPage_Body" duration-ms="21931" started-at="2019-03-07T16:24:35Z" finished-at="2019-03-07T16:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DigitalSecurityOfferingsPage_Body -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e]" name="teardown" is-config="true" duration-ms="648" started-at="2019-03-07T16:24:57Z" finished-at="2019-03-07T16:24:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DigitalSecurityOfferingsPage_Body status=SUCCESS method=test_DigitalSecurityOfferingsPage.DigitalSecurityOfferingsPage_Body()[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage.DigitalSecurityOfferingsPage_Body() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e]" name="setup" is-config="true" duration-ms="3421" started-at="2019-03-07T16:24:57Z" finished-at="2019-03-07T16:25:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DigitalSecurityOfferingsPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e]" name="DigitalSecurityOfferingsPage_FooterLinks" duration-ms="31650" started-at="2019-03-07T16:25:01Z" finished-at="2019-03-07T16:25:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DigitalSecurityOfferingsPage_FooterLinks -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e]" name="teardown" is-config="true" duration-ms="642" started-at="2019-03-07T16:25:32Z" finished-at="2019-03-07T16:25:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DigitalSecurityOfferingsPage_FooterLinks status=SUCCESS method=test_DigitalSecurityOfferingsPage.DigitalSecurityOfferingsPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage.DigitalSecurityOfferingsPage_FooterLinks() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e]" name="setup" is-config="true" duration-ms="3338" started-at="2019-03-07T16:25:33Z" finished-at="2019-03-07T16:25:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DigitalSecurityOfferingsPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e]" name="DigitalSecurityOfferingsPage_HeaderButtons" duration-ms="25355" started-at="2019-03-07T16:25:36Z" finished-at="2019-03-07T16:26:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DigitalSecurityOfferingsPage_HeaderButtons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e]" name="teardown" is-config="true" duration-ms="658" started-at="2019-03-07T16:26:02Z" finished-at="2019-03-07T16:26:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DigitalSecurityOfferingsPage_HeaderButtons status=SUCCESS method=test_DigitalSecurityOfferingsPage.DigitalSecurityOfferingsPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage.DigitalSecurityOfferingsPage_HeaderButtons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e]" name="setup" is-config="true" duration-ms="3246" started-at="2019-03-07T16:26:02Z" finished-at="2019-03-07T16:26:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DigitalSecurityOfferingsPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e]" name="DigitalSecurityOfferingsPage_SignUpAndLogin" duration-ms="5995" started-at="2019-03-07T16:26:06Z" finished-at="2019-03-07T16:26:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DigitalSecurityOfferingsPage_SignUpAndLogin -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e]" name="teardown" is-config="true" duration-ms="649" started-at="2019-03-07T16:26:12Z" finished-at="2019-03-07T16:26:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DigitalSecurityOfferingsPage_SignUpAndLogin status=SUCCESS method=test_DigitalSecurityOfferingsPage.DigitalSecurityOfferingsPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage.DigitalSecurityOfferingsPage_SignUpAndLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e]" name="setup" is-config="true" duration-ms="3429" started-at="2019-03-07T16:26:12Z" finished-at="2019-03-07T16:26:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DigitalSecurityOfferingsPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e]" name="DigitalSecurityOfferingsPage_SocialMediaIcons" duration-ms="38194" started-at="2019-03-07T16:26:16Z" finished-at="2019-03-07T16:26:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DigitalSecurityOfferingsPage_SocialMediaIcons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e]" name="teardown" is-config="true" duration-ms="730" started-at="2019-03-07T16:26:54Z" finished-at="2019-03-07T16:26:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DigitalSecurityOfferingsPage_SocialMediaIcons status=SUCCESS method=test_DigitalSecurityOfferingsPage.DigitalSecurityOfferingsPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage.DigitalSecurityOfferingsPage_SocialMediaIcons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e]" name="setup" is-config="true" duration-ms="3390" started-at="2019-03-07T16:26:55Z" finished-at="2019-03-07T16:26:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DigitalSecurityOfferingsPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e]" name="DigitalSecurityOfferingsPage_Title" duration-ms="1615" started-at="2019-03-07T16:26:58Z" finished-at="2019-03-07T16:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DigitalSecurityOfferingsPage_Title -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e]" name="teardown" is-config="true" duration-ms="642" started-at="2019-03-07T16:27:00Z" finished-at="2019-03-07T16:27:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DigitalSecurityOfferingsPage_Title status=SUCCESS method=test_DigitalSecurityOfferingsPage.DigitalSecurityOfferingsPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage@56399b9e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage.DigitalSecurityOfferingsPage_Title()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UnitClassSet.StaticPages.test_DigitalSecurityOfferingsPage -->
+      <class name="UnitClassSet.StaticPages.test_AboutInvestingPage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_AboutInvestingPage@65ddee5a]" name="setup" is-config="true" duration-ms="3441" started-at="2019-03-07T16:18:37Z" finished-at="2019-03-07T16:18:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AboutInvestingPage_Body()[pri:0, instance:UnitClassSet.StaticPages.test_AboutInvestingPage@65ddee5a]" name="AboutInvestingPage_Body" duration-ms="17733" started-at="2019-03-07T16:18:40Z" finished-at="2019-03-07T16:18:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutInvestingPage_Body -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_AboutInvestingPage@65ddee5a]" name="teardown" is-config="true" duration-ms="743" started-at="2019-03-07T16:18:58Z" finished-at="2019-03-07T16:18:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AboutInvestingPage_Body status=SUCCESS method=test_AboutInvestingPage.AboutInvestingPage_Body()[pri:0, instance:UnitClassSet.StaticPages.test_AboutInvestingPage@65ddee5a] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_AboutInvestingPage.AboutInvestingPage_Body() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_AboutInvestingPage@65ddee5a]" name="setup" is-config="true" duration-ms="3395" started-at="2019-03-07T16:18:59Z" finished-at="2019-03-07T16:19:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AboutInvestingPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_AboutInvestingPage@65ddee5a]" name="AboutInvestingPage_FooterLinks" duration-ms="32020" started-at="2019-03-07T16:19:02Z" finished-at="2019-03-07T16:19:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutInvestingPage_FooterLinks -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_AboutInvestingPage@65ddee5a]" name="teardown" is-config="true" duration-ms="753" started-at="2019-03-07T16:19:34Z" finished-at="2019-03-07T16:19:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AboutInvestingPage_FooterLinks status=SUCCESS method=test_AboutInvestingPage.AboutInvestingPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_AboutInvestingPage@65ddee5a] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_AboutInvestingPage.AboutInvestingPage_FooterLinks() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_AboutInvestingPage@65ddee5a]" name="setup" is-config="true" duration-ms="3347" started-at="2019-03-07T16:19:35Z" finished-at="2019-03-07T16:19:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AboutInvestingPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_AboutInvestingPage@65ddee5a]" name="AboutInvestingPage_HeaderButtons" duration-ms="20470" started-at="2019-03-07T16:19:38Z" finished-at="2019-03-07T16:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutInvestingPage_HeaderButtons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_AboutInvestingPage@65ddee5a]" name="teardown" is-config="true" duration-ms="732" started-at="2019-03-07T16:19:59Z" finished-at="2019-03-07T16:20:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AboutInvestingPage_HeaderButtons status=SUCCESS method=test_AboutInvestingPage.AboutInvestingPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_AboutInvestingPage@65ddee5a] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_AboutInvestingPage.AboutInvestingPage_HeaderButtons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_AboutInvestingPage@65ddee5a]" name="setup" is-config="true" duration-ms="3546" started-at="2019-03-07T16:20:00Z" finished-at="2019-03-07T16:20:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AboutInvestingPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_AboutInvestingPage@65ddee5a]" name="AboutInvestingPage_SignUpAndLogin" duration-ms="5762" started-at="2019-03-07T16:20:03Z" finished-at="2019-03-07T16:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutInvestingPage_SignUpAndLogin -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_AboutInvestingPage@65ddee5a]" name="teardown" is-config="true" duration-ms="797" started-at="2019-03-07T16:20:09Z" finished-at="2019-03-07T16:20:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AboutInvestingPage_SignUpAndLogin status=SUCCESS method=test_AboutInvestingPage.AboutInvestingPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_AboutInvestingPage@65ddee5a] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_AboutInvestingPage.AboutInvestingPage_SignUpAndLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_AboutInvestingPage@65ddee5a]" name="setup" is-config="true" duration-ms="3384" started-at="2019-03-07T16:20:10Z" finished-at="2019-03-07T16:20:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- UnitClassSet.StaticPages.test_AboutInvestingPage -->
+      <class name="UnitClassSet.StaticPages.test_BrowseDealsPage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1]" name="setup" is-config="true" duration-ms="3343" started-at="2019-03-07T16:11:09Z" finished-at="2019-03-07T16:11:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BrowseDealsPage_Body()[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1]" name="BrowseDealsPage_Body" duration-ms="17944" started-at="2019-03-07T16:11:12Z" finished-at="2019-03-07T16:11:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowseDealsPage_Body -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1]" name="teardown" is-config="true" duration-ms="743" started-at="2019-03-07T16:11:30Z" finished-at="2019-03-07T16:11:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BrowseDealsPage_Body status=SUCCESS method=test_BrowseDealsPage.BrowseDealsPage_Body()[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_BrowseDealsPage.BrowseDealsPage_Body() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1]" name="setup" is-config="true" duration-ms="3425" started-at="2019-03-07T16:11:31Z" finished-at="2019-03-07T16:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BrowseDealsPage_CheckDealsPage()[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1]" name="BrowseDealsPage_CheckDealsPage" duration-ms="26113" started-at="2019-03-07T16:11:34Z" finished-at="2019-03-07T16:12:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowseDealsPage_CheckDealsPage -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1]" name="teardown" is-config="true" duration-ms="806" started-at="2019-03-07T16:12:00Z" finished-at="2019-03-07T16:12:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BrowseDealsPage_CheckDealsPage status=SUCCESS method=test_BrowseDealsPage.BrowseDealsPage_CheckDealsPage()[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_BrowseDealsPage.BrowseDealsPage_CheckDealsPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1]" name="setup" is-config="true" duration-ms="3348" started-at="2019-03-07T16:12:01Z" finished-at="2019-03-07T16:12:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BrowseDealsPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1]" name="BrowseDealsPage_FooterLinks" duration-ms="37795" started-at="2019-03-07T16:12:05Z" finished-at="2019-03-07T16:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowseDealsPage_FooterLinks -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1]" name="teardown" is-config="true" duration-ms="713" started-at="2019-03-07T16:12:42Z" finished-at="2019-03-07T16:12:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BrowseDealsPage_FooterLinks status=SUCCESS method=test_BrowseDealsPage.BrowseDealsPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_BrowseDealsPage.BrowseDealsPage_FooterLinks() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1]" name="setup" is-config="true" duration-ms="3416" started-at="2019-03-07T16:12:43Z" finished-at="2019-03-07T16:12:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BrowseDealsPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1]" name="BrowseDealsPage_HeaderButtons" duration-ms="23631" started-at="2019-03-07T16:12:46Z" finished-at="2019-03-07T16:13:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowseDealsPage_HeaderButtons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1]" name="teardown" is-config="true" duration-ms="727" started-at="2019-03-07T16:13:10Z" finished-at="2019-03-07T16:13:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BrowseDealsPage_HeaderButtons status=SUCCESS method=test_BrowseDealsPage.BrowseDealsPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_BrowseDealsPage.BrowseDealsPage_HeaderButtons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1]" name="setup" is-config="true" duration-ms="3361" started-at="2019-03-07T16:13:11Z" finished-at="2019-03-07T16:13:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BrowseDealsPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1]" name="BrowseDealsPage_SignUpAndLogin" duration-ms="12561" started-at="2019-03-07T16:13:14Z" finished-at="2019-03-07T16:13:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowseDealsPage_SignUpAndLogin -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1]" name="teardown" is-config="true" duration-ms="717" started-at="2019-03-07T16:13:27Z" finished-at="2019-03-07T16:13:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BrowseDealsPage_SignUpAndLogin status=SUCCESS method=test_BrowseDealsPage.BrowseDealsPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_BrowseDealsPage.BrowseDealsPage_SignUpAndLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1]" name="setup" is-config="true" duration-ms="3351" started-at="2019-03-07T16:13:27Z" finished-at="2019-03-07T16:13:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BrowseDealsPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1]" name="BrowseDealsPage_SocialMediaIcons" duration-ms="29753" started-at="2019-03-07T16:13:31Z" finished-at="2019-03-07T16:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowseDealsPage_SocialMediaIcons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1]" name="teardown" is-config="true" duration-ms="770" started-at="2019-03-07T16:14:01Z" finished-at="2019-03-07T16:14:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BrowseDealsPage_SocialMediaIcons status=SUCCESS method=test_BrowseDealsPage.BrowseDealsPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_BrowseDealsPage.BrowseDealsPage_SocialMediaIcons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1]" name="setup" is-config="true" duration-ms="3246" started-at="2019-03-07T16:14:01Z" finished-at="2019-03-07T16:14:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BrowseDealsPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1]" name="BrowseDealsPage_Title" duration-ms="8711" started-at="2019-03-07T16:14:05Z" finished-at="2019-03-07T16:14:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowseDealsPage_Title -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1]" name="teardown" is-config="true" duration-ms="759" started-at="2019-03-07T16:14:13Z" finished-at="2019-03-07T16:14:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BrowseDealsPage_Title status=SUCCESS method=test_BrowseDealsPage.BrowseDealsPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_BrowseDealsPage@3ae126d1] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_BrowseDealsPage.BrowseDealsPage_Title()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UnitClassSet.StaticPages.test_BrowseDealsPage -->
+      <class name="UnitClassSet.StaticPages.test_MainPage">
+        <test-method status="PASS" signature="test()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="test" is-config="true" duration-ms="19" started-at="2019-03-07T16:08:31Z" finished-at="2019-03-07T16:08:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="setup" is-config="true" duration-ms="5430" started-at="2019-03-07T16:08:32Z" finished-at="2019-03-07T16:08:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MainPage_BodyButtons()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="MainPage_BodyButtons" duration-ms="23160" started-at="2019-03-07T16:08:37Z" finished-at="2019-03-07T16:09:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_BodyButtons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="teardown" is-config="true" duration-ms="685" started-at="2019-03-07T16:09:00Z" finished-at="2019-03-07T16:09:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MainPage_BodyButtons status=SUCCESS method=test_MainPage.MainPage_BodyButtons()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_MainPage.MainPage_BodyButtons()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="setup" is-config="true" duration-ms="3320" started-at="2019-03-07T16:09:01Z" finished-at="2019-03-07T16:09:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MainPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="MainPage_FooterLinks" duration-ms="35174" started-at="2019-03-07T16:09:04Z" finished-at="2019-03-07T16:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_FooterLinks -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="teardown" is-config="true" duration-ms="681" started-at="2019-03-07T16:09:39Z" finished-at="2019-03-07T16:09:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MainPage_FooterLinks status=SUCCESS method=test_MainPage.MainPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_MainPage.MainPage_FooterLinks() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="setup" is-config="true" duration-ms="3320" started-at="2019-03-07T16:09:40Z" finished-at="2019-03-07T16:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MainPage_HeaderAndFooterSeriesOneLogoButton()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="MainPage_HeaderAndFooterSeriesOneLogoButton" duration-ms="6047" started-at="2019-03-07T16:09:43Z" finished-at="2019-03-07T16:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_HeaderAndFooterSeriesOneLogoButton -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="teardown" is-config="true" duration-ms="777" started-at="2019-03-07T16:09:49Z" finished-at="2019-03-07T16:09:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MainPage_HeaderAndFooterSeriesOneLogoButton status=SUCCESS method=test_MainPage.MainPage_HeaderAndFooterSeriesOneLogoButton()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_MainPage.MainPage_HeaderAndFooterSeriesOneLogoButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="setup" is-config="true" duration-ms="3345" started-at="2019-03-07T16:09:50Z" finished-at="2019-03-07T16:09:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MainPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="MainPage_HeaderButtons" duration-ms="28009" started-at="2019-03-07T16:09:54Z" finished-at="2019-03-07T16:10:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_HeaderButtons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="teardown" is-config="true" duration-ms="753" started-at="2019-03-07T16:10:22Z" finished-at="2019-03-07T16:10:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MainPage_HeaderButtons status=SUCCESS method=test_MainPage.MainPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_MainPage.MainPage_HeaderButtons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="setup" is-config="true" duration-ms="3359" started-at="2019-03-07T16:10:22Z" finished-at="2019-03-07T16:10:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MainPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="MainPage_SignUpAndLogin" duration-ms="6971" started-at="2019-03-07T16:10:26Z" finished-at="2019-03-07T16:10:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_SignUpAndLogin -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="teardown" is-config="true" duration-ms="737" started-at="2019-03-07T16:10:33Z" finished-at="2019-03-07T16:10:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MainPage_SignUpAndLogin status=SUCCESS method=test_MainPage.MainPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_MainPage.MainPage_SignUpAndLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="setup" is-config="true" duration-ms="3357" started-at="2019-03-07T16:10:33Z" finished-at="2019-03-07T16:10:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MainPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="MainPage_SocialMediaIcons" duration-ms="23353" started-at="2019-03-07T16:10:37Z" finished-at="2019-03-07T16:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_SocialMediaIcons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="teardown" is-config="true" duration-ms="763" started-at="2019-03-07T16:11:00Z" finished-at="2019-03-07T16:11:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MainPage_SocialMediaIcons status=SUCCESS method=test_MainPage.MainPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_MainPage.MainPage_SocialMediaIcons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="setup" is-config="true" duration-ms="3394" started-at="2019-03-07T16:11:01Z" finished-at="2019-03-07T16:11:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MainPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="MainPage_Title" duration-ms="3810" started-at="2019-03-07T16:11:04Z" finished-at="2019-03-07T16:11:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPage_Title -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd]" name="teardown" is-config="true" duration-ms="723" started-at="2019-03-07T16:11:08Z" finished-at="2019-03-07T16:11:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MainPage_Title status=SUCCESS method=test_MainPage.MainPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_MainPage@7e7f3cfd] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_MainPage.MainPage_Title()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UnitClassSet.StaticPages.test_MainPage -->
+      <class name="UnitClassSet.StaticPages.test_ContactUsPage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03]" name="setup" is-config="true" duration-ms="3325" started-at="2019-03-07T16:27:00Z" finished-at="2019-03-07T16:27:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ContactUsPage_Body()[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03]" name="ContactUsPage_Body" duration-ms="3010" started-at="2019-03-07T16:27:04Z" finished-at="2019-03-07T16:27:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUsPage_Body -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03]" name="teardown" is-config="true" duration-ms="772" started-at="2019-03-07T16:27:07Z" finished-at="2019-03-07T16:27:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactUsPage_Body status=SUCCESS method=test_ContactUsPage.ContactUsPage_Body()[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_ContactUsPage.ContactUsPage_Body() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03]" name="setup" is-config="true" duration-ms="3353" started-at="2019-03-07T16:27:07Z" finished-at="2019-03-07T16:27:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ContactUsPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03]" name="ContactUsPage_FooterLinks" duration-ms="31390" started-at="2019-03-07T16:27:11Z" finished-at="2019-03-07T16:27:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUsPage_FooterLinks -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03]" name="teardown" is-config="true" duration-ms="637" started-at="2019-03-07T16:27:42Z" finished-at="2019-03-07T16:27:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactUsPage_FooterLinks status=SUCCESS method=test_ContactUsPage.ContactUsPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_ContactUsPage.ContactUsPage_FooterLinks() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03]" name="setup" is-config="true" duration-ms="3333" started-at="2019-03-07T16:27:43Z" finished-at="2019-03-07T16:27:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ContactUsPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03]" name="ContactUsPage_HeaderButtons" duration-ms="23200" started-at="2019-03-07T16:27:46Z" finished-at="2019-03-07T16:28:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUsPage_HeaderButtons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03]" name="teardown" is-config="true" duration-ms="641" started-at="2019-03-07T16:28:09Z" finished-at="2019-03-07T16:28:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactUsPage_HeaderButtons status=SUCCESS method=test_ContactUsPage.ContactUsPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_ContactUsPage.ContactUsPage_HeaderButtons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03]" name="setup" is-config="true" duration-ms="3585" started-at="2019-03-07T16:28:10Z" finished-at="2019-03-07T16:28:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ContactUsPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03]" name="ContactUsPage_SignUpAndLogin" duration-ms="4636" started-at="2019-03-07T16:28:13Z" finished-at="2019-03-07T16:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUsPage_SignUpAndLogin -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03]" name="teardown" is-config="true" duration-ms="659" started-at="2019-03-07T16:28:18Z" finished-at="2019-03-07T16:28:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactUsPage_SignUpAndLogin status=SUCCESS method=test_ContactUsPage.ContactUsPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_ContactUsPage.ContactUsPage_SignUpAndLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03]" name="setup" is-config="true" duration-ms="3360" started-at="2019-03-07T16:28:19Z" finished-at="2019-03-07T16:28:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ContactUsPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03]" name="ContactUsPage_SocialMediaIcons" duration-ms="23221" started-at="2019-03-07T16:28:22Z" finished-at="2019-03-07T16:28:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUsPage_SocialMediaIcons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03]" name="teardown" is-config="true" duration-ms="848" started-at="2019-03-07T16:28:45Z" finished-at="2019-03-07T16:28:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactUsPage_SocialMediaIcons status=SUCCESS method=test_ContactUsPage.ContactUsPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_ContactUsPage.ContactUsPage_SocialMediaIcons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03]" name="setup" is-config="true" duration-ms="3478" started-at="2019-03-07T16:28:46Z" finished-at="2019-03-07T16:28:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ContactUsPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03]" name="ContactUsPage_Title" duration-ms="2411" started-at="2019-03-07T16:28:50Z" finished-at="2019-03-07T16:28:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUsPage_Title -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03]" name="teardown" is-config="true" duration-ms="621" started-at="2019-03-07T16:28:52Z" finished-at="2019-03-07T16:28:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactUsPage_Title status=SUCCESS method=test_ContactUsPage.ContactUsPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_ContactUsPage@34b9eb03] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_ContactUsPage.ContactUsPage_Title()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UnitClassSet.StaticPages.test_ContactUsPage -->
+      <class name="UnitClassSet.StaticPages.test_BusinessQuestionsPage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88]" name="setup" is-config="true" duration-ms="3442" started-at="2019-03-07T16:35:14Z" finished-at="2019-03-07T16:35:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BusinessQuestionsPage_Body()[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88]" name="BusinessQuestionsPage_Body" duration-ms="7100" started-at="2019-03-07T16:35:17Z" finished-at="2019-03-07T16:35:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BusinessQuestionsPage_Body -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88]" name="teardown" is-config="true" duration-ms="608" started-at="2019-03-07T16:35:24Z" finished-at="2019-03-07T16:35:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BusinessQuestionsPage_Body status=SUCCESS method=test_BusinessQuestionsPage.BusinessQuestionsPage_Body()[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_BusinessQuestionsPage.BusinessQuestionsPage_Body()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88]" name="setup" is-config="true" duration-ms="3313" started-at="2019-03-07T16:35:25Z" finished-at="2019-03-07T16:35:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BusinessQuestionsPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88]" name="BusinessQuestionsPage_FooterLinks" duration-ms="35162" started-at="2019-03-07T16:35:28Z" finished-at="2019-03-07T16:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BusinessQuestionsPage_FooterLinks -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88]" name="teardown" is-config="true" duration-ms="657" started-at="2019-03-07T16:36:03Z" finished-at="2019-03-07T16:36:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BusinessQuestionsPage_FooterLinks status=SUCCESS method=test_BusinessQuestionsPage.BusinessQuestionsPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_BusinessQuestionsPage.BusinessQuestionsPage_FooterLinks() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88]" name="setup" is-config="true" duration-ms="3264" started-at="2019-03-07T16:36:04Z" finished-at="2019-03-07T16:36:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BusinessQuestionsPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88]" name="BusinessQuestionsPage_HeaderButtons" duration-ms="21565" started-at="2019-03-07T16:36:07Z" finished-at="2019-03-07T16:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BusinessQuestionsPage_HeaderButtons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88]" name="teardown" is-config="true" duration-ms="628" started-at="2019-03-07T16:36:29Z" finished-at="2019-03-07T16:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BusinessQuestionsPage_HeaderButtons status=SUCCESS method=test_BusinessQuestionsPage.BusinessQuestionsPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_BusinessQuestionsPage.BusinessQuestionsPage_HeaderButtons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88]" name="setup" is-config="true" duration-ms="3349" started-at="2019-03-07T16:36:30Z" finished-at="2019-03-07T16:36:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BusinessQuestionsPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88]" name="BusinessQuestionsPage_SignUpAndLogin" duration-ms="5497" started-at="2019-03-07T16:36:33Z" finished-at="2019-03-07T16:36:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BusinessQuestionsPage_SignUpAndLogin -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88]" name="teardown" is-config="true" duration-ms="619" started-at="2019-03-07T16:36:38Z" finished-at="2019-03-07T16:36:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BusinessQuestionsPage_SignUpAndLogin status=SUCCESS method=test_BusinessQuestionsPage.BusinessQuestionsPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_BusinessQuestionsPage.BusinessQuestionsPage_SignUpAndLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88]" name="setup" is-config="true" duration-ms="3392" started-at="2019-03-07T16:36:39Z" finished-at="2019-03-07T16:36:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BusinessQuestionsPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88]" name="BusinessQuestionsPage_SocialMediaIcons" duration-ms="44189" started-at="2019-03-07T16:36:42Z" finished-at="2019-03-07T16:37:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BusinessQuestionsPage_SocialMediaIcons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88]" name="teardown" is-config="true" duration-ms="721" started-at="2019-03-07T16:37:27Z" finished-at="2019-03-07T16:37:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BusinessQuestionsPage_SocialMediaIcons status=SUCCESS method=test_BusinessQuestionsPage.BusinessQuestionsPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_BusinessQuestionsPage.BusinessQuestionsPage_SocialMediaIcons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88]" name="setup" is-config="true" duration-ms="3388" started-at="2019-03-07T16:37:27Z" finished-at="2019-03-07T16:37:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BusinessQuestionsPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88]" name="BusinessQuestionsPage_Title" duration-ms="2029" started-at="2019-03-07T16:37:31Z" finished-at="2019-03-07T16:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BusinessQuestionsPage_Title -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88]" name="teardown" is-config="true" duration-ms="594" started-at="2019-03-07T16:37:33Z" finished-at="2019-03-07T16:37:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BusinessQuestionsPage_Title status=SUCCESS method=test_BusinessQuestionsPage.BusinessQuestionsPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_BusinessQuestionsPage@28bdbe88] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_BusinessQuestionsPage.BusinessQuestionsPage_Title()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UnitClassSet.StaticPages.test_BusinessQuestionsPage -->
+      <class name="UnitClassSet.StaticPages.test_InvestorsQuestionsPage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c]" name="setup" is-config="true" duration-ms="3419" started-at="2019-03-07T16:33:10Z" finished-at="2019-03-07T16:33:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="InvestorsQuestionsPage_Body()[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c]" name="InvestorsQuestionsPage_Body" duration-ms="6482" started-at="2019-03-07T16:33:13Z" finished-at="2019-03-07T16:33:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvestorsQuestionsPage_Body -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c]" name="teardown" is-config="true" duration-ms="696" started-at="2019-03-07T16:33:20Z" finished-at="2019-03-07T16:33:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvestorsQuestionsPage_Body status=SUCCESS method=test_InvestorsQuestionsPage.InvestorsQuestionsPage_Body()[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_InvestorsQuestionsPage.InvestorsQuestionsPage_Body()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c]" name="setup" is-config="true" duration-ms="3346" started-at="2019-03-07T16:33:20Z" finished-at="2019-03-07T16:33:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="InvestorsQuestionsPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c]" name="InvestorsQuestionsPage_FooterLinks" duration-ms="36289" started-at="2019-03-07T16:33:24Z" finished-at="2019-03-07T16:34:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvestorsQuestionsPage_FooterLinks -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c]" name="teardown" is-config="true" duration-ms="728" started-at="2019-03-07T16:34:00Z" finished-at="2019-03-07T16:34:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvestorsQuestionsPage_FooterLinks status=SUCCESS method=test_InvestorsQuestionsPage.InvestorsQuestionsPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_InvestorsQuestionsPage.InvestorsQuestionsPage_FooterLinks() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c]" name="setup" is-config="true" duration-ms="3361" started-at="2019-03-07T16:34:01Z" finished-at="2019-03-07T16:34:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="InvestorsQuestionsPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c]" name="InvestorsQuestionsPage_HeaderButtons" duration-ms="26426" started-at="2019-03-07T16:34:04Z" finished-at="2019-03-07T16:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvestorsQuestionsPage_HeaderButtons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c]" name="teardown" is-config="true" duration-ms="699" started-at="2019-03-07T16:34:30Z" finished-at="2019-03-07T16:34:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvestorsQuestionsPage_HeaderButtons status=SUCCESS method=test_InvestorsQuestionsPage.InvestorsQuestionsPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_InvestorsQuestionsPage.InvestorsQuestionsPage_HeaderButtons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c]" name="setup" is-config="true" duration-ms="3394" started-at="2019-03-07T16:34:31Z" finished-at="2019-03-07T16:34:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="InvestorsQuestionsPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c]" name="InvestorsQuestionsPage_SignUpAndLogin" duration-ms="5949" started-at="2019-03-07T16:34:35Z" finished-at="2019-03-07T16:34:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvestorsQuestionsPage_SignUpAndLogin -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c]" name="teardown" is-config="true" duration-ms="761" started-at="2019-03-07T16:34:40Z" finished-at="2019-03-07T16:34:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvestorsQuestionsPage_SignUpAndLogin status=SUCCESS method=test_InvestorsQuestionsPage.InvestorsQuestionsPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_InvestorsQuestionsPage.InvestorsQuestionsPage_SignUpAndLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c]" name="setup" is-config="true" duration-ms="3401" started-at="2019-03-07T16:34:41Z" finished-at="2019-03-07T16:34:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="InvestorsQuestionsPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c]" name="InvestorsQuestionsPage_SocialMediaIcons" duration-ms="22708" started-at="2019-03-07T16:34:45Z" finished-at="2019-03-07T16:35:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvestorsQuestionsPage_SocialMediaIcons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c]" name="teardown" is-config="true" duration-ms="763" started-at="2019-03-07T16:35:07Z" finished-at="2019-03-07T16:35:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvestorsQuestionsPage_SocialMediaIcons status=SUCCESS method=test_InvestorsQuestionsPage.InvestorsQuestionsPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_InvestorsQuestionsPage.InvestorsQuestionsPage_SocialMediaIcons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c]" name="setup" is-config="true" duration-ms="3311" started-at="2019-03-07T16:35:08Z" finished-at="2019-03-07T16:35:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="InvestorsQuestionsPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c]" name="InvestorsQuestionsPage_Title" duration-ms="1742" started-at="2019-03-07T16:35:11Z" finished-at="2019-03-07T16:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvestorsQuestionsPage_Title -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c]" name="teardown" is-config="true" duration-ms="615" started-at="2019-03-07T16:35:13Z" finished-at="2019-03-07T16:35:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvestorsQuestionsPage_Title status=SUCCESS method=test_InvestorsQuestionsPage.InvestorsQuestionsPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_InvestorsQuestionsPage@53a7a60c] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_InvestorsQuestionsPage.InvestorsQuestionsPage_Title()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UnitClassSet.StaticPages.test_InvestorsQuestionsPage -->
+      <class name="UnitClassSet.StaticPages.test_ImportantDisclaimerPage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_ImportantDisclaimerPage@ef60710]" name="setup" is-config="true" duration-ms="3312" started-at="2019-03-07T16:39:32Z" finished-at="2019-03-07T16:39:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ImportantDisclaimerPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_ImportantDisclaimerPage@ef60710]" name="ImportantDisclaimerPage_FooterLinks" duration-ms="30869" started-at="2019-03-07T16:39:35Z" finished-at="2019-03-07T16:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImportantDisclaimerPage_FooterLinks -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_ImportantDisclaimerPage@ef60710]" name="teardown" is-config="true" duration-ms="714" started-at="2019-03-07T16:40:06Z" finished-at="2019-03-07T16:40:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ImportantDisclaimerPage_FooterLinks status=SUCCESS method=test_ImportantDisclaimerPage.ImportantDisclaimerPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_ImportantDisclaimerPage@ef60710] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_ImportantDisclaimerPage.ImportantDisclaimerPage_FooterLinks() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_ImportantDisclaimerPage@ef60710]" name="setup" is-config="true" duration-ms="3456" started-at="2019-03-07T16:40:07Z" finished-at="2019-03-07T16:40:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ImportantDisclaimerPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_ImportantDisclaimerPage@ef60710]" name="ImportantDisclaimerPage_HeaderButtons" duration-ms="22097" started-at="2019-03-07T16:40:10Z" finished-at="2019-03-07T16:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImportantDisclaimerPage_HeaderButtons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_ImportantDisclaimerPage@ef60710]" name="teardown" is-config="true" duration-ms="686" started-at="2019-03-07T16:40:32Z" finished-at="2019-03-07T16:40:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ImportantDisclaimerPage_HeaderButtons status=SUCCESS method=test_ImportantDisclaimerPage.ImportantDisclaimerPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_ImportantDisclaimerPage@ef60710] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_ImportantDisclaimerPage.ImportantDisclaimerPage_HeaderButtons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_ImportantDisclaimerPage@ef60710]" name="setup" is-config="true" duration-ms="3383" started-at="2019-03-07T16:40:33Z" finished-at="2019-03-07T16:40:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ImportantDisclaimerPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_ImportantDisclaimerPage@ef60710]" name="ImportantDisclaimerPage_SignUpAndLogin" duration-ms="5116" started-at="2019-03-07T16:40:36Z" finished-at="2019-03-07T16:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImportantDisclaimerPage_SignUpAndLogin -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_ImportantDisclaimerPage@ef60710]" name="teardown" is-config="true" duration-ms="679" started-at="2019-03-07T16:40:42Z" finished-at="2019-03-07T16:40:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ImportantDisclaimerPage_SignUpAndLogin status=SUCCESS method=test_ImportantDisclaimerPage.ImportantDisclaimerPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_ImportantDisclaimerPage@ef60710] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_ImportantDisclaimerPage.ImportantDisclaimerPage_SignUpAndLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_ImportantDisclaimerPage@ef60710]" name="setup" is-config="true" duration-ms="3409" started-at="2019-03-07T16:40:42Z" finished-at="2019-03-07T16:40:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ImportantDisclaimerPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_ImportantDisclaimerPage@ef60710]" name="ImportantDisclaimerPage_SocialMediaIcons" duration-ms="23729" started-at="2019-03-07T16:40:46Z" finished-at="2019-03-07T16:41:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImportantDisclaimerPage_SocialMediaIcons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_ImportantDisclaimerPage@ef60710]" name="teardown" is-config="true" duration-ms="813" started-at="2019-03-07T16:41:09Z" finished-at="2019-03-07T16:41:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ImportantDisclaimerPage_SocialMediaIcons status=SUCCESS method=test_ImportantDisclaimerPage.ImportantDisclaimerPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_ImportantDisclaimerPage@ef60710] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_ImportantDisclaimerPage.ImportantDisclaimerPage_SocialMediaIcons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_ImportantDisclaimerPage@ef60710]" name="setup" is-config="true" duration-ms="3335" started-at="2019-03-07T16:41:10Z" finished-at="2019-03-07T16:41:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ImportantDisclaimerPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_ImportantDisclaimerPage@ef60710]" name="ImportantDisclaimerPage_Title" duration-ms="2827" started-at="2019-03-07T16:41:13Z" finished-at="2019-03-07T16:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImportantDisclaimerPage_Title -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_ImportantDisclaimerPage@ef60710]" name="teardown" is-config="true" duration-ms="696" started-at="2019-03-07T16:41:16Z" finished-at="2019-03-07T16:41:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ImportantDisclaimerPage_Title status=SUCCESS method=test_ImportantDisclaimerPage.ImportantDisclaimerPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_ImportantDisclaimerPage@ef60710] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_ImportantDisclaimerPage.ImportantDisclaimerPage_Title()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UnitClassSet.StaticPages.test_ImportantDisclaimerPage -->
+      <class name="UnitClassSet.StaticPages.test_PrivacyPolicyPage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_PrivacyPolicyPage@2503ec73]" name="setup" is-config="true" duration-ms="3308" started-at="2019-03-07T16:43:21Z" finished-at="2019-03-07T16:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PrivacyPolicyPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_PrivacyPolicyPage@2503ec73]" name="PrivacyPolicyPage_FooterLinks" duration-ms="41796" started-at="2019-03-07T16:43:25Z" finished-at="2019-03-07T16:44:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrivacyPolicyPage_FooterLinks -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_PrivacyPolicyPage@2503ec73]" name="teardown" is-config="true" duration-ms="712" started-at="2019-03-07T16:44:06Z" finished-at="2019-03-07T16:44:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PrivacyPolicyPage_FooterLinks status=SUCCESS method=test_PrivacyPolicyPage.PrivacyPolicyPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_PrivacyPolicyPage@2503ec73] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_PrivacyPolicyPage.PrivacyPolicyPage_FooterLinks() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_PrivacyPolicyPage@2503ec73]" name="setup" is-config="true" duration-ms="3292" started-at="2019-03-07T16:44:07Z" finished-at="2019-03-07T16:44:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PrivacyPolicyPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_PrivacyPolicyPage@2503ec73]" name="PrivacyPolicyPage_HeaderButtons" duration-ms="28096" started-at="2019-03-07T16:44:10Z" finished-at="2019-03-07T16:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrivacyPolicyPage_HeaderButtons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_PrivacyPolicyPage@2503ec73]" name="teardown" is-config="true" duration-ms="668" started-at="2019-03-07T16:44:39Z" finished-at="2019-03-07T16:44:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PrivacyPolicyPage_HeaderButtons status=SUCCESS method=test_PrivacyPolicyPage.PrivacyPolicyPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_PrivacyPolicyPage@2503ec73] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_PrivacyPolicyPage.PrivacyPolicyPage_HeaderButtons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_PrivacyPolicyPage@2503ec73]" name="setup" is-config="true" duration-ms="3390" started-at="2019-03-07T16:44:39Z" finished-at="2019-03-07T16:44:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PrivacyPolicyPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_PrivacyPolicyPage@2503ec73]" name="PrivacyPolicyPage_SignUpAndLogin" duration-ms="21021" started-at="2019-03-07T16:44:43Z" finished-at="2019-03-07T16:45:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrivacyPolicyPage_SignUpAndLogin -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_PrivacyPolicyPage@2503ec73]" name="teardown" is-config="true" duration-ms="774" started-at="2019-03-07T16:45:04Z" finished-at="2019-03-07T16:45:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PrivacyPolicyPage_SignUpAndLogin status=SUCCESS method=test_PrivacyPolicyPage.PrivacyPolicyPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_PrivacyPolicyPage@2503ec73] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_PrivacyPolicyPage.PrivacyPolicyPage_SignUpAndLogin() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_PrivacyPolicyPage@2503ec73]" name="setup" is-config="true" duration-ms="3280" started-at="2019-03-07T16:45:04Z" finished-at="2019-03-07T16:45:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PrivacyPolicyPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_PrivacyPolicyPage@2503ec73]" name="PrivacyPolicyPage_SocialMediaIcons" duration-ms="24441" started-at="2019-03-07T16:45:08Z" finished-at="2019-03-07T16:45:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrivacyPolicyPage_SocialMediaIcons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_PrivacyPolicyPage@2503ec73]" name="teardown" is-config="true" duration-ms="816" started-at="2019-03-07T16:45:32Z" finished-at="2019-03-07T16:45:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PrivacyPolicyPage_SocialMediaIcons status=SUCCESS method=test_PrivacyPolicyPage.PrivacyPolicyPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_PrivacyPolicyPage@2503ec73] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_PrivacyPolicyPage.PrivacyPolicyPage_SocialMediaIcons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_PrivacyPolicyPage@2503ec73]" name="setup" is-config="true" duration-ms="3403" started-at="2019-03-07T16:45:33Z" finished-at="2019-03-07T16:45:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PrivacyPolicyPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_PrivacyPolicyPage@2503ec73]" name="PrivacyPolicyPage_Title" duration-ms="2889" started-at="2019-03-07T16:45:36Z" finished-at="2019-03-07T16:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrivacyPolicyPage_Title -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_PrivacyPolicyPage@2503ec73]" name="teardown" is-config="true" duration-ms="817" started-at="2019-03-07T16:45:39Z" finished-at="2019-03-07T16:45:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PrivacyPolicyPage_Title status=SUCCESS method=test_PrivacyPolicyPage.PrivacyPolicyPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_PrivacyPolicyPage@2503ec73] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_PrivacyPolicyPage.PrivacyPolicyPage_Title()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UnitClassSet.StaticPages.test_PrivacyPolicyPage -->
+      <class name="UnitClassSet.StaticPages.test_TermsOfUsePage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_TermsOfUsePage@600f5704]" name="setup" is-config="true" duration-ms="3441" started-at="2019-03-07T16:41:17Z" finished-at="2019-03-07T16:41:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TermsOfUsePage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_TermsOfUsePage@600f5704]" name="TermsOfUsePage_FooterLinks" duration-ms="39496" started-at="2019-03-07T16:41:20Z" finished-at="2019-03-07T16:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TermsOfUsePage_FooterLinks -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_TermsOfUsePage@600f5704]" name="teardown" is-config="true" duration-ms="691" started-at="2019-03-07T16:42:00Z" finished-at="2019-03-07T16:42:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TermsOfUsePage_FooterLinks status=SUCCESS method=test_TermsOfUsePage.TermsOfUsePage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_TermsOfUsePage@600f5704] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_TermsOfUsePage.TermsOfUsePage_FooterLinks() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_TermsOfUsePage@600f5704]" name="setup" is-config="true" duration-ms="3419" started-at="2019-03-07T16:42:01Z" finished-at="2019-03-07T16:42:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TermsOfUsePage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_TermsOfUsePage@600f5704]" name="TermsOfUsePage_HeaderButtons" duration-ms="23869" started-at="2019-03-07T16:42:04Z" finished-at="2019-03-07T16:42:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TermsOfUsePage_HeaderButtons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_TermsOfUsePage@600f5704]" name="teardown" is-config="true" duration-ms="682" started-at="2019-03-07T16:42:28Z" finished-at="2019-03-07T16:42:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TermsOfUsePage_HeaderButtons status=SUCCESS method=test_TermsOfUsePage.TermsOfUsePage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_TermsOfUsePage@600f5704] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_TermsOfUsePage.TermsOfUsePage_HeaderButtons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_TermsOfUsePage@600f5704]" name="setup" is-config="true" duration-ms="3442" started-at="2019-03-07T16:42:29Z" finished-at="2019-03-07T16:42:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TermsOfUsePage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_TermsOfUsePage@600f5704]" name="TermsOfUsePage_SignUpAndLogin" duration-ms="12606" started-at="2019-03-07T16:42:32Z" finished-at="2019-03-07T16:42:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TermsOfUsePage_SignUpAndLogin -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_TermsOfUsePage@600f5704]" name="teardown" is-config="true" duration-ms="760" started-at="2019-03-07T16:42:45Z" finished-at="2019-03-07T16:42:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TermsOfUsePage_SignUpAndLogin status=SUCCESS method=test_TermsOfUsePage.TermsOfUsePage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_TermsOfUsePage@600f5704] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_TermsOfUsePage.TermsOfUsePage_SignUpAndLogin() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_TermsOfUsePage@600f5704]" name="setup" is-config="true" duration-ms="3377" started-at="2019-03-07T16:42:45Z" finished-at="2019-03-07T16:42:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TermsOfUsePage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_TermsOfUsePage@600f5704]" name="TermsOfUsePage_SocialMediaIcons" duration-ms="23594" started-at="2019-03-07T16:42:49Z" finished-at="2019-03-07T16:43:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TermsOfUsePage_SocialMediaIcons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_TermsOfUsePage@600f5704]" name="teardown" is-config="true" duration-ms="814" started-at="2019-03-07T16:43:12Z" finished-at="2019-03-07T16:43:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TermsOfUsePage_SocialMediaIcons status=SUCCESS method=test_TermsOfUsePage.TermsOfUsePage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_TermsOfUsePage@600f5704] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_TermsOfUsePage.TermsOfUsePage_SocialMediaIcons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_TermsOfUsePage@600f5704]" name="setup" is-config="true" duration-ms="3320" started-at="2019-03-07T16:43:13Z" finished-at="2019-03-07T16:43:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TermsOfUsePage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_TermsOfUsePage@600f5704]" name="TermsOfUsePage_Title" duration-ms="4124" started-at="2019-03-07T16:43:17Z" finished-at="2019-03-07T16:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TermsOfUsePage_Title -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_TermsOfUsePage@600f5704]" name="teardown" is-config="true" duration-ms="685" started-at="2019-03-07T16:43:21Z" finished-at="2019-03-07T16:43:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TermsOfUsePage_Title status=SUCCESS method=test_TermsOfUsePage.TermsOfUsePage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_TermsOfUsePage@600f5704] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_TermsOfUsePage.TermsOfUsePage_Title()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UnitClassSet.StaticPages.test_TermsOfUsePage -->
+      <class name="UnitClassSet.StaticPages.test_EducationResourcesPage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026]" name="setup" is-config="true" duration-ms="3382" started-at="2019-03-07T16:37:33Z" finished-at="2019-03-07T16:37:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EducationResourcesPage_Body()[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026]" name="EducationResourcesPage_Body" duration-ms="4885" started-at="2019-03-07T16:37:37Z" finished-at="2019-03-07T16:37:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EducationResourcesPage_Body -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026]" name="teardown" is-config="true" duration-ms="614" started-at="2019-03-07T16:37:42Z" finished-at="2019-03-07T16:37:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EducationResourcesPage_Body status=SUCCESS method=test_EducationResourcesPage.EducationResourcesPage_Body()[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_EducationResourcesPage.EducationResourcesPage_Body()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026]" name="setup" is-config="true" duration-ms="3443" started-at="2019-03-07T16:37:42Z" finished-at="2019-03-07T16:37:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="EducationResourcesPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026]" name="EducationResourcesPage_FooterLinks" duration-ms="32074" started-at="2019-03-07T16:37:46Z" finished-at="2019-03-07T16:38:18Z">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression /html/body/div[2]/div[3]/footer/div[2]/div/div/a[1]1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '/html/body/div[2]/div[3]/footer/div[2]/div/div/a[1]1]' is not a valid XPath expression.
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VPRYBEHA-W10', ip: '10.91.130.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: D:\Share\vprybeha\Trash\sco...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60862}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: b7c018d5af3869e9a4537f1f3c0062c2
+*** Element info: {Using=xpath, value=/html/body/div[2]/div[3]/footer/div[2]/div/div/a[1]1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression /html/body/div[2]/div[3]/footer/div[2]/div/div/a[1]1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '/html/body/div[2]/div[3]/footer/div[2]/div/div/a[1]1]' is not a valid XPath expression.
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VPRYBEHA-W10', ip: '10.91.130.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: D:\Share\vprybeha\Trash\sco...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60862}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: b7c018d5af3869e9a4537f1f3c0062c2
+*** Element info: {Using=xpath, value=/html/body/div[2]/div[3]/footer/div[2]/div/div/a[1]1]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at UnitClassSet.StaticPages.CheckLink.CheckLinkURL(CheckLink.java:11)
+at UnitClassSet.StaticPages.FooterLinks.LinksCheck(FooterLinks.java:88)
+at UnitClassSet.StaticPages.test_EducationResourcesPage.EducationResourcesPage_FooterLinks(test_EducationResourcesPage.java:89)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EducationResourcesPage_FooterLinks -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026]" name="teardown" is-config="true" duration-ms="388" started-at="2019-03-07T16:38:18Z" finished-at="2019-03-07T16:38:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EducationResourcesPage_FooterLinks status=FAILURE method=test_EducationResourcesPage.EducationResourcesPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_EducationResourcesPage.EducationResourcesPage_FooterLinks() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026]" name="setup" is-config="true" duration-ms="3603" started-at="2019-03-07T16:38:19Z" finished-at="2019-03-07T16:38:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EducationResourcesPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026]" name="EducationResourcesPage_HeaderButtons" duration-ms="25361" started-at="2019-03-07T16:38:22Z" finished-at="2019-03-07T16:38:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EducationResourcesPage_HeaderButtons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026]" name="teardown" is-config="true" duration-ms="628" started-at="2019-03-07T16:38:48Z" finished-at="2019-03-07T16:38:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EducationResourcesPage_HeaderButtons status=SUCCESS method=test_EducationResourcesPage.EducationResourcesPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_EducationResourcesPage.EducationResourcesPage_HeaderButtons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026]" name="setup" is-config="true" duration-ms="3580" started-at="2019-03-07T16:38:48Z" finished-at="2019-03-07T16:38:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EducationResourcesPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026]" name="EducationResourcesPage_SignUpAndLogin" duration-ms="5943" started-at="2019-03-07T16:38:52Z" finished-at="2019-03-07T16:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EducationResourcesPage_SignUpAndLogin -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026]" name="teardown" is-config="true" duration-ms="640" started-at="2019-03-07T16:38:58Z" finished-at="2019-03-07T16:38:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EducationResourcesPage_SignUpAndLogin status=SUCCESS method=test_EducationResourcesPage.EducationResourcesPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_EducationResourcesPage.EducationResourcesPage_SignUpAndLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026]" name="setup" is-config="true" duration-ms="3816" started-at="2019-03-07T16:38:58Z" finished-at="2019-03-07T16:39:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EducationResourcesPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026]" name="EducationResourcesPage_SocialMediaIcons" duration-ms="23487" started-at="2019-03-07T16:39:02Z" finished-at="2019-03-07T16:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EducationResourcesPage_SocialMediaIcons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026]" name="teardown" is-config="true" duration-ms="772" started-at="2019-03-07T16:39:26Z" finished-at="2019-03-07T16:39:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EducationResourcesPage_SocialMediaIcons status=SUCCESS method=test_EducationResourcesPage.EducationResourcesPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_EducationResourcesPage.EducationResourcesPage_SocialMediaIcons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026]" name="setup" is-config="true" duration-ms="3286" started-at="2019-03-07T16:39:26Z" finished-at="2019-03-07T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EducationResourcesPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026]" name="EducationResourcesPage_Title" duration-ms="1561" started-at="2019-03-07T16:39:30Z" finished-at="2019-03-07T16:39:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EducationResourcesPage_Title -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026]" name="teardown" is-config="true" duration-ms="613" started-at="2019-03-07T16:39:31Z" finished-at="2019-03-07T16:39:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EducationResourcesPage_Title status=SUCCESS method=test_EducationResourcesPage.EducationResourcesPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_EducationResourcesPage@6a87026] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_EducationResourcesPage.EducationResourcesPage_Title()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UnitClassSet.StaticPages.test_EducationResourcesPage -->
+      <class name="UnitClassSet.StaticPages.test_LicensePlatformPage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b]" name="setup" is-config="true" duration-ms="3323" started-at="2019-03-07T16:16:21Z" finished-at="2019-03-07T16:16:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LicensePlatformPage_Body()[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b]" name="LicensePlatformPage_Body" duration-ms="18353" started-at="2019-03-07T16:16:24Z" finished-at="2019-03-07T16:16:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LicensePlatformPage_Body -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b]" name="teardown" is-config="true" duration-ms="661" started-at="2019-03-07T16:16:42Z" finished-at="2019-03-07T16:16:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LicensePlatformPage_Body status=SUCCESS method=test_LicensePlatformPage.LicensePlatformPage_Body()[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_LicensePlatformPage.LicensePlatformPage_Body() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b]" name="setup" is-config="true" duration-ms="3379" started-at="2019-03-07T16:16:43Z" finished-at="2019-03-07T16:16:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LicensePlatformPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b]" name="LicensePlatformPage_FooterLinks" duration-ms="42995" started-at="2019-03-07T16:16:46Z" finished-at="2019-03-07T16:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LicensePlatformPage_FooterLinks -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b]" name="teardown" is-config="true" duration-ms="808" started-at="2019-03-07T16:17:29Z" finished-at="2019-03-07T16:17:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LicensePlatformPage_FooterLinks status=SUCCESS method=test_LicensePlatformPage.LicensePlatformPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_LicensePlatformPage.LicensePlatformPage_FooterLinks() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b]" name="setup" is-config="true" duration-ms="3320" started-at="2019-03-07T16:17:30Z" finished-at="2019-03-07T16:17:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LicensePlatformPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b]" name="LicensePlatformPage_HeaderButtons" duration-ms="20169" started-at="2019-03-07T16:17:34Z" finished-at="2019-03-07T16:17:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LicensePlatformPage_HeaderButtons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b]" name="teardown" is-config="true" duration-ms="693" started-at="2019-03-07T16:17:54Z" finished-at="2019-03-07T16:17:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LicensePlatformPage_HeaderButtons status=SUCCESS method=test_LicensePlatformPage.LicensePlatformPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_LicensePlatformPage.LicensePlatformPage_HeaderButtons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b]" name="setup" is-config="true" duration-ms="3375" started-at="2019-03-07T16:17:54Z" finished-at="2019-03-07T16:17:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LicensePlatformPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b]" name="LicensePlatformPage_SignUpAndLogin" duration-ms="5824" started-at="2019-03-07T16:17:58Z" finished-at="2019-03-07T16:18:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LicensePlatformPage_SignUpAndLogin -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b]" name="teardown" is-config="true" duration-ms="651" started-at="2019-03-07T16:18:04Z" finished-at="2019-03-07T16:18:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LicensePlatformPage_SignUpAndLogin status=SUCCESS method=test_LicensePlatformPage.LicensePlatformPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_LicensePlatformPage.LicensePlatformPage_SignUpAndLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b]" name="setup" is-config="true" duration-ms="3686" started-at="2019-03-07T16:18:04Z" finished-at="2019-03-07T16:18:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LicensePlatformPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b]" name="LicensePlatformPage_SocialMediaIcons" duration-ms="22537" started-at="2019-03-07T16:18:08Z" finished-at="2019-03-07T16:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LicensePlatformPage_SocialMediaIcons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b]" name="teardown" is-config="true" duration-ms="802" started-at="2019-03-07T16:18:30Z" finished-at="2019-03-07T16:18:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LicensePlatformPage_SocialMediaIcons status=SUCCESS method=test_LicensePlatformPage.LicensePlatformPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_LicensePlatformPage.LicensePlatformPage_SocialMediaIcons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b]" name="setup" is-config="true" duration-ms="3367" started-at="2019-03-07T16:18:31Z" finished-at="2019-03-07T16:18:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LicensePlatformPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b]" name="LicensePlatformPage_Title" duration-ms="1628" started-at="2019-03-07T16:18:35Z" finished-at="2019-03-07T16:18:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LicensePlatformPage_Title -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b]" name="teardown" is-config="true" duration-ms="700" started-at="2019-03-07T16:18:36Z" finished-at="2019-03-07T16:18:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LicensePlatformPage_Title status=SUCCESS method=test_LicensePlatformPage.LicensePlatformPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_LicensePlatformPage@6242ae3b] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_LicensePlatformPage.LicensePlatformPage_Title()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UnitClassSet.StaticPages.test_LicensePlatformPage -->
+      <class name="UnitClassSet.StaticPages.test_RaiseFundsPage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2]" name="setup" is-config="true" duration-ms="3388" started-at="2019-03-07T16:14:14Z" finished-at="2019-03-07T16:14:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RaiseFundsPage_Body()[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2]" name="RaiseFundsPage_Body" duration-ms="17256" started-at="2019-03-07T16:14:17Z" finished-at="2019-03-07T16:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RaiseFundsPage_Body -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2]" name="teardown" is-config="true" duration-ms="707" started-at="2019-03-07T16:14:35Z" finished-at="2019-03-07T16:14:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RaiseFundsPage_Body status=SUCCESS method=test_RaiseFundsPage.RaiseFundsPage_Body()[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_RaiseFundsPage.RaiseFundsPage_Body() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2]" name="setup" is-config="true" duration-ms="3431" started-at="2019-03-07T16:14:35Z" finished-at="2019-03-07T16:14:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RaiseFundsPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2]" name="RaiseFundsPage_FooterLinks" duration-ms="32724" started-at="2019-03-07T16:14:39Z" finished-at="2019-03-07T16:15:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RaiseFundsPage_FooterLinks -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2]" name="teardown" is-config="true" duration-ms="658" started-at="2019-03-07T16:15:12Z" finished-at="2019-03-07T16:15:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RaiseFundsPage_FooterLinks status=SUCCESS method=test_RaiseFundsPage.RaiseFundsPage_FooterLinks()[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_RaiseFundsPage.RaiseFundsPage_FooterLinks() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2]" name="setup" is-config="true" duration-ms="3397" started-at="2019-03-07T16:15:12Z" finished-at="2019-03-07T16:15:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RaiseFundsPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2]" name="RaiseFundsPage_HeaderButtons" duration-ms="22172" started-at="2019-03-07T16:15:16Z" finished-at="2019-03-07T16:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RaiseFundsPage_HeaderButtons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2]" name="teardown" is-config="true" duration-ms="650" started-at="2019-03-07T16:15:38Z" finished-at="2019-03-07T16:15:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RaiseFundsPage_HeaderButtons status=SUCCESS method=test_RaiseFundsPage.RaiseFundsPage_HeaderButtons()[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_RaiseFundsPage.RaiseFundsPage_HeaderButtons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2]" name="setup" is-config="true" duration-ms="3252" started-at="2019-03-07T16:15:38Z" finished-at="2019-03-07T16:15:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RaiseFundsPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2]" name="RaiseFundsPage_SignUpAndLogin" duration-ms="6468" started-at="2019-03-07T16:15:42Z" finished-at="2019-03-07T16:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RaiseFundsPage_SignUpAndLogin -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2]" name="teardown" is-config="true" duration-ms="661" started-at="2019-03-07T16:15:48Z" finished-at="2019-03-07T16:15:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RaiseFundsPage_SignUpAndLogin status=SUCCESS method=test_RaiseFundsPage.RaiseFundsPage_SignUpAndLogin()[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_RaiseFundsPage.RaiseFundsPage_SignUpAndLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2]" name="setup" is-config="true" duration-ms="3318" started-at="2019-03-07T16:15:49Z" finished-at="2019-03-07T16:15:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RaiseFundsPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2]" name="RaiseFundsPage_SocialMediaIcons" duration-ms="22056" started-at="2019-03-07T16:15:52Z" finished-at="2019-03-07T16:16:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RaiseFundsPage_SocialMediaIcons -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2]" name="teardown" is-config="true" duration-ms="769" started-at="2019-03-07T16:16:14Z" finished-at="2019-03-07T16:16:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RaiseFundsPage_SocialMediaIcons status=SUCCESS method=test_RaiseFundsPage.RaiseFundsPage_SocialMediaIcons()[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_RaiseFundsPage.RaiseFundsPage_SocialMediaIcons() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2]" name="setup" is-config="true" duration-ms="3507" started-at="2019-03-07T16:16:15Z" finished-at="2019-03-07T16:16:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RaiseFundsPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2]" name="RaiseFundsPage_Title" duration-ms="1601" started-at="2019-03-07T16:16:18Z" finished-at="2019-03-07T16:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RaiseFundsPage_Title -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2]" name="teardown" is-config="true" duration-ms="674" started-at="2019-03-07T16:16:20Z" finished-at="2019-03-07T16:16:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RaiseFundsPage_Title status=SUCCESS method=test_RaiseFundsPage.RaiseFundsPage_Title()[pri:0, instance:UnitClassSet.StaticPages.test_RaiseFundsPage@46a488c2] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void UnitClassSet.StaticPages.test_RaiseFundsPage.RaiseFundsPage_Title()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UnitClassSet.StaticPages.test_RaiseFundsPage -->
+    </test> <!-- Static Pages Tests -->
+  </suite> <!-- Sone tests -->
+</testng-results>

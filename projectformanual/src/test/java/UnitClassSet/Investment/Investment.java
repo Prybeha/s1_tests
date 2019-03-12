@@ -13,7 +13,7 @@ public class Investment {
     private Field field = new Field();
     private Switchers switcher = new Switchers();
     public void Investment(int user_type, String payment_method, String value_invest) throws Exception{
-        PagesURL.DealPage();
+        PagesURL.BrowseDealsPage();
 
         WebElement LearnMoreButton = SetupClass.GetDriverWait().until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='https://secure-seriesone.dynamo-ny.com/deal/pdp-qa']"))); // using xpath locator that find element by link
         Thread.sleep(500);

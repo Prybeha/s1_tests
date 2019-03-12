@@ -85,7 +85,10 @@ public class AppearingError {
             }
             if(db_value_for_check[i].contains(".")){
                 value = value.substring(0, value.indexOf("."));
-                //System.out.println("Check value is " + value);
+            }
+
+            if(db_value_for_check[i].contains("-")){
+                db_value_for_check[i] = db_value_for_check[i].replace("-","");
             }
 //            if (value.equals("0") || value.equals("")){
 //                continue;

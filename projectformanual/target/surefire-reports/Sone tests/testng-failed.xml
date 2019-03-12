@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Sone tests]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" verbose="0" name="Static Pages Tests(failed)" parallel="classes">
+    <classes>
+      <class name="UnitClassSet.StaticPages.test_EducationResourcesPage">
+        <methods>
+          <include name="EducationResourcesPage_FooterLinks"/>
+          <include name="test"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- UnitClassSet.StaticPages.test_EducationResourcesPage -->
+    </classes>
+  </test> <!-- Static Pages Tests(failed) -->
+</suite> <!-- Failed suite [Sone tests] -->

@@ -2,9 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c09ba75-c11e-4fc2-bbfe-ae92e986a408" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SupportClasses/AllureFunc/LogUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SupportClasses/AllureFunc/LogUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SupportClasses/SetupClass/SetupClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SupportClasses/SetupClass/SetupClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/CheckAppearingError/AppearingError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/CheckAppearingError/AppearingError.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntityUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntityUS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntitynoUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntitynoUS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualUS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualUSnoAccredited.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualUSnoAccredited.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualnoUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualnoUS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Login/test_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Login/test_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Maintenance/Maintenance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Maintenance/Maintenance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/test_RegistrationAllTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/test_RegistrationAllTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/CheckLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/CheckLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/PagesURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/PagesURL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutInvestingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutInvestingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutUsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BlogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BlogPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BrowseDealsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BrowseDealsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BusinessQuestionsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BusinessQuestionsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_ContactUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_ContactUsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_DigitalSecurityOfferingsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_DigitalSecurityOfferingsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_EducationResourcesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_EducationResourcesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_ImportantDisclaimerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_ImportantDisclaimerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_InvestorsQuestionsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_InvestorsQuestionsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_LicensePlatformPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_LicensePlatformPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_PrivacyPolicyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_PrivacyPolicyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_RaiseFundsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_RaiseFundsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_TermsOfUsePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_TermsOfUsePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/LoggingForTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/LoggingForTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/environment.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,56 +55,171 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
+      <file leaf-file-name="test_EducationResourcesPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_EducationResourcesPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="782">
+              <caret line="112" column="64" selection-start-line="112" selection-start-column="64" selection-end-line="112" selection-end-column="64" />
+              <folding>
+                <element signature="method#EducationResourcesPage_Title#0;class#test_EducationResourcesPage#0" />
+                <element signature="method#EducationResourcesPage_HeaderButtons#0;class#test_EducationResourcesPage#0" />
+                <element signature="method#EducationResourcesPage_SignUpAndLogin#0;class#test_EducationResourcesPage#0" />
+                <element signature="method#EducationResourcesPage_Body#0;class#test_EducationResourcesPage#0" />
+                <element signature="method#EducationResourcesPage_SocialMediaIcons#0;class#test_EducationResourcesPage#0" />
+                <element signature="method#EducationResourcesPage_FooterLinks#0;class#test_EducationResourcesPage#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_Login.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Login/test_Login.java">
+      <file leaf-file-name="test_ImportantDisclaimerPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_ImportantDisclaimerPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="663">
+              <caret line="77" column="65" selection-start-line="77" selection-start-column="65" selection-end-line="77" selection-end-column="65" />
+              <folding>
+                <element signature="method#ImportantDisclaimerPage_Title#0;class#test_ImportantDisclaimerPage#0" />
+                <element signature="method#ImportantDisclaimerPage_HeaderButtons#0;class#test_ImportantDisclaimerPage#0" />
+                <element signature="method#ImportantDisclaimerPage_SignUpAndLogin#0;class#test_ImportantDisclaimerPage#0" />
+                <element signature="method#ImportantDisclaimerPage_SocialMediaIcons#0;class#test_ImportantDisclaimerPage#0" />
+                <element signature="method#ImportantDisclaimerPage_FooterLinks#0;class#test_ImportantDisclaimerPage#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Investment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java">
+      <file leaf-file-name="test_InvestorsQuestionsPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_InvestorsQuestionsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="782">
+              <caret line="110" column="64" selection-start-line="110" selection-start-column="64" selection-end-line="110" selection-end-column="64" />
+              <folding>
+                <element signature="method#InvestorsQuestionsPage_Title#0;class#test_InvestorsQuestionsPage#0" />
+                <element signature="method#InvestorsQuestionsPage_HeaderButtons#0;class#test_InvestorsQuestionsPage#0" />
+                <element signature="method#InvestorsQuestionsPage_SignUpAndLogin#0;class#test_InvestorsQuestionsPage#0" />
+                <element signature="method#InvestorsQuestionsPage_Body#0;class#test_InvestorsQuestionsPage#0" />
+                <element signature="method#InvestorsQuestionsPage_SocialMediaIcons#0;class#test_InvestorsQuestionsPage#0" />
+                <element signature="method#InvestorsQuestionsPage_FooterLinks#0;class#test_InvestorsQuestionsPage#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_EntitynoUS.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntitynoUS.java">
+      <file leaf-file-name="test_LicensePlatformPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_LicensePlatformPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="29" selection-end-column="9" />
+            <state relative-caret-position="700">
+              <caret line="105" column="61" selection-start-line="105" selection-start-column="61" selection-end-line="105" selection-end-column="61" />
+              <folding>
+                <element signature="method#LicensePlatformPage_Title#0;class#test_LicensePlatformPage#0" />
+                <element signature="method#LicensePlatformPage_HeaderButtons#0;class#test_LicensePlatformPage#0" />
+                <element signature="method#LicensePlatformPage_SignUpAndLogin#0;class#test_LicensePlatformPage#0" />
+                <element signature="method#LicensePlatformPage_Body#0;class#test_LicensePlatformPage#0" />
+                <element signature="method#LicensePlatformPage_SocialMediaIcons#0;class#test_LicensePlatformPage#0" />
+                <element signature="method#LicensePlatformPage_FooterLinks#0;class#test_LicensePlatformPage#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmailReceivingChecking_Registration.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_Registration.java">
+      <file leaf-file-name="test_MainPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+            <state relative-caret-position="723">
+              <caret line="134" column="49" selection-start-line="134" selection-start-column="49" selection-end-line="134" selection-end-column="49" />
+              <folding>
+                <element signature="method#MainPage_Title#0;class#test_MainPage#0" />
+                <element signature="method#MainPage_HeaderAndFooterSeriesOneLogoButton#0;class#test_MainPage#0" />
+                <element signature="method#MainPage_HeaderButtons#0;class#test_MainPage#0" />
+                <element signature="method#MainPage_SignUpAndLogin#0;class#test_MainPage#0" />
+                <element signature="method#MainPage_Body#0;class#test_MainPage#0" />
+                <element signature="method#MainPage_SocialMediaIcons#0;class#test_MainPage#0" />
+                <element signature="method#MainPage_FooterLinks#0;class#test_MainPage#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+      <file leaf-file-name="test_PrivacyPolicyPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_PrivacyPolicyPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+            <state relative-caret-position="663">
+              <caret line="84" column="59" selection-start-line="84" selection-start-column="59" selection-end-line="84" selection-end-column="59" />
+              <folding>
+                <element signature="method#PrivacyPolicyPage_Title#0;class#test_PrivacyPolicyPage#0" />
+                <element signature="method#PrivacyPolicyPage_HeaderButtons#0;class#test_PrivacyPolicyPage#0" />
+                <element signature="method#PrivacyPolicyPage_SignUpAndLogin#0;class#test_PrivacyPolicyPage#0" />
+                <element signature="method#PrivacyPolicyPage_SocialMediaIcons#0;class#test_PrivacyPolicyPage#0" />
+                <element signature="method#PrivacyPolicyPage_FooterLinks#0;class#test_PrivacyPolicyPage#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_RaiseFundsPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_RaiseFundsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="143" column="56" selection-start-line="143" selection-start-column="56" selection-end-line="143" selection-end-column="56" />
+              <folding>
+                <element signature="method#RaiseFundsPage_Title#0;class#test_RaiseFundsPage#0" />
+                <element signature="method#RaiseFundsPage_HeaderButtons#0;class#test_RaiseFundsPage#0" />
+                <element signature="method#RaiseFundsPage_SignUpAndLogin#0;class#test_RaiseFundsPage#0" />
+                <element signature="method#RaiseFundsPage_Body#0;class#test_RaiseFundsPage#0" />
+                <element signature="method#RaiseFundsPage_SocialMediaIcons#0;class#test_RaiseFundsPage#0" />
+                <element signature="method#RaiseFundsPage_FooterLinks#0;class#test_RaiseFundsPage#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_TermsOfUsePage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_TermsOfUsePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+              <folding>
+                <element signature="method#TermsOfUsePage_Title#0;class#test_TermsOfUsePage#0" />
+                <element signature="method#TermsOfUsePage_HeaderButtons#0;class#test_TermsOfUsePage#0" />
+                <element signature="method#TermsOfUsePage_SignUpAndLogin#0;class#test_TermsOfUsePage#0" />
+                <element signature="method#TermsOfUsePage_SocialMediaIcons#0;class#test_TermsOfUsePage#0" />
+                <element signature="method#TermsOfUsePage_FooterLinks#0;class#test_TermsOfUsePage#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_ContactUsPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_ContactUsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="791">
+              <caret line="95" column="55" selection-start-line="95" selection-start-column="55" selection-end-line="95" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#ContactUsPage_Title#0;class#test_ContactUsPage#0" />
+                <element signature="method#ContactUsPage_HeaderButtons#0;class#test_ContactUsPage#0" />
+                <element signature="method#ContactUsPage_SignUpAndLogin#0;class#test_ContactUsPage#0" />
+                <element signature="method#ContactUsPage_Body#0;class#test_ContactUsPage#0" />
+                <element signature="method#ContactUsPage_SocialMediaIcons#0;class#test_ContactUsPage#0" />
+                <element signature="method#ContactUsPage_FooterLinks#0;class#test_ContactUsPage#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_DigitalSecurityOfferingsPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_DigitalSecurityOfferingsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="131" column="71" selection-start-line="131" selection-start-column="71" selection-end-line="131" selection-end-column="71" />
+              <folding>
+                <element signature="method#DigitalSecurityOfferingsPage_Title#0;class#test_DigitalSecurityOfferingsPage#0" />
+                <element signature="method#DigitalSecurityOfferingsPage_HeaderButtons#0;class#test_DigitalSecurityOfferingsPage#0" />
+                <element signature="method#DigitalSecurityOfferingsPage_SignUpAndLogin#0;class#test_DigitalSecurityOfferingsPage#0" />
+                <element signature="method#DigitalSecurityOfferingsPage_Body#0;class#test_DigitalSecurityOfferingsPage#0" />
+                <element signature="method#DigitalSecurityOfferingsPage_SocialMediaIcons#0;class#test_DigitalSecurityOfferingsPage#0" />
+                <element signature="method#DigitalSecurityOfferingsPage_FooterLinks#0;class#test_DigitalSecurityOfferingsPage#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,28 +252,53 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="jenkins_branch" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/CheckLink.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/PagesURL.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SupportClasses/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/Raise_Funds_ContactUS_Form.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/Gmail.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/test_ContactUS.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/id.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java" />
+        <option value="$PROJECT_DIR$/../../../../BackUp/3.1.2019/projectformanual/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntitynoUS.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntityUS.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualnoUS.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualUS.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualUSnoAccredited.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/CheckLink.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/CheckLink.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_RaiseFunds.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/BusinessQuestionsPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/PagesURL.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SupportClasses/Field.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/EmailReceivingCheck.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/categories.json" />
+        <option value="$PROJECT_DIR$/src/test/resources/environment.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/SupportClasses/Logging/Logging.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Maintenance/Maintenance.java" />
         <option value="$PROJECT_DIR$/src/test/java/SupportClasses/SetupClass/SetupClass.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/lead_id.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/SupportClasses/AllureFunc/LogUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SupportClasses/AllureFunc/ScreenShotUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/CheckAppearingError/AppearingError.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_Registration.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/SocialMediaIconsCheck.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/HeaderButtonsCheck.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/FooterLinks.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/CheckLink.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/PagesURL.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/LoggingForTest.log" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/SocialMediaIcons.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/test_RegistrationAllTypes.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Login/test_Login.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BlogPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutInvestingPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutUsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BrowseDealsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BusinessQuestionsPage.java" />
@@ -132,31 +307,11 @@
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_EducationResourcesPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_ImportantDisclaimerPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_InvestorsQuestionsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_LicensePlatformPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_PrivacyPolicyPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_RaiseFundsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_TermsOfUsePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BlogPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_LicensePlatformPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SupportClasses/Gmail_Mailbox/Gmail.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/EmailReceivingChecking.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/EmailReceivingChecking_Registration.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/EmailReceivingChecking_ContactUS.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SupportClasses/Gmail_Mailbox/EmailReceivingChecking_Registration.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SupportClasses/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/test_RegistrationAllTypes.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/Raise_Funds_ContactUS_Form.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/Gmail.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/test_ContactUS.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/id.txt" />
-        <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java" />
-        <option value="$PROJECT_DIR$/../../../../BackUp/3.1.2019/projectformanual/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutInvestingPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Login/test_Login.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_Registration.java" />
       </list>
     </option>
   </component>
@@ -194,7 +349,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -227,7 +382,33 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SupportClasses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectformanual" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectformanual" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SupportClasses" type="462c0819:PsiDirectoryNode" />
+              <item name="SetupClass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectformanual" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectformanual" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="UnitClassSet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectformanual" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectformanual" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UnitClassSet" type="462c0819:PsiDirectoryNode" />
+              <item name="StaticPages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projectformanual" type="b2602c69:ProjectViewProjectNode" />
@@ -240,7 +421,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,40 +573,21 @@
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.35947713" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.13113007" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.17697228" />
       <window_info anchor="bottom" id="Structure" order="3" sideWeight="0.50053304" side_tool="true" weight="0.33006537" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" sideWeight="0.50108933" side_tool="true" weight="0.16044776" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.13006397" />
-      <window_info anchor="bottom" id="Structure" order="3" sideWeight="0.50053304" side_tool="true" weight="0.33006537" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" weight="0.32897604" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49946696" weight="0.29411766" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.12153518" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.33006537" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32900432" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.35947713" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.18603411" />
-      <window_info id="Favorites" order="5" sideWeight="0.50108933" side_tool="true" weight="0.16044776" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -462,256 +624,472 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="96" />
+      <option name="time" value="145" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/AccountType.java">
+    <entry file="file://$PROJECT_DIR$/../../../projects/S1_autotest/src/test/java/TestForUSNoAccredited.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state>
+          <caret column="37" lean-forward="true" selection-start-column="37" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Login/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Maintenance/Maintenance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+        <state relative-caret-position="255">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/CheckAppearingError/AppearingError.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SupportClasses/AllureFunc/LogUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="72" />
+        <state relative-caret-position="119">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-results/CheckRegisterEmail_IndividualUSnoAccredited" />
-    <entry file="file://$PROJECT_DIR$/target/allure-results/44ecc813-1f78-499b-be59-ce4bc992d3a6-attachment.png" />
-    <entry file="file://$PROJECT_DIR$/target/allure-results/0261fa2b-67a6-482d-a764-4783a2730b19-attachment.png" />
-    <entry file="file://$PROJECT_DIR$/target/allure-results/970f8396-116c-4598-8749-1d99642c9540-attachment.png" />
-    <entry file="file://$PROJECT_DIR$/target/allure-results/8020c1dc-07a9-4ac4-86ff-42393fdce4f8-testsuite.xml" />
-    <entry file="file://$PROJECT_DIR$/target/allure-results/0e26bef4-56c2-4743-8b30-66118b6c7cd1-attachment.png" />
-    <entry file="file://$PROJECT_DIR$/target/allure-results/5b105638-6958-45c3-8736-288c051f7150-attachment.png" />
-    <entry file="file://$PROJECT_DIR$/target/allure-results/f019001c-f7f8-4236-8f4e-306229179f65-attachment.png" />
-    <entry file="file://$PROJECT_DIR$/target/allure-results/7fc1fdbd-ea76-4233-b72e-3b6cd83f4ea5-attachment.png" />
-    <entry file="file://$PROJECT_DIR$/target/allure-results/CheckRegisterEmail_IndividualnoUS" />
-    <entry file="file://$PROJECT_DIR$/target/allure-results/CheckRegisterEmail_EntitynoUS" />
-    <entry file="file://$PROJECT_DIR$/target/allure-results/Register_IndividualUS" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BusinessQuestionsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SupportClasses/AllureFunc/ScreenShotUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="133" column="23" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="23" />
+        <state relative-caret-position="340">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_ContactUsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="118" column="23" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_DigitalSecurityOfferingsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="110" column="23" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_EducationResourcesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_ImportantDisclaimerPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SupportClasses/Exceptions/NewAssertError.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_InvestorsQuestionsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_PrivacyPolicyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_RaiseFundsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="119" column="23" selection-start-line="119" selection-start-column="23" selection-end-line="119" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_TermsOfUsePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="69" column="27" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-results/BlogPage_Body" />
-    <entry file="file://$PROJECT_DIR$/target/allure-results/LicensePlatformPage_Body" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_LicensePlatformPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="56" column="59" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-results/ContactUSForms_ContactUS" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/test_RegistrationAllTypes.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SupportClasses/Exceptions/NewException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DB/db_registration_first_step.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="68" />
+          <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DB/db_registration_second_step.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/CheckAppearingError/AppearingError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="90" column="61" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/Gmail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/lead_id.txt" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/test_ContactUS.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/ContactUS/Raise_Funds_ContactUS_Form.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="237" column="54" selection-start-line="237" selection-start-column="54" selection-end-line="237" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/id.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../BackUp/3.1.2019/projectformanual/src/test/java/UnitClassSet/ContactUS/Raise_Funds_ContactUS_Form.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="34" column="63" lean-forward="true" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../BackUp/3.1.2019/projectformanual/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="69" lean-forward="true" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BlogPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="65" column="69" lean-forward="true" selection-start-line="65" selection-start-column="69" selection-end-line="65" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutUsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1073">
-          <caret line="111" column="23" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutInvestingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="119" column="35" lean-forward="true" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/PagesURL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BrowseDealsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3062">
-          <caret line="194" column="23" selection-start-line="194" selection-start-column="23" selection-end-line="194" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Login/test_Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntitynoUS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="119">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_Registration.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../BackUp/3.1.2019 (Contact Us forms)/projectformanual/src/test/java/UnitClassSet/ContactUS/Raise_Funds_ContactUS_Form.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <caret line="39" column="74" lean-forward="true" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualUS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualnoUS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualUSnoAccredited.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntityUS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_ContactUS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SupportClasses/Logging/Logging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/allure-results/MainPage_HeaderButtons" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="81" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/CheckLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/HeaderButtonsCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/PagesURL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3191">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="106" column="30" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/LoggingForTest.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SupportClasses/SetupClass/SetupClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="63" column="73" lean-forward="true" selection-start-line="63" selection-start-column="73" selection-end-line="63" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/SocialMediaIcons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="85" column="30" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/FooterLinks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="80" column="125" lean-forward="true" selection-start-line="80" selection-start-column="125" selection-end-line="80" selection-end-column="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntitynoUS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Login/test_Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" column="99" selection-start-line="21" selection-start-column="99" selection-end-line="21" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/test_RegistrationAllTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="89" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/categories.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutInvestingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="135" column="60" selection-start-line="135" selection-start-column="60" selection-end-line="135" selection-end-column="60" />
+          <folding>
+            <element signature="method#AboutInvestingPage_Title#0;class#test_AboutInvestingPage#0" />
+            <element signature="method#AboutInvestingPage_HeaderButtons#0;class#test_AboutInvestingPage#0" />
+            <element signature="method#AboutInvestingPage_SignUpAndLogin#0;class#test_AboutInvestingPage#0" />
+            <element signature="method#AboutInvestingPage_Body#0;class#test_AboutInvestingPage#0" />
+            <element signature="method#AboutInvestingPage_SocialMediaIcons#0;class#test_AboutInvestingPage#0" />
+            <element signature="method#AboutInvestingPage_FooterLinks#0;class#test_AboutInvestingPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutUsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
+          <folding>
+            <element signature="method#AboutUsPage_Title#0;class#test_AboutUsPage#0" />
+            <element signature="method#AboutUsPage_HeaderButtons#0;class#test_AboutUsPage#0" />
+            <element signature="method#AboutUsPage_SignUpAndLogin#0;class#test_AboutUsPage#0" />
+            <element signature="method#AboutUsPage_SocialMediaIcons#0;class#test_AboutUsPage#0" />
+            <element signature="method#AboutUsPage_FooterLinks#0;class#test_AboutUsPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BlogPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="119" selection-end-column="57" />
+          <folding>
+            <element signature="method#BlogPage_Title#0;class#test_BlogPage#0" />
+            <element signature="method#BlogPage_HeaderButtons#0;class#test_BlogPage#0" />
+            <element signature="method#BlogPage_SignUpAndLogin#0;class#test_BlogPage#0" />
+            <element signature="method#BlogPage_Body#0;class#test_BlogPage#0" />
+            <element signature="method#BlogPage_SocialMediaIcons#0;class#test_BlogPage#0" />
+            <element signature="method#BlogPage_FooterLinks#0;class#test_BlogPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BrowseDealsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="181" column="57" selection-start-line="181" selection-start-column="57" selection-end-line="181" selection-end-column="57" />
+          <folding>
+            <element signature="method#BrowseDealsPage_Title#0;class#test_BrowseDealsPage#0" />
+            <element signature="method#BrowseDealsPage_HeaderButtons#0;class#test_BrowseDealsPage#0" />
+            <element signature="method#BrowseDealsPage_SignUpAndLogin#0;class#test_BrowseDealsPage#0" />
+            <element signature="method#BrowseDealsPage_CheckDealsPage#0;class#test_BrowseDealsPage#0" />
+            <element signature="method#BrowseDealsPage_Body#0;class#test_BrowseDealsPage#0" />
+            <element signature="method#BrowseDealsPage_SocialMediaIcons#0;class#test_BrowseDealsPage#0" />
+            <element signature="method#BrowseDealsPage_FooterLinks#0;class#test_BrowseDealsPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BusinessQuestionsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="110" column="63" selection-start-line="110" selection-start-column="63" selection-end-line="110" selection-end-column="63" />
+          <folding>
+            <element signature="method#BusinessQuestionsPage_Title#0;class#test_BusinessQuestionsPage#0" />
+            <element signature="method#BusinessQuestionsPage_HeaderButtons#0;class#test_BusinessQuestionsPage#0" />
+            <element signature="method#BusinessQuestionsPage_SignUpAndLogin#0;class#test_BusinessQuestionsPage#0" />
+            <element signature="method#BusinessQuestionsPage_Body#0;class#test_BusinessQuestionsPage#0" />
+            <element signature="method#BusinessQuestionsPage_SocialMediaIcons#0;class#test_BusinessQuestionsPage#0" />
+            <element signature="method#BusinessQuestionsPage_FooterLinks#0;class#test_BusinessQuestionsPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_ContactUsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="791">
+          <caret line="95" column="55" selection-start-line="95" selection-start-column="55" selection-end-line="95" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#ContactUsPage_Title#0;class#test_ContactUsPage#0" />
+            <element signature="method#ContactUsPage_HeaderButtons#0;class#test_ContactUsPage#0" />
+            <element signature="method#ContactUsPage_SignUpAndLogin#0;class#test_ContactUsPage#0" />
+            <element signature="method#ContactUsPage_Body#0;class#test_ContactUsPage#0" />
+            <element signature="method#ContactUsPage_SocialMediaIcons#0;class#test_ContactUsPage#0" />
+            <element signature="method#ContactUsPage_FooterLinks#0;class#test_ContactUsPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_DigitalSecurityOfferingsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="131" column="71" selection-start-line="131" selection-start-column="71" selection-end-line="131" selection-end-column="71" />
+          <folding>
+            <element signature="method#DigitalSecurityOfferingsPage_Title#0;class#test_DigitalSecurityOfferingsPage#0" />
+            <element signature="method#DigitalSecurityOfferingsPage_HeaderButtons#0;class#test_DigitalSecurityOfferingsPage#0" />
+            <element signature="method#DigitalSecurityOfferingsPage_SignUpAndLogin#0;class#test_DigitalSecurityOfferingsPage#0" />
+            <element signature="method#DigitalSecurityOfferingsPage_Body#0;class#test_DigitalSecurityOfferingsPage#0" />
+            <element signature="method#DigitalSecurityOfferingsPage_SocialMediaIcons#0;class#test_DigitalSecurityOfferingsPage#0" />
+            <element signature="method#DigitalSecurityOfferingsPage_FooterLinks#0;class#test_DigitalSecurityOfferingsPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_EducationResourcesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="112" column="64" selection-start-line="112" selection-start-column="64" selection-end-line="112" selection-end-column="64" />
+          <folding>
+            <element signature="method#EducationResourcesPage_Title#0;class#test_EducationResourcesPage#0" />
+            <element signature="method#EducationResourcesPage_HeaderButtons#0;class#test_EducationResourcesPage#0" />
+            <element signature="method#EducationResourcesPage_SignUpAndLogin#0;class#test_EducationResourcesPage#0" />
+            <element signature="method#EducationResourcesPage_Body#0;class#test_EducationResourcesPage#0" />
+            <element signature="method#EducationResourcesPage_SocialMediaIcons#0;class#test_EducationResourcesPage#0" />
+            <element signature="method#EducationResourcesPage_FooterLinks#0;class#test_EducationResourcesPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_ImportantDisclaimerPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="77" column="65" selection-start-line="77" selection-start-column="65" selection-end-line="77" selection-end-column="65" />
+          <folding>
+            <element signature="method#ImportantDisclaimerPage_Title#0;class#test_ImportantDisclaimerPage#0" />
+            <element signature="method#ImportantDisclaimerPage_HeaderButtons#0;class#test_ImportantDisclaimerPage#0" />
+            <element signature="method#ImportantDisclaimerPage_SignUpAndLogin#0;class#test_ImportantDisclaimerPage#0" />
+            <element signature="method#ImportantDisclaimerPage_SocialMediaIcons#0;class#test_ImportantDisclaimerPage#0" />
+            <element signature="method#ImportantDisclaimerPage_FooterLinks#0;class#test_ImportantDisclaimerPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_InvestorsQuestionsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="110" column="64" selection-start-line="110" selection-start-column="64" selection-end-line="110" selection-end-column="64" />
+          <folding>
+            <element signature="method#InvestorsQuestionsPage_Title#0;class#test_InvestorsQuestionsPage#0" />
+            <element signature="method#InvestorsQuestionsPage_HeaderButtons#0;class#test_InvestorsQuestionsPage#0" />
+            <element signature="method#InvestorsQuestionsPage_SignUpAndLogin#0;class#test_InvestorsQuestionsPage#0" />
+            <element signature="method#InvestorsQuestionsPage_Body#0;class#test_InvestorsQuestionsPage#0" />
+            <element signature="method#InvestorsQuestionsPage_SocialMediaIcons#0;class#test_InvestorsQuestionsPage#0" />
+            <element signature="method#InvestorsQuestionsPage_FooterLinks#0;class#test_InvestorsQuestionsPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_LicensePlatformPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="105" column="61" selection-start-line="105" selection-start-column="61" selection-end-line="105" selection-end-column="61" />
+          <folding>
+            <element signature="method#LicensePlatformPage_Title#0;class#test_LicensePlatformPage#0" />
+            <element signature="method#LicensePlatformPage_HeaderButtons#0;class#test_LicensePlatformPage#0" />
+            <element signature="method#LicensePlatformPage_SignUpAndLogin#0;class#test_LicensePlatformPage#0" />
+            <element signature="method#LicensePlatformPage_Body#0;class#test_LicensePlatformPage#0" />
+            <element signature="method#LicensePlatformPage_SocialMediaIcons#0;class#test_LicensePlatformPage#0" />
+            <element signature="method#LicensePlatformPage_FooterLinks#0;class#test_LicensePlatformPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="134" column="49" selection-start-line="134" selection-start-column="49" selection-end-line="134" selection-end-column="49" />
+          <folding>
+            <element signature="method#MainPage_Title#0;class#test_MainPage#0" />
+            <element signature="method#MainPage_HeaderAndFooterSeriesOneLogoButton#0;class#test_MainPage#0" />
+            <element signature="method#MainPage_HeaderButtons#0;class#test_MainPage#0" />
+            <element signature="method#MainPage_SignUpAndLogin#0;class#test_MainPage#0" />
+            <element signature="method#MainPage_Body#0;class#test_MainPage#0" />
+            <element signature="method#MainPage_SocialMediaIcons#0;class#test_MainPage#0" />
+            <element signature="method#MainPage_FooterLinks#0;class#test_MainPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_PrivacyPolicyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="84" column="59" selection-start-line="84" selection-start-column="59" selection-end-line="84" selection-end-column="59" />
+          <folding>
+            <element signature="method#PrivacyPolicyPage_Title#0;class#test_PrivacyPolicyPage#0" />
+            <element signature="method#PrivacyPolicyPage_HeaderButtons#0;class#test_PrivacyPolicyPage#0" />
+            <element signature="method#PrivacyPolicyPage_SignUpAndLogin#0;class#test_PrivacyPolicyPage#0" />
+            <element signature="method#PrivacyPolicyPage_SocialMediaIcons#0;class#test_PrivacyPolicyPage#0" />
+            <element signature="method#PrivacyPolicyPage_FooterLinks#0;class#test_PrivacyPolicyPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_RaiseFundsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="143" column="56" selection-start-line="143" selection-start-column="56" selection-end-line="143" selection-end-column="56" />
+          <folding>
+            <element signature="method#RaiseFundsPage_Title#0;class#test_RaiseFundsPage#0" />
+            <element signature="method#RaiseFundsPage_HeaderButtons#0;class#test_RaiseFundsPage#0" />
+            <element signature="method#RaiseFundsPage_SignUpAndLogin#0;class#test_RaiseFundsPage#0" />
+            <element signature="method#RaiseFundsPage_Body#0;class#test_RaiseFundsPage#0" />
+            <element signature="method#RaiseFundsPage_SocialMediaIcons#0;class#test_RaiseFundsPage#0" />
+            <element signature="method#RaiseFundsPage_FooterLinks#0;class#test_RaiseFundsPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_TermsOfUsePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+          <folding>
+            <element signature="method#TermsOfUsePage_Title#0;class#test_TermsOfUsePage#0" />
+            <element signature="method#TermsOfUsePage_HeaderButtons#0;class#test_TermsOfUsePage#0" />
+            <element signature="method#TermsOfUsePage_SignUpAndLogin#0;class#test_TermsOfUsePage#0" />
+            <element signature="method#TermsOfUsePage_SocialMediaIcons#0;class#test_TermsOfUsePage#0" />
+            <element signature="method#TermsOfUsePage_FooterLinks#0;class#test_TermsOfUsePage#0" />
+          </folding>
         </state>
       </provider>
     </entry>

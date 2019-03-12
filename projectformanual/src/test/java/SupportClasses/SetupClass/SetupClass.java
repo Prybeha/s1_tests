@@ -2,11 +2,12 @@ package SupportClasses.SetupClass;
 
 import SupportClasses.AllureFunc.ScreenShotUtil;
 
+import SupportClasses.Logging.Logging;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.opera.OperaDriver;
@@ -24,6 +25,7 @@ import java.util.concurrent.TimeUnit;
 public class SetupClass {
     private static WebDriver driver;
     private static WebDriverWait wait;
+    protected Logger log = Logger.getLogger(SetupClass.class);
 
     public static WebDriver GetDriver(){
         return driver;
@@ -31,6 +33,11 @@ public class SetupClass {
 
     public static WebDriverWait GetDriverWait(){
         return wait;
+    }
+
+    @BeforeSuite
+    public void test(){
+        log.debug("------------------------------------------------------------------------------");
     }
 
     @Parameters("browser")
@@ -65,6 +72,8 @@ public class SetupClass {
             File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             String path = "./target/allure-results/" + test_name.getName();
             FileHandler.copy(screenshot, new File(path));
+
+            Logging.Log_error(log, "Something goes wrong in " + test_name.getName());
         }
         else{
             driver.quit();

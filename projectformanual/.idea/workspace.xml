@@ -3,42 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6c09ba75-c11e-4fc2-bbfe-ae92e986a408" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SupportClasses/AllureFunc/LogUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SupportClasses/AllureFunc/LogUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SupportClasses/SetupClass/SetupClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SupportClasses/SetupClass/SetupClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/CheckAppearingError/AppearingError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/CheckAppearingError/AppearingError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Gmail_Mailbox/EmailReceivingChecking_Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntityUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntityUS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntitynoUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_EntitynoUS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualUS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualUSnoAccredited.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualUSnoAccredited.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualnoUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/test_IndividualnoUS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Login/test_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Login/test_Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Maintenance/Maintenance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Maintenance/Maintenance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/test_RegistrationAllTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/Registration/test_RegistrationAllTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/CheckLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/CheckLink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/PagesURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/PagesURL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutInvestingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutInvestingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_AboutUsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BlogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BlogPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BrowseDealsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BrowseDealsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BusinessQuestionsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_BusinessQuestionsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_ContactUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_ContactUsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_DigitalSecurityOfferingsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_DigitalSecurityOfferingsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_EducationResourcesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_EducationResourcesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_ImportantDisclaimerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_ImportantDisclaimerPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_InvestorsQuestionsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_InvestorsQuestionsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_LicensePlatformPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_LicensePlatformPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_PrivacyPolicyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_PrivacyPolicyPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_RaiseFundsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_RaiseFundsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_TermsOfUsePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_TermsOfUsePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/LoggingForTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/LoggingForTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/categories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/environment.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -173,7 +137,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_TermsOfUsePage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_TermsOfUsePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_TermsOfUsePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="697">
@@ -189,20 +153,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_ContactUsPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_ContactUsPage.java">
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="791">
-              <caret line="95" column="55" selection-start-line="95" selection-start-column="55" selection-end-line="95" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#ContactUsPage_Title#0;class#test_ContactUsPage#0" />
-                <element signature="method#ContactUsPage_HeaderButtons#0;class#test_ContactUsPage#0" />
-                <element signature="method#ContactUsPage_SignUpAndLogin#0;class#test_ContactUsPage#0" />
-                <element signature="method#ContactUsPage_Body#0;class#test_ContactUsPage#0" />
-                <element signature="method#ContactUsPage_SocialMediaIcons#0;class#test_ContactUsPage#0" />
-                <element signature="method#ContactUsPage_FooterLinks#0;class#test_ContactUsPage#0" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="21" column="80" lean-forward="true" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -289,7 +244,6 @@
         <option value="$PROJECT_DIR$/src/test/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/FooterLinks.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/CheckLink.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/PagesURL.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/Investment/Investment.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -312,6 +266,7 @@
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_PrivacyPolicyPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_RaiseFundsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitClassSet/StaticPages/test_TermsOfUsePage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
       </list>
     </option>
   </component>
@@ -338,7 +293,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
@@ -803,13 +758,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/LoggingForTest.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SupportClasses/SetupClass/SetupClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -821,6 +769,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
           <caret line="85" column="30" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1090,6 +1041,13 @@
             <element signature="method#TermsOfUsePage_SocialMediaIcons#0;class#test_TermsOfUsePage#0" />
             <element signature="method#TermsOfUsePage_FooterLinks#0;class#test_TermsOfUsePage#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="80" lean-forward="true" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
         </state>
       </provider>
     </entry>

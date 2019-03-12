@@ -421,3 +421,437 @@
 2019-03-07 18:45:18 DEBUG test_MainPage - 'LinkedIn Logo' button works fine
 2019-03-07 18:45:25 DEBUG test_MainPage - 'Facebook Logo' button works fine
 2019-03-07 18:45:32 DEBUG test_MainPage - 'Twitter Logo' button works fine
+2019-03-12 12:10:52 DEBUG SetupClass - ------------------------------------------------------------------------------
+2019-03-12 12:11:08 DEBUG test_MainPage - Button Browse deals works correctly
+2019-03-12 12:11:10 DEBUG test_MainPage - Button Browse deals works correctly
+2019-03-12 12:11:12 DEBUG test_MainPage - Button Sign Up works correctly
+2019-03-12 12:11:15 DEBUG test_MainPage - Button Start Raising Funds works correctly
+2019-03-12 12:11:17 DEBUG test_MainPage - Button Start Investing works correctly
+2019-03-12 12:12:44 DEBUG test_MainPage - Button About Us works correctly
+2019-03-12 12:12:48 DEBUG test_MainPage - Button Blog works correctly
+2019-03-12 12:12:51 DEBUG test_MainPage - Button Contact Us works correctly
+2019-03-12 12:12:58 DEBUG test_MainPage - Button Browse deals works correctly
+2019-03-12 12:13:00 DEBUG test_MainPage - Button About Investing works correctly
+2019-03-12 12:13:02 DEBUG test_MainPage - Button Investor Questions works correctly
+2019-03-12 12:13:04 DEBUG test_MainPage - Button Raise Funds works correctly
+2019-03-12 12:13:06 DEBUG test_MainPage - Button Business Questions works correctly
+2019-03-12 12:13:08 DEBUG test_MainPage - Button License Platform works correctly
+2019-03-12 12:13:10 DEBUG test_MainPage - Button FAQs & Educations works correctly
+2019-03-12 12:13:17 DEBUG test_MainPage - Button Important Disclaimer works correctly
+2019-03-12 12:13:19 DEBUG test_MainPage - Button Digital Security Offerings works correctly
+2019-03-12 12:13:21 DEBUG test_MainPage - Button Terms of Use works correctly
+2019-03-12 12:13:23 DEBUG test_MainPage - Button Privacy Policy works correctly
+2019-03-12 12:13:31 DEBUG test_MainPage - Button navbar SeriesOne Logo works correctly
+2019-03-12 12:13:32 DEBUG test_MainPage - Button footer SeriesOne Logo works correctly
+2019-03-12 12:13:53 DEBUG test_MainPage - Button with expected url (https://secure-seriesone.dynamo-ny.com/deals) works correctly
+2019-03-12 12:13:56 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/start-raising-funds/) works correctly
+2019-03-12 12:13:59 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/brokerone/) works correctly
+2019-03-12 12:14:02 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/learn/) works correctly
+2019-03-12 12:14:05 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/digital-security-offerings/) works correctly
+2019-03-12 12:14:14 DEBUG test_MainPage - Button SignUp works correctly
+2019-03-12 12:14:16 DEBUG test_MainPage - Button Login works correctly
+2019-03-12 12:14:31 DEBUG test_MainPage - 'LinkedIn Logo' button works fine
+2019-03-12 12:19:20 DEBUG test_MainPage - 'Regulation D' link works good
+2019-03-12 12:19:25 DEBUG test_MainPage - 'Regulation CF' link works good
+2019-03-12 12:19:30 DEBUG test_MainPage - 'Learn more about investing' link works good
+2019-03-12 12:20:55 DEBUG test_MainPage - Button PLANET DIGITAL PARTNERS INC. works correctly
+2019-03-12 12:20:57 ERROR test_MainPage - Button KINESIS TEST works incorrectly
+2019-03-12 12:20:58 ERROR SetupClass - Something goes wrong in BrowseDealsPage_CheckDealsPage
+2019-03-12 12:21:15 DEBUG test_MainPage - Button About Us works correctly
+2019-03-12 12:21:17 DEBUG test_MainPage - Button Blog works correctly
+2019-03-12 12:21:20 DEBUG test_MainPage - Button Contact Us works correctly
+2019-03-12 12:21:22 DEBUG test_MainPage - Button Browse deals works correctly
+2019-03-12 12:21:24 DEBUG test_MainPage - Button About Investing works correctly
+2019-03-12 12:21:26 DEBUG test_MainPage - Button Investor Questions works correctly
+2019-03-12 12:21:27 DEBUG test_MainPage - Button Raise Funds works correctly
+2019-03-12 12:21:29 DEBUG test_MainPage - Button Business Questions works correctly
+2019-03-12 12:21:32 DEBUG test_MainPage - Button License Platform works correctly
+2019-03-12 12:21:34 DEBUG test_MainPage - Button FAQs & Educations works correctly
+2019-03-12 12:21:36 DEBUG test_MainPage - Button Important Disclaimer works correctly
+2019-03-12 12:21:38 DEBUG test_MainPage - Button Digital Security Offerings works correctly
+2019-03-12 12:21:40 DEBUG test_MainPage - Button Terms of Use works correctly
+2019-03-12 12:21:41 DEBUG test_MainPage - Button Privacy Policy works correctly
+2019-03-12 12:21:55 DEBUG test_MainPage - Button with expected url (https://secure-seriesone.dynamo-ny.com/deals) works correctly
+2019-03-12 12:21:58 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/start-raising-funds/) works correctly
+2019-03-12 12:22:02 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/brokerone/) works correctly
+2019-03-12 12:22:05 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/learn/) works correctly
+2019-03-12 12:22:07 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/digital-security-offerings/) works correctly
+2019-03-12 12:22:20 DEBUG test_MainPage - Button SignUp works correctly
+2019-03-12 12:22:23 DEBUG test_MainPage - Button Login works correctly
+2019-03-12 12:22:44 DEBUG test_MainPage - 'LinkedIn Logo' button works fine
+2019-03-12 12:22:51 DEBUG test_MainPage - 'Facebook Logo' button works fine
+2019-03-12 12:22:58 DEBUG test_MainPage - 'Twitter Logo' button works fine
+2019-03-12 12:23:21 DEBUG test_MainPage - Button Learn more works correctly
+2019-03-12 12:23:22 DEBUG test_MainPage - Button Contact Us to Start works correctly
+2019-03-12 12:23:25 DEBUG test_MainPage - FAQ text works good
+2019-03-12 12:23:25 DEBUG test_MainPage - FAQ text works good
+2019-03-12 12:23:26 DEBUG test_MainPage - FAQ text works good
+2019-03-12 12:23:26 DEBUG test_MainPage - FAQ text works good
+2019-03-12 12:23:27 DEBUG test_MainPage - FAQ text works good
+2019-03-12 12:23:28 DEBUG test_MainPage - FAQ text works good
+2019-03-12 12:23:29 DEBUG test_MainPage - Button FAQs works correctly
+2019-03-12 12:23:30 DEBUG test_MainPage - All Contact Us fields displays
+2019-03-12 12:23:38 DEBUG test_MainPage - Button About Us works correctly
+2019-03-12 12:23:40 DEBUG test_MainPage - Button Blog works correctly
+2019-03-12 12:23:42 DEBUG test_MainPage - Button Contact Us works correctly
+2019-03-12 12:23:49 DEBUG test_MainPage - Button Browse deals works correctly
+2019-03-12 12:23:51 DEBUG test_MainPage - Button About Investing works correctly
+2019-03-12 12:23:52 DEBUG test_MainPage - Button Investor Questions works correctly
+2019-03-12 12:23:54 DEBUG test_MainPage - Button Raise Funds works correctly
+2019-03-12 12:23:56 DEBUG test_MainPage - Button Business Questions works correctly
+2019-03-12 12:23:59 DEBUG test_MainPage - Button License Platform works correctly
+2019-03-12 12:24:01 DEBUG test_MainPage - Button FAQs & Educations works correctly
+2019-03-12 12:24:03 DEBUG test_MainPage - Button Important Disclaimer works correctly
+2019-03-12 12:24:04 DEBUG test_MainPage - Button Digital Security Offerings works correctly
+2019-03-12 12:24:06 DEBUG test_MainPage - Button Terms of Use works correctly
+2019-03-12 12:24:08 DEBUG test_MainPage - Button Privacy Policy works correctly
+2019-03-12 12:24:23 DEBUG test_MainPage - Button with expected url (https://secure-seriesone.dynamo-ny.com/deals) works correctly
+2019-03-12 12:24:26 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/start-raising-funds/) works correctly
+2019-03-12 12:24:30 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/brokerone/) works correctly
+2019-03-12 12:24:33 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/learn/) works correctly
+2019-03-12 12:24:35 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/digital-security-offerings/) works correctly
+2019-03-12 12:24:44 DEBUG test_MainPage - Button SignUp works correctly
+2019-03-12 12:24:46 DEBUG test_MainPage - Button Login works correctly
+2019-03-12 12:24:59 DEBUG test_MainPage - 'LinkedIn Logo' button works fine
+2019-03-12 12:25:07 DEBUG test_MainPage - 'Facebook Logo' button works fine
+2019-03-12 12:25:14 DEBUG test_MainPage - 'Twitter Logo' button works fine
+2019-03-12 12:25:32 DEBUG test_MainPage - Button Learn more works correctly
+2019-03-12 12:25:33 DEBUG test_MainPage - All Contact Us fields displays
+2019-03-12 12:25:42 DEBUG test_MainPage - Button About Us works correctly
+2019-03-12 12:25:44 DEBUG test_MainPage - Button Blog works correctly
+2019-03-12 12:25:46 DEBUG test_MainPage - Button Contact Us works correctly
+2019-03-12 12:25:56 DEBUG test_MainPage - Button Browse deals works correctly
+2019-03-12 12:25:58 DEBUG test_MainPage - Button About Investing works correctly
+2019-03-12 12:26:02 DEBUG test_MainPage - Button Investor Questions works correctly
+2019-03-12 12:26:04 DEBUG test_MainPage - Button Raise Funds works correctly
+2019-03-12 12:26:05 DEBUG test_MainPage - Button Business Questions works correctly
+2019-03-12 12:26:07 DEBUG test_MainPage - Button License Platform works correctly
+2019-03-12 12:26:10 DEBUG test_MainPage - Button FAQs & Educations works correctly
+2019-03-12 12:26:13 DEBUG test_MainPage - Button Important Disclaimer works correctly
+2019-03-12 12:26:15 DEBUG test_MainPage - Button Digital Security Offerings works correctly
+2019-03-12 12:26:18 DEBUG test_MainPage - Button Terms of Use works correctly
+2019-03-12 12:26:21 DEBUG test_MainPage - Button Privacy Policy works correctly
+2019-03-12 12:26:37 DEBUG test_MainPage - Button with expected url (https://secure-seriesone.dynamo-ny.com/deals) works correctly
+2019-03-12 12:26:41 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/start-raising-funds/) works correctly
+2019-03-12 12:26:44 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/brokerone/) works correctly
+2019-03-12 12:26:47 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/learn/) works correctly
+2019-03-12 12:26:49 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/digital-security-offerings/) works correctly
+2019-03-12 12:26:59 DEBUG test_MainPage - Button SignUp works correctly
+2019-03-12 12:27:01 DEBUG test_MainPage - Button Login works correctly
+2019-03-12 12:27:13 DEBUG test_MainPage - 'LinkedIn Logo' button works fine
+2019-03-12 12:30:50 DEBUG test_AboutInvestingPage - Button Learn more works correctly
+2019-03-12 12:30:52 DEBUG test_AboutInvestingPage - Button Browse All Deals works correctly
+2019-03-12 12:30:54 DEBUG test_AboutInvestingPage - FAQ text works good
+2019-03-12 12:30:55 DEBUG test_AboutInvestingPage - FAQ text works good
+2019-03-12 12:30:56 DEBUG test_AboutInvestingPage - FAQ text works good
+2019-03-12 12:30:56 DEBUG test_AboutInvestingPage - FAQ text works good
+2019-03-12 12:30:57 DEBUG test_AboutInvestingPage - FAQ text works good
+2019-03-12 12:30:58 DEBUG test_AboutInvestingPage - FAQ text works good
+2019-03-12 12:30:59 DEBUG test_AboutInvestingPage - Button FAQs works correctly
+2019-03-12 12:30:59 DEBUG test_AboutInvestingPage - Button Education Resources works correctly
+2019-03-12 12:31:08 DEBUG test_AboutInvestingPage - Button About Us works correctly
+2019-03-12 12:31:10 DEBUG test_AboutInvestingPage - Button Blog works correctly
+2019-03-12 12:31:12 DEBUG test_AboutInvestingPage - Button Contact Us works correctly
+2019-03-12 12:31:18 DEBUG test_AboutInvestingPage - Button Browse deals works correctly
+2019-03-12 12:31:19 DEBUG test_AboutInvestingPage - Button About Investing works correctly
+2019-03-12 12:31:20 DEBUG test_AboutInvestingPage - Button Investor Questions works correctly
+2019-03-12 12:31:23 DEBUG test_AboutInvestingPage - Button Raise Funds works correctly
+2019-03-12 12:31:24 DEBUG test_AboutInvestingPage - Button Business Questions works correctly
+2019-03-12 12:31:27 DEBUG test_AboutInvestingPage - Button License Platform works correctly
+2019-03-12 12:31:29 DEBUG test_AboutInvestingPage - Button FAQs & Educations works correctly
+2019-03-12 12:31:31 DEBUG test_AboutInvestingPage - Button Important Disclaimer works correctly
+2019-03-12 12:31:32 DEBUG test_AboutInvestingPage - Button Digital Security Offerings works correctly
+2019-03-12 12:31:33 DEBUG test_AboutInvestingPage - Button Terms of Use works correctly
+2019-03-12 12:31:35 DEBUG test_AboutInvestingPage - Button Privacy Policy works correctly
+2019-03-12 12:31:54 DEBUG test_AboutInvestingPage - Button with expected url (https://secure-seriesone.dynamo-ny.com/deals) works correctly
+2019-03-12 12:31:57 DEBUG test_AboutInvestingPage - Button with expected url (https://seriesone.dynamo-ny.com/start-raising-funds/) works correctly
+2019-03-12 12:32:01 DEBUG test_AboutInvestingPage - Button with expected url (https://seriesone.dynamo-ny.com/brokerone/) works correctly
+2019-03-12 12:32:04 DEBUG test_AboutInvestingPage - Button with expected url (https://seriesone.dynamo-ny.com/learn/) works correctly
+2019-03-12 12:32:07 DEBUG test_AboutInvestingPage - Button with expected url (https://seriesone.dynamo-ny.com/digital-security-offerings/) works correctly
+2019-03-12 12:32:15 DEBUG test_AboutInvestingPage - Button SignUp works correctly
+2019-03-12 12:32:17 DEBUG test_AboutInvestingPage - Button Login works correctly
+2019-03-12 12:32:29 DEBUG test_AboutInvestingPage - 'LinkedIn Logo' button works fine
+2019-03-12 12:32:36 DEBUG test_AboutInvestingPage - 'Facebook Logo' button works fine
+2019-03-12 12:32:43 DEBUG test_AboutInvestingPage - 'Twitter Logo' button works fine
+2019-03-12 12:33:02 DEBUG test_MainPage - Button Learn more works correctly
+2019-03-12 12:33:04 DEBUG test_MainPage - Button Browse Deals works correctly
+2019-03-12 12:33:06 DEBUG test_MainPage - FAQ text works good
+2019-03-12 12:33:07 DEBUG test_MainPage - FAQ text works good
+2019-03-12 12:33:08 DEBUG test_MainPage - FAQ text works good
+2019-03-12 12:33:08 DEBUG test_MainPage - FAQ text works good
+2019-03-12 12:33:09 DEBUG test_MainPage - FAQ text works good
+2019-03-12 12:33:10 DEBUG test_MainPage - FAQ text works good
+2019-03-12 12:33:10 DEBUG test_MainPage - FAQ text works good
+2019-03-12 12:33:11 DEBUG test_MainPage - Button FAQs works correctly
+2019-03-12 12:33:19 DEBUG test_MainPage - Button About Us works correctly
+2019-03-12 12:33:20 DEBUG test_MainPage - Button Blog works correctly
+2019-03-12 12:33:22 DEBUG test_MainPage - Button Contact Us works correctly
+2019-03-12 12:33:29 DEBUG test_MainPage - Button Browse deals works correctly
+2019-03-12 12:33:31 DEBUG test_MainPage - Button About Investing works correctly
+2019-03-12 12:33:32 DEBUG test_MainPage - Button Investor Questions works correctly
+2019-03-12 12:33:35 DEBUG test_MainPage - Button Raise Funds works correctly
+2019-03-12 12:33:36 DEBUG test_MainPage - Button Business Questions works correctly
+2019-03-12 12:33:39 DEBUG test_MainPage - Button License Platform works correctly
+2019-03-12 12:33:40 DEBUG test_MainPage - Button FAQs & Educations works correctly
+2019-03-12 12:33:42 DEBUG test_MainPage - Button Important Disclaimer works correctly
+2019-03-12 12:33:43 DEBUG test_MainPage - Button Digital Security Offerings works correctly
+2019-03-12 12:33:45 DEBUG test_MainPage - Button Terms of Use works correctly
+2019-03-12 12:33:47 DEBUG test_MainPage - Button Privacy Policy works correctly
+2019-03-12 12:33:59 DEBUG test_MainPage - Button with expected url (https://secure-seriesone.dynamo-ny.com/deals) works correctly
+2019-03-12 12:34:02 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/start-raising-funds/) works correctly
+2019-03-12 12:34:05 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/brokerone/) works correctly
+2019-03-12 12:34:08 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/learn/) works correctly
+2019-03-12 12:34:11 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/digital-security-offerings/) works correctly
+2019-03-12 12:34:19 DEBUG test_MainPage - Button SignUp works correctly
+2019-03-12 12:34:21 DEBUG test_MainPage - Button Login works correctly
+2019-03-12 12:39:12 ERROR test_MainPage - One of the Contact Us fields does not displayed
+2019-03-12 12:39:13 ERROR SetupClass - Something goes wrong in ContactUsPage_Body
+2019-03-12 12:39:29 DEBUG test_MainPage - Button About Us works correctly
+2019-03-12 12:39:40 DEBUG test_MainPage - Button Blog works correctly
+2019-03-12 12:40:00 DEBUG test_MainPage - Button Contact Us works correctly
+2019-03-12 12:41:03 DEBUG test_MainPage - Button Browse deals works correctly
+2019-03-12 12:41:05 DEBUG test_MainPage - Button About Investing works correctly
+2019-03-12 12:41:07 DEBUG test_MainPage - Button Investor Questions works correctly
+2019-03-12 12:41:09 DEBUG test_MainPage - Button Raise Funds works correctly
+2019-03-12 12:41:10 DEBUG test_MainPage - Button Business Questions works correctly
+2019-03-12 12:41:13 DEBUG test_MainPage - Button License Platform works correctly
+2019-03-12 12:41:15 DEBUG test_MainPage - Button FAQs & Educations works correctly
+2019-03-12 12:41:17 DEBUG test_MainPage - Button Important Disclaimer works correctly
+2019-03-12 12:41:18 DEBUG test_MainPage - Button Digital Security Offerings works correctly
+2019-03-12 12:41:20 DEBUG test_MainPage - Button Terms of Use works correctly
+2019-03-12 12:41:21 DEBUG test_MainPage - Button Privacy Policy works correctly
+2019-03-12 12:41:35 DEBUG test_MainPage - Button with expected url (https://secure-seriesone.dynamo-ny.com/deals) works correctly
+2019-03-12 12:41:39 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/start-raising-funds/) works correctly
+2019-03-12 12:41:42 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/brokerone/) works correctly
+2019-03-12 12:41:45 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/learn/) works correctly
+2019-03-12 12:41:48 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/digital-security-offerings/) works correctly
+2019-03-12 12:41:56 DEBUG test_MainPage - Button SignUp works correctly
+2019-03-12 12:41:58 DEBUG test_MainPage - Button Login works correctly
+2019-03-12 12:42:12 DEBUG test_MainPage - 'LinkedIn Logo' button works fine
+2019-03-12 12:42:19 DEBUG test_MainPage - 'Facebook Logo' button works fine
+2019-03-12 12:42:26 DEBUG test_MainPage - 'Twitter Logo' button works fine
+2019-03-12 12:42:42 DEBUG test_MainPage - Button About Us works correctly
+2019-03-12 12:42:44 DEBUG test_MainPage - Button Blog works correctly
+2019-03-12 12:42:45 DEBUG test_MainPage - Button Contact Us works correctly
+2019-03-12 12:42:52 DEBUG test_MainPage - Button Browse deals works correctly
+2019-03-12 12:42:54 DEBUG test_MainPage - Button About Investing works correctly
+2019-03-12 12:42:56 DEBUG test_MainPage - Button Investor Questions works correctly
+2019-03-12 12:42:58 DEBUG test_MainPage - Button Raise Funds works correctly
+2019-03-12 12:42:59 DEBUG test_MainPage - Button Business Questions works correctly
+2019-03-12 12:43:02 DEBUG test_MainPage - Button License Platform works correctly
+2019-03-12 12:43:04 DEBUG test_MainPage - Button FAQs & Educations works correctly
+2019-03-12 12:43:06 DEBUG test_MainPage - Button Important Disclaimer works correctly
+2019-03-12 12:43:08 DEBUG test_MainPage - Button Digital Security Offerings works correctly
+2019-03-12 12:43:11 DEBUG test_MainPage - Button Terms of Use works correctly
+2019-03-12 12:43:12 DEBUG test_MainPage - Button Privacy Policy works correctly
+2019-03-12 12:43:30 DEBUG test_MainPage - Button with expected url (https://secure-seriesone.dynamo-ny.com/deals) works correctly
+2019-03-12 12:43:34 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/start-raising-funds/) works correctly
+2019-03-12 12:43:37 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/brokerone/) works correctly
+2019-03-12 12:43:40 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/learn/) works correctly
+2019-03-12 12:43:42 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/digital-security-offerings/) works correctly
+2019-03-12 12:43:51 DEBUG test_MainPage - Button SignUp works correctly
+2019-03-12 12:43:53 DEBUG test_MainPage - Button Login works correctly
+2019-03-12 12:44:05 DEBUG test_MainPage - Button Learn More works correctly
+2019-03-12 12:44:18 DEBUG test_MainPage - 'LinkedIn Logo' button works fine
+2019-03-12 12:44:25 DEBUG test_MainPage - 'Facebook Logo' button works fine
+2019-03-12 12:44:32 DEBUG test_MainPage - 'Twitter Logo' button works fine
+2019-03-12 12:44:56 DEBUG test_MainPage - Button Learn more (First blog post) works correctly
+2019-03-12 12:45:00 DEBUG test_MainPage - Button Learn more (First blog post) works correctly
+2019-03-12 12:45:03 DEBUG test_MainPage - Button Learn more (First blog post) works correctly
+2019-03-12 12:45:32 DEBUG test_MainPage - Button About Us works correctly
+2019-03-12 12:45:38 DEBUG test_MainPage - Button Blog works correctly
+2019-03-12 12:45:46 DEBUG test_MainPage - Button Contact Us works correctly
+2019-03-12 12:45:54 DEBUG test_MainPage - Button Browse deals works correctly
+2019-03-12 12:45:57 DEBUG test_MainPage - Button About Investing works correctly
+2019-03-12 12:46:04 DEBUG test_MainPage - Button Investor Questions works correctly
+2019-03-12 12:46:06 DEBUG test_MainPage - Button Raise Funds works correctly
+2019-03-12 12:46:08 DEBUG test_MainPage - Button Business Questions works correctly
+2019-03-12 12:46:10 DEBUG test_MainPage - Button License Platform works correctly
+2019-03-12 12:46:12 DEBUG test_MainPage - Button FAQs & Educations works correctly
+2019-03-12 12:46:14 DEBUG test_MainPage - Button Important Disclaimer works correctly
+2019-03-12 12:46:17 DEBUG test_MainPage - Button Digital Security Offerings works correctly
+2019-03-12 12:46:20 DEBUG test_MainPage - Button Terms of Use works correctly
+2019-03-12 12:46:21 DEBUG test_MainPage - Button Privacy Policy works correctly
+2019-03-12 12:46:37 DEBUG test_MainPage - Button with expected url (https://secure-seriesone.dynamo-ny.com/deals) works correctly
+2019-03-12 12:46:41 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/start-raising-funds/) works correctly
+2019-03-12 12:46:45 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/brokerone/) works correctly
+2019-03-12 12:46:48 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/learn/) works correctly
+2019-03-12 12:46:52 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/digital-security-offerings/) works correctly
+2019-03-12 12:47:01 DEBUG test_MainPage - Button SignUp works correctly
+2019-03-12 12:47:03 DEBUG test_MainPage - Button Login works correctly
+2019-03-12 12:47:17 DEBUG test_MainPage - 'LinkedIn Logo' button works fine
+2019-03-12 12:47:24 DEBUG test_MainPage - 'Facebook Logo' button works fine
+2019-03-12 12:47:31 DEBUG test_MainPage - 'Twitter Logo' button works fine
+2019-03-12 12:47:50 DEBUG test_MainPage - Button Learn more works correctly
+2019-03-12 12:47:54 DEBUG test_MainPage - Button Investor FAQs works correctly
+2019-03-12 12:48:02 DEBUG test_MainPage - Button Business Owner FAQs works correctly
+2019-03-12 12:48:05 DEBUG test_MainPage - Button Education Resources works correctly
+2019-03-12 12:48:21 DEBUG test_MainPage - Button About Us works correctly
+2019-03-12 12:48:39 DEBUG test_MainPage - Button Blog works correctly
+2019-03-12 12:48:50 DEBUG test_MainPage - Button Contact Us works correctly
+2019-03-12 12:49:08 DEBUG test_MainPage - Button Browse deals works correctly
+2019-03-12 12:49:11 DEBUG test_MainPage - Button About Investing works correctly
+2019-03-12 12:49:13 DEBUG test_MainPage - Button Investor Questions works correctly
+2019-03-12 12:49:16 DEBUG test_MainPage - Button Raise Funds works correctly
+2019-03-12 12:49:19 DEBUG test_MainPage - Button Business Questions works correctly
+2019-03-12 12:49:22 DEBUG test_MainPage - Button License Platform works correctly
+2019-03-12 12:49:24 DEBUG test_MainPage - Button FAQs & Educations works correctly
+2019-03-12 12:49:26 DEBUG test_MainPage - Button Important Disclaimer works correctly
+2019-03-12 12:49:28 DEBUG test_MainPage - Button Digital Security Offerings works correctly
+2019-03-12 12:49:30 DEBUG test_MainPage - Button Terms of Use works correctly
+2019-03-12 12:49:33 DEBUG test_MainPage - Button Privacy Policy works correctly
+2019-03-12 12:49:50 DEBUG test_MainPage - Button with expected url (https://secure-seriesone.dynamo-ny.com/deals) works correctly
+2019-03-12 12:49:54 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/start-raising-funds/) works correctly
+2019-03-12 12:49:58 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/brokerone/) works correctly
+2019-03-12 12:50:01 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/learn/) works correctly
+2019-03-12 12:50:05 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/digital-security-offerings/) works correctly
+2019-03-12 12:50:14 DEBUG test_MainPage - Button SignUp works correctly
+2019-03-12 12:50:17 DEBUG test_MainPage - Button Login works correctly
+2019-03-12 12:50:30 DEBUG test_MainPage - 'LinkedIn Logo' button works fine
+2019-03-12 12:50:37 DEBUG test_MainPage - 'Facebook Logo' button works fine
+2019-03-12 12:50:44 DEBUG test_MainPage - 'Twitter Logo' button works fine
+2019-03-12 12:50:57 DEBUG test_MainPage - Button Learn more works correctly
+2019-03-12 12:50:59 DEBUG test_MainPage - Button Investor FAQs works correctly
+2019-03-12 12:51:01 DEBUG test_MainPage - Button Business Owner FAQs works correctly
+2019-03-12 12:51:02 DEBUG test_MainPage - Button Education Resources works correctly
+2019-03-12 12:51:10 DEBUG test_MainPage - Button About Us works correctly
+2019-03-12 12:51:12 DEBUG test_MainPage - Button Blog works correctly
+2019-03-12 12:51:15 DEBUG test_MainPage - Button Contact Us works correctly
+2019-03-12 12:51:21 DEBUG test_MainPage - Button Browse deals works correctly
+2019-03-12 12:51:23 DEBUG test_MainPage - Button About Investing works correctly
+2019-03-12 12:51:25 DEBUG test_MainPage - Button Investor Questions works correctly
+2019-03-12 12:51:27 DEBUG test_MainPage - Button Raise Funds works correctly
+2019-03-12 12:51:30 DEBUG test_MainPage - Button Business Questions works correctly
+2019-03-12 12:51:33 DEBUG test_MainPage - Button License Platform works correctly
+2019-03-12 12:51:34 DEBUG test_MainPage - Button FAQs & Educations works correctly
+2019-03-12 12:51:37 DEBUG test_MainPage - Button Important Disclaimer works correctly
+2019-03-12 12:51:39 DEBUG test_MainPage - Button Digital Security Offerings works correctly
+2019-03-12 12:51:41 DEBUG test_MainPage - Button Terms of Use works correctly
+2019-03-12 12:51:43 DEBUG test_MainPage - Button Privacy Policy works correctly
+2019-03-12 12:51:56 DEBUG test_MainPage - Button with expected url (https://secure-seriesone.dynamo-ny.com/deals) works correctly
+2019-03-12 12:51:59 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/start-raising-funds/) works correctly
+2019-03-12 12:52:03 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/brokerone/) works correctly
+2019-03-12 12:52:06 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/learn/) works correctly
+2019-03-12 12:52:10 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/digital-security-offerings/) works correctly
+2019-03-12 12:52:18 DEBUG test_MainPage - Button SignUp works correctly
+2019-03-12 12:52:20 DEBUG test_MainPage - Button Login works correctly
+2019-03-12 12:52:33 DEBUG test_MainPage - 'LinkedIn Logo' button works fine
+2019-03-12 12:52:40 DEBUG test_MainPage - 'Facebook Logo' button works fine
+2019-03-12 12:52:47 DEBUG test_MainPage - 'Twitter Logo' button works fine
+2019-03-12 12:53:00 DEBUG test_MainPage - Button Learn more works correctly
+2019-03-12 12:53:02 DEBUG test_MainPage - Button Investor FAQs works correctly
+2019-03-12 12:53:04 DEBUG test_MainPage - Button Business Owner FAQs works correctly
+2019-03-12 12:53:04 DEBUG test_MainPage - Button Education Resources works correctly
+2019-03-12 12:53:13 DEBUG test_MainPage - Button About Us works correctly
+2019-03-12 12:53:15 DEBUG test_MainPage - Button Blog works correctly
+2019-03-12 12:53:18 DEBUG test_MainPage - Button Contact Us works correctly
+2019-03-12 12:53:29 DEBUG test_MainPage - Button Browse deals works correctly
+2019-03-12 12:53:31 DEBUG test_MainPage - Button About Investing works correctly
+2019-03-12 12:53:33 DEBUG test_MainPage - Button Investor Questions works correctly
+2019-03-12 12:53:35 DEBUG test_MainPage - Button Raise Funds works correctly
+2019-03-12 12:53:37 DEBUG test_MainPage - Button Business Questions works correctly
+2019-03-12 12:53:40 DEBUG test_MainPage - Button License Platform works correctly
+2019-03-12 12:53:42 DEBUG test_MainPage - Button FAQs & Educations works correctly
+2019-03-12 12:53:44 DEBUG test_MainPage - Button Important Disclaimer works correctly
+2019-03-12 12:53:46 DEBUG test_MainPage - Button Digital Security Offerings works correctly
+2019-03-12 12:53:48 DEBUG test_MainPage - Button Terms of Use works correctly
+2019-03-12 12:53:51 DEBUG test_MainPage - Button Privacy Policy works correctly
+2019-03-12 12:54:07 DEBUG test_MainPage - Button with expected url (https://secure-seriesone.dynamo-ny.com/deals) works correctly
+2019-03-12 12:54:11 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/start-raising-funds/) works correctly
+2019-03-12 12:54:14 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/brokerone/) works correctly
+2019-03-12 12:54:17 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/learn/) works correctly
+2019-03-12 12:54:20 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/digital-security-offerings/) works correctly
+2019-03-12 12:54:29 DEBUG test_MainPage - Button SignUp works correctly
+2019-03-12 12:54:31 DEBUG test_MainPage - Button Login works correctly
+2019-03-12 12:54:44 DEBUG test_MainPage - 'LinkedIn Logo' button works fine
+2019-03-12 12:54:51 DEBUG test_MainPage - 'Facebook Logo' button works fine
+2019-03-12 12:54:58 DEBUG test_MainPage - 'Twitter Logo' button works fine
+2019-03-12 12:55:12 DEBUG test_MainPage - Button About Us works correctly
+2019-03-12 12:55:15 DEBUG test_MainPage - Button Blog works correctly
+2019-03-12 12:55:17 DEBUG test_MainPage - Button Contact Us works correctly
+2019-03-12 12:55:22 DEBUG test_MainPage - Button Browse deals works correctly
+2019-03-12 12:55:24 DEBUG test_MainPage - Button About Investing works correctly
+2019-03-12 12:55:26 DEBUG test_MainPage - Button Investor Questions works correctly
+2019-03-12 12:55:29 DEBUG test_MainPage - Button Raise Funds works correctly
+2019-03-12 12:55:31 DEBUG test_MainPage - Button Business Questions works correctly
+2019-03-12 12:55:33 DEBUG test_MainPage - Button License Platform works correctly
+2019-03-12 12:55:35 DEBUG test_MainPage - Button FAQs & Educations works correctly
+2019-03-12 12:55:37 DEBUG test_MainPage - Button Important Disclaimer works correctly
+2019-03-12 12:55:39 DEBUG test_MainPage - Button Digital Security Offerings works correctly
+2019-03-12 12:55:41 DEBUG test_MainPage - Button Terms of Use works correctly
+2019-03-12 12:55:42 DEBUG test_MainPage - Button Privacy Policy works correctly
+2019-03-12 12:56:00 DEBUG test_MainPage - Button with expected url (https://secure-seriesone.dynamo-ny.com/deals) works correctly
+2019-03-12 12:56:04 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/start-raising-funds/) works correctly
+2019-03-12 12:56:08 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/brokerone/) works correctly
+2019-03-12 12:56:11 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/learn/) works correctly
+2019-03-12 12:56:14 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/digital-security-offerings/) works correctly
+2019-03-12 12:56:23 DEBUG test_MainPage - Button SignUp works correctly
+2019-03-12 12:56:24 DEBUG test_MainPage - Button Login works correctly
+2019-03-12 12:56:38 DEBUG test_MainPage - 'LinkedIn Logo' button works fine
+2019-03-12 12:56:46 DEBUG test_MainPage - 'Facebook Logo' button works fine
+2019-03-12 12:56:53 DEBUG test_MainPage - 'Twitter Logo' button works fine
+2019-03-12 12:57:08 DEBUG test_MainPage - Button About Us works correctly
+2019-03-12 12:57:11 DEBUG test_MainPage - Button Blog works correctly
+2019-03-12 12:57:12 DEBUG test_MainPage - Button Contact Us works correctly
+2019-03-12 12:57:20 DEBUG test_MainPage - Button Browse deals works correctly
+2019-03-12 12:57:22 DEBUG test_MainPage - Button About Investing works correctly
+2019-03-12 12:57:25 DEBUG test_MainPage - Button Investor Questions works correctly
+2019-03-12 12:57:27 DEBUG test_MainPage - Button Raise Funds works correctly
+2019-03-12 12:57:29 DEBUG test_MainPage - Button Business Questions works correctly
+2019-03-12 12:57:31 DEBUG test_MainPage - Button License Platform works correctly
+2019-03-12 12:57:33 DEBUG test_MainPage - Button FAQs & Educations works correctly
+2019-03-12 12:57:34 DEBUG test_MainPage - Button Important Disclaimer works correctly
+2019-03-12 12:57:36 DEBUG test_MainPage - Button Digital Security Offerings works correctly
+2019-03-12 12:57:39 DEBUG test_MainPage - Button Terms of Use works correctly
+2019-03-12 12:57:40 DEBUG test_MainPage - Button Privacy Policy works correctly
+2019-03-12 12:57:55 DEBUG test_MainPage - Button with expected url (https://secure-seriesone.dynamo-ny.com/deals) works correctly
+2019-03-12 12:57:58 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/start-raising-funds/) works correctly
+2019-03-12 12:58:01 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/brokerone/) works correctly
+2019-03-12 12:58:04 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/learn/) works correctly
+2019-03-12 12:58:07 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/digital-security-offerings/) works correctly
+2019-03-12 12:58:16 DEBUG test_MainPage - Button SignUp works correctly
+2019-03-12 12:58:17 DEBUG test_MainPage - Button Login works correctly
+2019-03-12 12:58:29 DEBUG test_MainPage - Button Learn more works correctly
+2019-03-12 12:58:42 DEBUG test_MainPage - 'LinkedIn Logo' button works fine
+2019-03-12 12:58:49 DEBUG test_MainPage - 'Facebook Logo' button works fine
+2019-03-12 12:58:56 DEBUG test_MainPage - 'Twitter Logo' button works fine
+2019-03-12 12:59:11 DEBUG test_MainPage - Button About Us works correctly
+2019-03-12 12:59:14 DEBUG test_MainPage - Button Blog works correctly
+2019-03-12 12:59:15 DEBUG test_MainPage - Button Contact Us works correctly
+2019-03-12 12:59:22 DEBUG test_MainPage - Button Browse deals works correctly
+2019-03-12 12:59:24 DEBUG test_MainPage - Button About Investing works correctly
+2019-03-12 12:59:26 DEBUG test_MainPage - Button Investor Questions works correctly
+2019-03-12 12:59:28 DEBUG test_MainPage - Button Raise Funds works correctly
+2019-03-12 12:59:30 DEBUG test_MainPage - Button Business Questions works correctly
+2019-03-12 12:59:32 DEBUG test_MainPage - Button License Platform works correctly
+2019-03-12 12:59:35 DEBUG test_MainPage - Button FAQs & Educations works correctly
+2019-03-12 12:59:37 DEBUG test_MainPage - Button Important Disclaimer works correctly
+2019-03-12 12:59:38 DEBUG test_MainPage - Button Digital Security Offerings works correctly
+2019-03-12 12:59:42 DEBUG test_MainPage - Button Terms of Use works correctly
+2019-03-12 12:59:43 DEBUG test_MainPage - Button Privacy Policy works correctly
+2019-03-12 12:59:57 DEBUG test_MainPage - Button with expected url (https://secure-seriesone.dynamo-ny.com/deals) works correctly
+2019-03-12 13:00:00 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/start-raising-funds/) works correctly
+2019-03-12 13:00:04 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/brokerone/) works correctly
+2019-03-12 13:00:07 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/learn/) works correctly
+2019-03-12 13:00:10 DEBUG test_MainPage - Button with expected url (https://seriesone.dynamo-ny.com/digital-security-offerings/) works correctly
+2019-03-12 13:00:18 DEBUG test_MainPage - Button SignUp works correctly
+2019-03-12 13:00:19 DEBUG test_MainPage - Button Login works correctly
+2019-03-12 13:00:28 DEBUG test_MainPage - Button Learn more works correctly
+2019-03-12 13:00:45 DEBUG test_MainPage - 'LinkedIn Logo' button works fine
+2019-03-12 13:00:52 DEBUG test_MainPage - 'Facebook Logo' button works fine
+2019-03-12 13:00:59 DEBUG test_MainPage - 'Twitter Logo' button works fine
+2019-03-12 13:07:24 ERROR SetupClass - Something goes wrong in Register_IndividualUS
+2019-03-12 13:07:47 ERROR SetupClass - Something goes wrong in CheckRegisterEmail_IndividualUS
+2019-03-12 13:09:58 ERROR SetupClass - Something goes wrong in Register_IndividualnoUS
+2019-03-12 13:17:35 ERROR SetupClass - Something goes wrong in Register_EntityUS
+2019-03-12 13:18:03 ERROR SetupClass - Something goes wrong in CheckRegisterEmail_EntityUS
+2019-03-12 13:25:15 ERROR SetupClass - Something goes wrong in Register_EntitynoUS
+2019-03-12 13:25:42 ERROR SetupClass - Something goes wrong in CheckRegisterEmail_EntitynoUS
+2019-03-12 13:30:55 ERROR SetupClass - Something goes wrong in Register_IndividualUSnoAccredited
+2019-03-12 13:31:26 ERROR SetupClass - Something goes wrong in CheckRegisterEmail_IndividualUSnoAccredited
+2019-03-12 13:38:47 ERROR SetupClass - Something goes wrong in Investment_Ethereum
+2019-03-12 13:41:38 ERROR SetupClass - Something goes wrong in Investment_ACH
+2019-03-12 13:44:25 ERROR SetupClass - Something goes wrong in Investment_Ethereum
+2019-03-12 13:52:14 ERROR SetupClass - Something goes wrong in Investment_Ethereum
+2019-03-12 13:58:03 ERROR SetupClass - Something goes wrong in Investment_Ethereum
+2019-03-12 14:00:11 ERROR SetupClass - Something goes wrong in Investment_Wire

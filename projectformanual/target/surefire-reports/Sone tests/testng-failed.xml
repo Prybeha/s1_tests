@@ -2,16 +2,82 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Sone tests]">
   <parameter name="browser" value="chrome"/>
-  <test thread-count="5" verbose="0" name="Static Pages Tests(failed)" parallel="classes">
+  <test thread-count="5" verbose="0" name="Static Pages tests(failed)" parallel="classes">
     <classes>
-      <class name="UnitClassSet.StaticPages.test_EducationResourcesPage">
+      <class name="UnitClassSet.StaticPages.test_ContactUsPage">
         <methods>
-          <include name="EducationResourcesPage_FooterLinks"/>
+          <include name="ContactUsPage_Body"/>
           <include name="test"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- UnitClassSet.StaticPages.test_EducationResourcesPage -->
+      </class> <!-- UnitClassSet.StaticPages.test_ContactUsPage -->
+      <class name="UnitClassSet.StaticPages.test_BrowseDealsPage">
+        <methods>
+          <include name="BrowseDealsPage_CheckDealsPage"/>
+          <include name="test"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- UnitClassSet.StaticPages.test_BrowseDealsPage -->
     </classes>
-  </test> <!-- Static Pages Tests(failed) -->
+  </test> <!-- Static Pages tests(failed) -->
+  <test thread-count="5" verbose="0" name="Registration(failed)" parallel="classes">
+    <classes>
+      <class name="UnitClassSet.Registration.test_RegistrationAllTypes">
+        <methods>
+          <include name="Register_EntitynoUS"/>
+          <include name="Register_IndividualUS"/>
+          <include name="CheckRegisterEmail_IndividualUS"/>
+          <include name="Register_IndividualUSnoAccredited"/>
+          <include name="test"/>
+          <include name="setup"/>
+          <include name="Register_IndividualnoUS"/>
+          <include name="teardown"/>
+          <include name="Register_EntityUS"/>
+          <include name="CheckRegisterEmail_EntityUS"/>
+          <include name="CheckRegisterEmail_EntitynoUS"/>
+          <include name="CheckRegisterEmail_IndividualUSnoAccredited"/>
+        </methods>
+      </class> <!-- UnitClassSet.Registration.test_RegistrationAllTypes -->
+    </classes>
+  </test> <!-- Registration(failed) -->
+  <test thread-count="5" verbose="0" name="Investments(failed)" parallel="classes">
+    <classes>
+      <class name="UnitClassSet.Investment.test_IndividualUS">
+        <methods>
+          <include name="Investment_Ethereum"/>
+          <include name="test"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- UnitClassSet.Investment.test_IndividualUS -->
+      <class name="UnitClassSet.Investment.test_IndividualnoUS">
+        <methods>
+          <include name="Investment_ACH"/>
+          <include name="test"/>
+          <include name="Investment_Ethereum"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- UnitClassSet.Investment.test_IndividualnoUS -->
+      <class name="UnitClassSet.Investment.test_EntityUS">
+        <methods>
+          <include name="test"/>
+          <include name="Investment_Ethereum"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- UnitClassSet.Investment.test_EntityUS -->
+      <class name="UnitClassSet.Investment.test_EntitynoUS">
+        <methods>
+          <include name="Investment_Ethereum"/>
+          <include name="test"/>
+          <include name="Investment_Wire"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- UnitClassSet.Investment.test_EntitynoUS -->
+    </classes>
+  </test> <!-- Investments(failed) -->
 </suite> <!-- Failed suite [Sone tests] -->
